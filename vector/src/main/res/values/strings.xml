@@ -3445,4 +3445,10 @@
     <string name="room_upgrade_to_recommended_version">Upgrade to the recommended room version</string>
 
     <string name="error_failed_to_join_room">Sorry, an error occurred while trying to join: %s</string>
+
+    <string name="this_invite_to_this_room_was_sent">This invite to this room was sent to %s which is not associated with your account</string>
+    <string name="this_invite_to_this_space_was_sent">This invite to this space was sent to %s which is not associated with your account</string>
+    <!-- this is the part of link_this_email_with_your_account that should be a link-->
+    <string name="link_this_email_settings_link">Link this email with your account</string>
+    <string name="link_this_email_with_your_account">Link this email with your account in Settings to receive invites directly in Element.</string>
 </resources>
