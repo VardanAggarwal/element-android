@@ -34,21 +34,11 @@
 
         <ImageView
             android:id="@+id/loginSplashLogo"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
             android:importantForAccessibility="no"
-            android:src="@drawable/element_logo_green"
+            android:src="@drawable/ic_launcher_foreground"
             android:transitionName="loginLogoTransition" />
-
-        <ImageView
-            android:id="@+id/logoType"
-            android:layout_width="wrap_content"
-            android:layout_height="44dp"
-            android:layout_marginTop="8dp"
-            android:contentDescription="@string/app_name"
-            android:src="@drawable/element_logotype"
-            app:tint="?colorSecondary"
-            tools:ignore="MissingPrefix" />
 
     </LinearLayout>
 
@@ -94,10 +84,10 @@
         <ImageView
             android:id="@+id/loginSplashPicto1"
             android:layout_width="32dp"
-            android:layout_height="wrap_content"
+            android:layout_height="32dp"
             android:layout_marginStart="2dp"
             android:importantForAccessibility="no"
-            android:src="@drawable/ic_login_splash_message_circle"
+            android:src="@drawable/ic_community"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/loginSplashText1"
             app:tint="?vctr_content_secondary"
@@ -120,9 +110,9 @@
         <ImageView
             android:id="@+id/loginSplashPicto2"
             android:layout_width="32dp"
-            android:layout_height="wrap_content"
+            android:layout_height="32dp"
             android:importantForAccessibility="no"
-            android:src="@drawable/ic_login_splash_lock"
+            android:src="@drawable/ic_plant"
             app:layout_constraintStart_toStartOf="@id/loginSplashPicto1"
             app:layout_constraintTop_toTopOf="@+id/loginSplashText2"
             app:tint="?vctr_content_secondary"
@@ -145,9 +135,9 @@
         <ImageView
             android:id="@+id/loginSplashPicto3"
             android:layout_width="32dp"
-            android:layout_height="wrap_content"
+            android:layout_height="32dp"
             android:importantForAccessibility="no"
-            android:src="@drawable/ic_login_splash_sliders"
+            android:src="@drawable/ic_microphone"
             app:layout_constraintStart_toStartOf="@+id/loginSplashPicto1"
             app:layout_constraintTop_toTopOf="@+id/loginSplashText3"
             app:tint="?vctr_content_secondary"

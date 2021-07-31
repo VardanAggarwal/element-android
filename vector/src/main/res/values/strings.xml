@@ -2407,11 +2407,11 @@
     <string name="direct_room_join_rules_invite_by_you">You made this invite only.</string>
     <string name="timeline_unread_messages">Unread messages</string>
 
-    <string name="login_splash_title">It\'s your conversation. Own it.</string>
-    <string name="login_splash_text1">Chat with people directly or in groups</string>
-    <string name="login_splash_text2">Keep conversations private with encryption</string>
-    <string name="login_splash_text3">Extend &amp; customise your experience</string>
-    <string name="login_splash_submit">Get started</string>
+    <string name="login_splash_title">A community of organic farmers.</string>
+    <string name="login_splash_text1">Connect with 1000s of organic farmers</string>
+    <string name="login_splash_text2">Learn organic farming best practices</string>
+    <string name="login_splash_text3">Learn new things in weekly live events</string>
+    <string name="login_splash_submit">Join the community</string>
 
     <string name="login_server_title">Select a server</string>
     <string name="login_server_text">Just like email, accounts have one home, although you can talk to anyone</string>

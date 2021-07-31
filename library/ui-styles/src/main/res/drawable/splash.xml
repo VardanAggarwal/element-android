@@ -4,13 +4,13 @@
     android:opacity="opaque">
 
     <!-- Background color -->
-    <item android:drawable="?colorPrimary" />
+    <item android:drawable="@color/ssc_splash_color" />
 
     <!-- Centered logo -->
     <item>
         <bitmap
             android:gravity="center"
-            android:src="@drawable/element_splash_white" />
+            android:src="@mipmap/ssc_logo_icon" />
     </item>
 
 </layer-list>

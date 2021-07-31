@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <!--SSC colors -->
+    <color name="ssc_splash_color">#ffffff</color>
     <!-- Error colors -->
     <color name="vector_warning_color_2">@color/palette_melon</color>
     <color name="vector_info_color">#2f9edb</color>
