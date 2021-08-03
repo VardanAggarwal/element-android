@@ -62,7 +62,7 @@ class PublicRoomsFragment @Inject constructor(
         return FragmentPublicRoomsBinding.inflate(inflater, container, false)
     }
 
-    override fun getMenuRes() = R.menu.menu_room_directory
+    override fun getMenuRes() = -1
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
