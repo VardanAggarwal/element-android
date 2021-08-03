@@ -87,9 +87,9 @@ class VectorSettingsGeneralFragment @Inject constructor(
     private val mPasswordPreference by lazy {
         findPreference<VectorPreference>(VectorPreferences.SETTINGS_CHANGE_PASSWORD_PREFERENCE_KEY)!!
     }
-    private val mIdentityServerPreference by lazy {
+    /*private val mIdentityServerPreference by lazy {
         findPreference<VectorPreference>(VectorPreferences.SETTINGS_IDENTITY_SERVER_PREFERENCE_KEY)!!
-    }
+    }*/
 
     // Local contacts
     private val mContactSettingsCategory by lazy {
@@ -176,12 +176,12 @@ class VectorSettingsGeneralFragment @Inject constructor(
         // Advanced settings
 
         // user account
-        findPreference<VectorPreference>(VectorPreferences.SETTINGS_LOGGED_IN_PREFERENCE_KEY)!!
-                .summary = session.myUserId
+        /*findPreference<VectorPreference>(VectorPreferences.SETTINGS_LOGGED_IN_PREFERENCE_KEY)!!
+                .summary = session.myUserId*/
 
         // homeserver
-        findPreference<VectorPreference>(VectorPreferences.SETTINGS_HOME_SERVER_PREFERENCE_KEY)!!
-                .summary = session.sessionParams.homeServerUrl
+        /*findPreference<VectorPreference>(VectorPreferences.SETTINGS_HOME_SERVER_PREFERENCE_KEY)!!
+                .summary = session.sessionParams.homeServerUrl*/
 
         // Contacts
         setContactsPreferences()
@@ -206,7 +206,7 @@ class VectorSettingsGeneralFragment @Inject constructor(
             }
         }
 
-        (findPreference(VectorPreferences.SETTINGS_ALLOW_INTEGRATIONS_KEY) as? VectorSwitchPreference)?.let {
+        /*(findPreference(VectorPreferences.SETTINGS_ALLOW_INTEGRATIONS_KEY) as? VectorSwitchPreference)?.let {
             it.onPreferenceChangeListener = Preference.OnPreferenceChangeListener { _, newValue ->
                 // Disable it while updating the state, will be re-enabled by the account data listener.
                 it.isEnabled = false
@@ -215,7 +215,7 @@ class VectorSettingsGeneralFragment @Inject constructor(
                 }
                 true
             }
-        }
+        }*/
 
         // clear medias cache
         findPreference<VectorPreference>(VectorPreferences.SETTINGS_CLEAR_MEDIA_CACHE_PREFERENCE_KEY)!!.let {
@@ -264,7 +264,7 @@ class VectorSettingsGeneralFragment @Inject constructor(
     override fun onResume() {
         super.onResume()
         // Refresh identity server summary
-        mIdentityServerPreference.summary = session.identityService().getCurrentIdentityServerUrl() ?: getString(R.string.identity_server_not_defined)
+        //mIdentityServerPreference.summary = session.identityService().getCurrentIdentityServerUrl() ?: getString(R.string.identity_server_not_defined)
         refreshIntegrationManagerSettings()
         session.integrationManagerService().addListener(integrationServiceListener)
     }
@@ -276,21 +276,21 @@ class VectorSettingsGeneralFragment @Inject constructor(
 
     private fun refreshIntegrationManagerSettings() {
         val integrationAllowed = session.integrationManagerService().isIntegrationEnabled()
-        (findPreference<SwitchPreference>(VectorPreferences.SETTINGS_ALLOW_INTEGRATIONS_KEY))!!.let {
+        /*(findPreference<SwitchPreference>(VectorPreferences.SETTINGS_ALLOW_INTEGRATIONS_KEY))!!.let {
             val savedListener = it.onPreferenceChangeListener
             it.onPreferenceChangeListener = null
             it.isChecked = integrationAllowed
             it.isEnabled = true
             it.onPreferenceChangeListener = savedListener
-        }
-        findPreference<VectorPreference>(VectorPreferences.SETTINGS_INTEGRATION_MANAGER_UI_URL_KEY)!!.let {
+        }*/
+        /*findPreference<VectorPreference>(VectorPreferences.SETTINGS_INTEGRATION_MANAGER_UI_URL_KEY)!!.let {
             if (integrationAllowed) {
                 it.summary = session.integrationManagerService().getPreferredConfig().uiUrl
                 it.isVisible = true
             } else {
                 it.isVisible = false
             }
-        }
+        }*/
     }
 
     override fun onImageReady(uri: Uri?) {
