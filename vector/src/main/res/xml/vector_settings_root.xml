@@ -33,20 +33,20 @@
         android:title="@string/settings_ignored_users"
         app:fragment="im.vector.app.features.settings.ignored.VectorSettingsIgnoredUsersFragment" />
 
-    <im.vector.app.core.preference.VectorPreference
+    <!--<im.vector.app.core.preference.VectorPreference
         android:icon="@drawable/ic_settings_root_security_privacy"
         android:title="@string/settings_security_and_privacy"
-        app:fragment="im.vector.app.features.settings.VectorSettingsSecurityPrivacyFragment" />
+        app:fragment="im.vector.app.features.settings.VectorSettingsSecurityPrivacyFragment" />-->
 
-    <im.vector.app.core.preference.VectorPreference
+    <!--<im.vector.app.core.preference.VectorPreference
         android:icon="@drawable/ic_settings_root_labs"
         android:title="@string/room_settings_labs_pref_title"
-        app:fragment="im.vector.app.features.settings.VectorSettingsLabsFragment" />
+        app:fragment="im.vector.app.features.settings.VectorSettingsLabsFragment" />-->
 
-    <im.vector.app.core.preference.VectorPreference
+    <!--<im.vector.app.core.preference.VectorPreference
         android:icon="@drawable/ic_settings_root_advanced"
         android:title="@string/settings_advanced_settings"
-        app:fragment="im.vector.app.features.settings.VectorSettingsAdvancedSettingsFragment" />
+        app:fragment="im.vector.app.features.settings.VectorSettingsAdvancedSettingsFragment" />-->
 
     <im.vector.app.core.preference.VectorPreference
         android:icon="@drawable/ic_settings_root_help_about"
