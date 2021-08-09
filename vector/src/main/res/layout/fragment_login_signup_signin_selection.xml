@@ -67,7 +67,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/loginSignupSigninText"
                 tools:text="@string/login_signup"
-                android:visibility="gone"
+                android:visibility="visible"
                 />
 
             <!-- Sign in or gone -->
@@ -78,12 +78,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14dp"
                 android:text="@string/login_signin"
-                android:visibility="gone"
+                android:visibility="visible"
                 app:layout_constraintBottom_toTopOf="@id/loginSignupSigninSignInSocialLoginContainer"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/loginSignupSigninSubmit"
-                tools:visibility="gone" />
+                tools:visibility="visible" />
 
             <!-- Social Login buttons -->
             <LinearLayout
