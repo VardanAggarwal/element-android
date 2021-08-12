@@ -86,7 +86,7 @@
     <string name="notice_room_server_acl_updated_ip_literals_allowed">• सर्वर से मेल खाने वाले सर्वर अब अनुमति है।</string>
     <string name="notice_room_server_acl_updated_ip_literals_not_allowed">• आईपी शाब्दिकों से मेल खाने वाले सर्वर अब प्रतिबंधित हैं।</string>
     <string name="notice_room_server_acl_updated_no_change">कोई परिवर्तन नहीं होता है।</string>
-    <string name="notice_room_server_acl_allow_is_empty">🎉 सभी सर्वरों को भाग लेने से प्रतिबंधित कर दिया गया है!इस ग्रुप का अब उपयोग नहीं किया जा सकता है।</string>
+    <string name="notice_room_server_acl_allow_is_empty">� सभी सर्वरों को भाग लेने से प्रतिबंधित कर दिया गया है!इस ग्रुप का अब उपयोग नहीं किया जा सकता है।</string>>
     <string name="notice_requested_voip_conference">%1$s ने एक वीओआईपी सम्मेलन का अनुरोध किया</string>
     <string name="notice_requested_voip_conference_by_you">आपने एक वीओआईपी सम्मेलन का अनुरोध किया</string>
     <string name="notice_voip_started">वीओआईपी सम्मेलन शुरू हुआ</string>
@@ -1098,7 +1098,7 @@
     <string name="settings_show_read_receipts_summary">विस्तृत सूची के लिए पढ़ने की सूचना पर क्लिक करें।</string>
     <string name="settings_show_room_member_state_events">ग्रुप के सदस्य स्थिति की घटनाओं को दिखाएं</string>
     <string name="settings_chat_effects_title">चैट प्रभाव दिखाएं</string>
-    <string name="settings_chat_effects_description">उपयोग / confetti कमांड या ❄️ या 🎉 युक्त एक संदेश भेजें</string>
+    <string name="settings_chat_effects_description">उपयोग / confetti कमांड या ❄️ या � युक्त एक संदेश भेजें</string>>
     <string name="settings_show_room_member_state_events_summary">आमंत्रित / शामिल / छोड़े / निकाले / प्रतिबंध घटनाओं और फोटो / प्रदर्शन नाम परिवर्तन शामिल हैं।</string>
     <string name="settings_show_join_leave_messages">जुड़ने और छोड़ने की घटनाएं</string>
     <string name="settings_show_join_leave_messages_summary">आमंत्रित, निकाले, और प्रतिबंध अप्रभावित हैं।</string>
@@ -2314,7 +2314,7 @@
     <string name="settings_server_upload_size_content">आपका होमसर्वर अनुलग्नक (फ़ाइलें, मीडिया इत्यादि) को %s के आकार के साथ स्वीकार करता है।</string>
     <string name="settings_server_upload_size_unknown">सीमा अज्ञात है।</string>
     <!-- Please use the same emoji in the translations -->
-    <string name="settings_server_room_versions">ग्रुप के वर्शन 👓</string>
+    <string name="settings_server_room_versions">ग्रुप के वर्शन �</string>>
     <string name="settings_server_default_room_version">डिफ़ॉल्ट वर्शन</string>
     <string name="settings_server_room_version_stable">स्थिर</string>
     <string name="settings_server_room_version_unstable">अस्थिर</string>
@@ -2529,8 +2529,8 @@
   </item></plurals>
     <string name="command_confetti">दिए गए संदेश को कन्फेटी के साथ भेजता है</string>
     <string name="command_snow">बर्फबारी के साथ दिए गए संदेश को भेजता है</string>
-    <!-- Note to translators: please use the same emoji 🎉 in your translation -->
-    <string name="default_message_emote_confetti">Confetti 🎉 भेजता है</string>
+    <!-- Note to translators: please use the same emoji � in your translation -->>
+    <string name="default_message_emote_confetti">Confetti � भेजता है</string>>
     <!-- Note to translators: please use the same emoji ❄️ in your translation -->
     <string name="default_message_emote_snow">बर्फबारी भेजता है ❄️</string>
     <string name="unencrypted">अनएन्क्रिप्ट</string>
@@ -2560,7 +2560,7 @@
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
     <string name="template_invite_friends_text">अरे, मुझसे $ {APP_NAME}: %s पर बात करें</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_invite_friends_rich_title">🔐️ $ {APP_NAME} पर मुझसे जुड़ें</string>
+    <string name="template_invite_friends_rich_title">�️ $ {APP_NAME} पर मुझसे जुड़ें</string>>
     <string name="invitation_sent_to_one_user">आमंत्रण%1$s पर भेजा गया</string>
     <string name="invitations_sent_to_two_users">आमंत्रण%1$s और %2$s पर भेजे गए</string>
     <string name="not_a_valid_qr_code">"यह एक वैध सीड सेवर्स क्यूआर कोड नहीं है"</string>
@@ -2877,4 +2877,24 @@
     <string name="room_using_unstable_room_version">यह ग्रुप वर्शन %s चला रहा है, जो इस होमसर्वर को अस्थिर के रूप में चिह्नित किया गया है।</string>
     <string name="room_upgrade_to_recommended_version">अनुशंसित कक्ष वर्शन में अपग्रेड करें</string>
     <string name="error_failed_to_join_room">क्षमा करें, शामिल होने की कोशिश करते समय एक त्रुटि हुई: %s</string>
+    <string name="a11y_start_voice_message">Start Voice Message</string>
+    <string name="voice_message_slide_to_cancel">Slide to cancel</string>
+    <string name="a11y_lock_voice_message">Voice Message Lock</string>
+    <string name="a11y_play_voice_message">Play Voice Message</string>
+    <string name="a11y_pause_voice_message">Pause Voice Message</string>
+    <string name="a11y_recording_voice_message">Recording voice message</string>
+    <string name="a11y_delete_recorded_voice_message">Delete recorded voice message</string>
+    <string name="voice_message_release_to_send_toast">Hold to record, release to send</string>
+    <string name="voice_message_n_seconds_warning_toast">%1$ds left</string>
+    <string name="voice_message_tap_to_stop_toast">Tap on your recording to stop or listen</string>
+    <string name="labs_use_voice_message">Enable voice message</string>
+    <string name="error_voice_message_unable_to_play">Cannot play this voice message</string>
+    <string name="error_voice_message_unable_to_record">Cannot record a voice message</string>
+    <string name="error_voice_message_cannot_reply_or_edit">Cannot reply or edit while voice message is active</string>
+    <string name="voice_message_reply_content">Voice Message (%1$s)</string>
+
+    <string name="upgrade_room_for_restricted">Anyone in %s will be able to find and join this room - no need to manually invite everyone. You’ll be able to change this in room settings anytime.</string>
+    <string name="upgrade_room_for_restricted_no_param">Anyone in a parent space will be able to find and join this room - no need to manually invite everyone. You’ll be able to change this in room settings anytime.</string>
+
+    <string name="upgrade_room_for_restricted_note">Please note upgrading will make a new version of the room. All current messages will stay in this archived room.</string>
 </resources>
