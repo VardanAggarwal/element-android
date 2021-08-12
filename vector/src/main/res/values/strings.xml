@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources  xmlns:tools="http://schemas.android.com/tools">
     <string name="summary_message">%1$s: %2$s</string>
     <string name="summary_user_sent_image">%1$s ने एक फोटो भेजी।</string>
     <string name="summary_you_sent_image">आपने एक फोटो भेजी।</string>
     <string name="summary_user_sent_sticker">%1$s ने एक स्टिकर भेजा।</string>
     <string name="summary_you_sent_sticker">आपने एक स्टिकर भेजा।</string>
-    <string name="notice_room_invite_no_invitee"> %s का निमंत्रण</string>
+    <string name="notice_room_invite_no_invitee">%s का निमंत्रण</string>
     <string name="notice_room_invite_no_invitee_by_you">तुमहारा निमंत्रण</string>
     <string name="notice_room_created">%1$s ने ग्रुप बनाया</string>
     <string name="notice_room_created_by_you">आपने ग्रुप बनाया</string>
@@ -46,15 +46,15 @@
     <string name="notice_room_avatar_changed_by_you">आपने ग्रुप फोटो को बदल दिया</string>
     <string name="notice_room_name_changed">%1$s ने ग्रुप का नाम बदल दिया: %2$s</string>
     <string name="notice_room_name_changed_by_you">आपने ग्रुप का नाम बदल दिया: %1$s</string>
-    <string name="notice_placed_video_call"> %s ने एक वीडियो कॉल किया।</string>
+    <string name="notice_placed_video_call">%s ने एक वीडियो कॉल किया।</string>
     <string name="notice_placed_video_call_by_you">आपने एक वीडियो कॉल किया।</string>
-    <string name="notice_placed_voice_call"> %s ने एक कॉल की।</string>
+    <string name="notice_placed_voice_call">%s ने एक कॉल की।</string>
     <string name="notice_placed_voice_call_by_you">आपने एक कॉल की।</string>
     <string name="notice_call_candidates">कॉल सेटअप करने के लिए  %s ने डेटा भेजा।</string>
     <string name="notice_call_candidates_by_you">आपने कॉल को सेटअप करने के लिए डेटा भेजा।</string>
-    <string name="notice_answered_call"> %s ने कॉल का जवाब दिया।</string>
+    <string name="notice_answered_call">%s ने कॉल का जवाब दिया।</string>
     <string name="notice_answered_call_by_you">आपने कॉल का जवाब दिया।</string>
-    <string name="notice_ended_call"> %s ने कॉल को समाप्त कर दिया।</string>
+    <string name="notice_ended_call">%s ने कॉल को समाप्त कर दिया।</string>
     <string name="notice_ended_call_by_you">आपने कॉल समाप्त कर दी।</string>
     <string name="notice_made_future_room_visibility">%1$s ने ग्रुप का इतिहास %2$s के लिए दृश्यमान किया</string>
     <string name="notice_made_future_room_visibility_by_you">आपने ग्रुप के इतिहास को %1$s के लिए दृश्यमान किया</string>
@@ -67,17 +67,17 @@
     <string name="notice_room_visibility_unknown">अज्ञात ( %s)।</string>
     <string name="notice_end_to_end">%1$s अंत-से-अंत एन्क्रिप्शन चालू (%2$s)</string>
     <string name="notice_end_to_end_by_you">आपने अंत-से-अंत एन्क्रिप्शन (%1$s) चालू कर दिया</string>
-    <string name="notice_room_update"> %s ने इस ग्रुप को अपग्रेड किया।</string>
+    <string name="notice_room_update">%s ने इस ग्रुप को अपग्रेड किया।</string>
     <string name="notice_room_update_by_you">आपने इस ग्रुप को अपग्रेड किया है।</string>
-    <string name="notice_direct_room_update"> %s अपग्रेड किया गया।</string>
+    <string name="notice_direct_room_update">%s अपग्रेड किया गया।</string>
     <string name="notice_direct_room_update_by_you">आपने यहां अपग्रेड किया है।</string>
-    <string name="notice_room_server_acl_set_title"> %s इस ग्रुप के लिए सर्वर एसीएल सेट करें।</string>
+    <string name="notice_room_server_acl_set_title">%s इस ग्रुप के लिए सर्वर एसीएल सेट करें।</string>
     <string name="notice_room_server_acl_set_title_by_you">आप इस ग्रुप के लिए सर्वर एसीएल सेट करते हैं।</string>
     <string name="notice_room_server_acl_set_banned">• सर्वर से मेल खाने वाले सर्वर पर प्रतिबंध लगा दिया गया है।</string>
     <string name="notice_room_server_acl_set_allowed">• सर्वर से मेल खाने वाले सर्वर की अनुमति है।</string>
     <string name="notice_room_server_acl_set_ip_literals_allowed">• सर्वर से मेल खाने वाले सर्वर की अनुमति है।</string>
     <string name="notice_room_server_acl_set_ip_literals_not_allowed">• आईपी शाब्दिकों से मेल खाने वाले सर्वर पर प्रतिबंध लगा दिया गया है।</string>
-    <string name="notice_room_server_acl_updated_title"> %s ने इस ग्रुप के लिए सर्वर एसीएल को बदल दिया।</string>
+    <string name="notice_room_server_acl_updated_title">%s ने इस ग्रुप के लिए सर्वर एसीएल को बदल दिया।</string>
     <string name="notice_room_server_acl_updated_title_by_you">आपने इस ग्रुप के लिए सर्वर एसीएल को बदल दिया।</string>
     <string name="notice_room_server_acl_updated_banned">• %s से मेल खाने वाले सर्वर अब प्रतिबंधित हैं।</string>
     <string name="notice_room_server_acl_updated_was_banned">• बैन सूची से %s मिलान करने वाले सर्वर हटा दिए गए थे।</string>
@@ -86,7 +86,8 @@
     <string name="notice_room_server_acl_updated_ip_literals_allowed">• सर्वर से मेल खाने वाले सर्वर अब अनुमति है।</string>
     <string name="notice_room_server_acl_updated_ip_literals_not_allowed">• आईपी शाब्दिकों से मेल खाने वाले सर्वर अब प्रतिबंधित हैं।</string>
     <string name="notice_room_server_acl_updated_no_change">कोई परिवर्तन नहीं होता है।</string>
-    <string name="notice_room_server_acl_allow_is_empty">� सभी सर्वरों को भाग लेने से प्रतिबंधित कर दिया गया है!इस ग्रुप का अब उपयोग नहीं किया जा सकता है।</string>>
+    <string name="notice_room_server_acl_allow_is_empty">� सभी सर्वरों को भाग लेने से प्रतिबंधित कर दिया गया है!इस ग्रुप का अब उपयोग नहीं किया जा सकता है।</string>
+    &gt;
     <string name="notice_requested_voip_conference">%1$s ने एक वीओआईपी सम्मेलन का अनुरोध किया</string>
     <string name="notice_requested_voip_conference_by_you">आपने एक वीओआईपी सम्मेलन का अनुरोध किया</string>
     <string name="notice_voip_started">वीओआईपी सम्मेलन शुरू हुआ</string>
@@ -156,7 +157,7 @@
     <string name="medium_email">ईमेल पता</string>
     <string name="medium_phone_number">फ़ोन नंबर</string>
     <!-- Room display name -->
-    <string name="room_displayname_invite_from"> %s से आमंत्रण</string>
+    <string name="room_displayname_invite_from">%s से आमंत्रण</string>
     <string name="room_displayname_room_invite">ग्रुप आमंत्रण</string>
     <!-- The 2 parameters will be members' name -->
     <string name="room_displayname_two_members">%1$s और %2$s</string>
@@ -176,7 +177,7 @@
     <string name="initial_sync_start_server_computing">सेटअप प्रक्रिया: \nसर्वर प्रतिक्रिया के लिए इंतजार …</string>
     <string name="initial_sync_start_downloading">सेटअप प्रक्रिया:  \nडेटा डाउनलोड…</string>
     <string name="initial_sync_start_importing_account">सेटअप प्रक्रिया: \nखाता जोड़ रहे हैं…</string>
-    <string name="initial_sync_start_importing_account_crypto" tools:ignore="TypographyEllipsis">सेटअप प्रक्रिया: \nसुरक्षा जोड़ रहे हैं…</string>
+    <string ignore="TypographyEllipsis" name="initial_sync_start_importing_account_crypto">सेटअप प्रक्रिया: \nसुरक्षा जोड़ रहे हैं…</string>
     <string name="initial_sync_start_importing_account_rooms">सेटअप प्रक्रिया: \nग्रुप जोड़ रहे हैं…</string>
     <string name="initial_sync_start_importing_account_joined_rooms">सेटअप प्रक्रिया: \nग्रुप में शामिल हुए</string>
     <string name="initial_sync_start_importing_account_invited_rooms">सेटअप प्रक्रिया: \n आमंत्रित ग्रुप</string>
@@ -481,7 +482,7 @@
     <string name="start_video_call_prompt_msg">क्या आप वाकई एक वीडियो कॉल शुरू करना चाहते हैं?</string>
     <string name="call_failed_no_ice_title">गलत सेट किए गए सर्वर के कारण कॉल विफल</string>
     <string name="call_failed_no_ice_description">कृपया अपने होमसर्वर (%1$s) के एडमिन को विश्वसनीय रूप से काम करने के लिए एक टर्न सर्वर को सेट करने के लिए पूछें। \n आप सार्वजनिक सर्वर को%2$s पर उपयोग करने का प्रयास कर सकते हैं, लेकिन यह नहीं होगाविश्वसनीय के रूप में, और यह उस सर्वर के साथ आपके आईपी पते को साझा करेगा।आप इसे सेटिंग्स में भी प्रबंधित कर सकते हैं। "</string>
-    <string name="call_failed_no_ice_use_alt"> %s का उपयोग करने का प्रयास करें</string>
+    <string name="call_failed_no_ice_use_alt">%s का उपयोग करने का प्रयास करें</string>
     <string name="call_failed_dont_ask_again">दोबारा मत पूछना</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
     <string name="template_call_failed_no_connection">${app_name} कॉल विफल</string>
@@ -644,7 +645,7 @@
     <string name="return_to_call">कॉल पर लौटें</string>
     <string name="call_resume_action">फिर शुरू करना</string>
     <string name="call_hold_action">होल्ड</string>
-    <string name="call_held_by_user"> %s ने कॉल किया</string>
+    <string name="call_held_by_user">%s ने कॉल किया</string>
     <string name="call_held_by_you">आपने कॉल किया</string>
     <string name="call_error_user_not_responding">दूरस्थ पक्ष लेने में विफल रहा।</string>
     <string name="call_error_ice_failed">मीडिया कनेक्शन विफल</string>
@@ -685,7 +686,7 @@
     <string name="preview">देखें</string>
     <string name="reject">अस्वीकार</string>
     <!-- Room -->
-    <string name="list_members">सदस्य सूची </string>
+    <string name="list_members">सदस्य सूची</string>
     <string name="open_chat_header">हेडर खोलें</string>
     <string name="room_sync_in_progress">सिंक हो रहा है…</string>
     <string name="room_jump_to_first_unread">बिना पढ़े देखें</string>
@@ -731,9 +732,9 @@
     <!--The variable is one of "Online", "Offline" or "Idle" states above.-->
     <string name="room_participants_now">अभी %1$s</string>
     <!--
-       The first variable is one of "Online", "Offline" or "Idle" states (with or without " now" part).
-       The second variable is the formatted datetime (5s, 5m, 5h, 5d) from format_time_s/m/h/d strings.
-       -->
+             The first variable is one of "Online", "Offline" or "Idle" states (with or without " now" part).
+             The second variable is the formatted datetime (5s, 5m, 5h, 5d) from format_time_s/m/h/d strings.
+             -->
     <string name="room_participants_ago">%1$s %2$ पहले</string>
     <string name="room_participants_header_admin_tools">एडमिन सेटिंग</string>
     <string name="room_participants_header_call">कॉल</string>
@@ -774,9 +775,9 @@
     <string name="room_participants_unban_prompt_msg">ये उपयोगकर्ता को फिर से ग्रुप में शामिल होने की अनुमति देगा।</string>
     <string name="reason_hint">कारण</string>
     <!--
-       The variable can be a single name or a string of names
-       ("Alice, "+"Bob, "+"Charlie and David" > "Alice, Bob, Charlie and David)
-       -->
+             The variable can be a single name or a string of names
+             ("Alice, "+"Bob, "+"Charlie and David" > "Alice, Bob, Charlie and David)
+             -->
     <string name="room_participants_invite_prompt_msg">"क्या आप वाकई इस चैट में  %s को आमंत्रित करना चाहते हैं?"</string>
     <!-- The building block of the first part of the string of names ("Alice, "/"Bob, ") -->
     <string name="room_participants_invite_join_names">"%1$s,"</string>
@@ -794,14 +795,14 @@
     <string name="people_search_invite_by_id_dialog_hint">ईमेल या सीड सेवर्स आईडी</string>
     <!--  Chat -->
     <string name="room_menu_search">खोजें</string>
-    <string name="room_one_user_is_typing"> %s टाइप कर रहा है …</string>
+    <string name="room_one_user_is_typing">%s टाइप कर रहा है …</string>
     <string name="room_two_users_are_typing">%1$s &amp;%2$s टाइप कर रहे हैं …</string>
     <string name="room_many_users_are_typing">%1$s &amp;%2$s &amp; अन्य टाइपिंग कर रहे हैं …</string>
     <string name="room_message_placeholder_encrypted">एक एन्क्रिप्टेड संदेश भेजें …</string>
     <string name="room_message_placeholder_not_encrypted">एक संदेश भेजें (unencrypted) …</string>
     <string name="room_message_placeholder_reply_to_encrypted">एक एन्क्रिप्टेड उत्तर भेजें …</string>
     <string name="room_message_placeholder_reply_to_not_encrypted">एक उत्तर भेजें (unencrypted) …</string>
-    <string name="room_offline_notification"> नेटवर्क की समस्या है।</string>
+    <string name="room_offline_notification">नेटवर्क की समस्या है।</string>
     <string name="room_unsent_messages_notification">संदेश नहीं भेजे गए।%1$s या %2$s अब?</string>
     <string name="room_unknown_devices_messages_notification">संदेश नहीं भेजे गए।%1$s या %2$s अब?</string>
     <string name="room_prompt_resend">सभी को पुनः भेजें</string>
@@ -885,8 +886,8 @@
     <string name="room_recents_start_chat">बातचीत शुरू करें</string>
     <string name="room_recents_create_room">ग्रुप बनायें</string>
     <string name="room_recents_join_room">ग्रुप में शामिल हों</string>
-    <string name="room_recents_join_room_title"> ग्रुप में शामिल हों</string>
-    <string name="room_recents_join_room_prompt"> ग्रुप आईडी या ग्रुप उपनाम टाइप करें</string>
+    <string name="room_recents_join_room_title">ग्रुप में शामिल हों</string>
+    <string name="room_recents_join_room_prompt">ग्रुप आईडी या ग्रुप उपनाम टाइप करें</string>
     <!-- Directory -->
     <string name="directory_search_results_title">निर्देशिका देखें</string>
     <plurals name="directory_search_rooms"><item quantity="one"> %d ग्रुप
@@ -895,7 +896,7 @@
     <plurals name="directory_search_rooms_for"><item quantity="one"> %1$s ग्रुप %2$s के लिए मिला
   </item><item quantity="other"> %1$s ग्रुप %2$s के लिए मिले
   </item></plurals>
-    <string name="directory_searching_title"> निर्देशिका में ढूंढ रहे हैं…</string>
+    <string name="directory_searching_title">निर्देशिका में ढूंढ रहे हैं…</string>
     <!-- home room settings -->
     <string name="room_settings_all_messages_noisy">सभी संदेश (शोर)</string>
     <string name="room_settings_all_messages">सभी संदेश</string>
@@ -933,7 +934,7 @@
     <string name="settings_emails">ईमेल पते</string>
     <string name="settings_emails_empty">आपके खाते में कोई ईमेल नहीं जोड़ा गया है</string>
     <string name="settings_phone_numbers">दूरभाष संख्या</string>
-    <string name="settings_remove_three_pid_confirmation_content"> %s निकालें?</string>
+    <string name="settings_remove_three_pid_confirmation_content">%s निकालें?</string>
     <string name="error_threepid_auth_failed">सुनिश्चित करें कि आपने ईमेल में लिंक पर क्लिक किया है जिसे हमने आपके पास भेजा है।</string>
     <string name="settings_notification_advanced">एडवांस सूचना सेटिंग्स</string>
     <string name="settings_notification_by_event">घटना द्वारा सूचना महत्व</string>
@@ -1055,7 +1056,7 @@
     <string name="settings_enable_background_sync">पृष्ठभूमि सिंक सक्षम करें</string>
     <string name="settings_set_sync_timeout">सिंक अनुरोध टाइमआउट</string>
     <string name="settings_set_workmanager_delay">पसंदीदा सिंक अंतराल</string>
-    <string name="settings_set_workmanager_delay_summary"> %s\n सिंक को संसाधनों (बैटरी) या डिवाइस की स्थिति (नींद) के आधार पर स्थगित किया जा सकता है।</string>
+    <string name="settings_set_workmanager_delay_summary">%s\n सिंक को संसाधनों (बैटरी) या डिवाइस की स्थिति (नींद) के आधार पर स्थगित किया जा सकता है।</string>
     <string name="settings_set_sync_delay">प्रत्येक सिंक के बीच देरी</string>
     <plurals name="seconds"><item quantity="one"> %d दूसरा
   </item><item quantity="other"> %d सेकंड
@@ -1098,7 +1099,8 @@
     <string name="settings_show_read_receipts_summary">विस्तृत सूची के लिए पढ़ने की सूचना पर क्लिक करें।</string>
     <string name="settings_show_room_member_state_events">ग्रुप के सदस्य स्थिति की घटनाओं को दिखाएं</string>
     <string name="settings_chat_effects_title">चैट प्रभाव दिखाएं</string>
-    <string name="settings_chat_effects_description">उपयोग / confetti कमांड या ❄️ या � युक्त एक संदेश भेजें</string>>
+    <string name="settings_chat_effects_description">उपयोग / confetti कमांड या ❄️ या � युक्त एक संदेश भेजें</string>
+    &gt;
     <string name="settings_show_room_member_state_events_summary">आमंत्रित / शामिल / छोड़े / निकाले / प्रतिबंध घटनाओं और फोटो / प्रदर्शन नाम परिवर्तन शामिल हैं।</string>
     <string name="settings_show_join_leave_messages">जुड़ने और छोड़ने की घटनाएं</string>
     <string name="settings_show_join_leave_messages_summary">आमंत्रित, निकाले, और प्रतिबंध अप्रभावित हैं।</string>
@@ -1177,7 +1179,7 @@
     <string name="settings_fail_to_update_password">पासवर्ड अपडेट करने में विफल</string>
     <string name="settings_fail_to_update_password_invalid_current_password">पासवर्ड मान्य नहीं है</string>
     <string name="settings_password_updated">आपका पासवर्ड बदला जा चुका है</string>
-    <string name="settings_unignore_user"> %s से सभी संदेश दिखाएं? \n  \n  यह क्रिया ऐप को पुनरारंभ करेगी और इसमें कुछ समय लग सकता है।</string>
+    <string name="settings_unignore_user">%s से सभी संदेश दिखाएं? \n  \n  यह क्रिया ऐप को पुनरारंभ करेगी और इसमें कुछ समय लग सकता है।</string>
     <string name="passwords_do_not_match">पासवर्ड मेल नहीं खाते</string>
     <string name="settings_emails_and_phone_numbers_title">ईमेल और फोन नंबर</string>
     <string name="settings_emails_and_phone_numbers_summary">अपने सीड सेवर्स खाते से जुड़े ईमेल और फोन नंबर प्रबंधित करें</string>
@@ -1319,7 +1321,7 @@
     <string name="directory_title">निर्देशिका</string>
     <string name="settings_theme">थीम</string>
     <!-- matrix error -->
-    <string name="failed_to_load_timeline_position"> %s इस ग्रुप की टाइमलाइन में एक विशिष्ट बिंदु लोड करने की कोशिश कर रहा था लेकिन इसे खोजने में असमर्थ था।</string>
+    <string name="failed_to_load_timeline_position">%s इस ग्रुप की टाइमलाइन में एक विशिष्ट बिंदु लोड करने की कोशिश कर रहा था लेकिन इसे खोजने में असमर्थ था।</string>
     <!-- encryption dialog -->
     <string name="encryption_information_title">अंत-से-अंत एन्क्रिप्शन जानकारी</string>
     <string name="encryption_information_device_info">घटना की जानकारी</string>
@@ -1378,7 +1380,7 @@
     <string name="directory_server_fail_to_retrieve_server">सर्वर अनुपलब्ध या अधिभारित हो सकता है</string>
     <string name="directory_server_type_homeserver">सार्वजनिक ग्रुप को सूचीबद्ध करने के लिए एक होमसर्वर टाइप करें</string>
     <string name="directory_server_placeholder">सर्वर का नाम</string>
-    <string name="directory_server_all_rooms_on_server"> %s सर्वर पर सभी ग्रुप</string>
+    <string name="directory_server_all_rooms_on_server">%s सर्वर पर सभी ग्रुप</string>
     <string name="directory_server_native_rooms">सभी मूल  %s के ग्रुप</string>
     <string name="directory_your_server">आपका सर्वर</string>
     <string name="directory_add_a_new_server">एक नया सर्वर जोड़ें</string>
@@ -1516,7 +1518,7 @@
     <string name="command_description_topic">ग्रुप का विषय सेट करें</string>
     <string name="command_description_kick_user">दिए गए आईडी के साथ उपयोगकर्ता को निकाले</string>
     <string name="command_description_nick">आपका प्रदर्शन उपनाम बदलता है</string>
-    <string name="command_description_markdown"> मार्कडाउन चालू / बंद करें</string>
+    <string name="command_description_markdown">मार्कडाउन चालू / बंद करें</string>
     <string name="command_description_clear_scalar_token">सीड सेवर्स ऐप प्रबंधन को ठीक करने के लिए</string>
     <string name="markdown_has_been_enabled">मार्कडाउन सक्षम किया गया है।</string>
     <string name="markdown_has_been_disabled">मार्कडाउन अक्षम कर दिया गया है।</string>
@@ -1603,7 +1605,7 @@
     <!-- Parameter  %s will be replaced by the value of string resource_limit_contact_admin -->
     <string name="resource_limit_hard_contact">"कृपया इस सेवा का उपयोग जारी रखने के लिए  %s करें"</string>
     <!-- Lazy loading -->
-    <string name="settings_lazy_loading_title"> ग्रुप के सदस्य बाद में लोड करें</string>
+    <string name="settings_lazy_loading_title">ग्रुप के सदस्य बाद में लोड करें</string>
     <string name="settings_lazy_loading_description">पहले दृश्य पर केवल ग्रुप के सदस्यों को लोड करके प्रदर्शन बढ़ाएं।</string>
     <string name="error_lazy_loading_not_supported_by_home_server">आपका होमसर्वर अभी तक ग्रुप के सदस्यों की लोडिंग का समर्थन नहीं करता है।बाद में प्रयास करें।</string>
     <!-- Other errors -->
@@ -1730,7 +1732,7 @@
     <string name="secure_backup_setup">सुरक्षित बैकअप सेट करें</string>
     <!-- Keys backup info -->
     <string name="keys_backup_info_keys_all_backup_up">सभी कुंजी का समर्थन किया</string>
-    <plurals name="keys_backup_info_keys_backing_up"><item quantity="one" tools:ignore="TypographyEllipsis"> %d कुंजी का समर्थन …
+    <plurals name="keys_backup_info_keys_backing_up"><item ignore="TypographyEllipsis" quantity="one"> %d कुंजी का समर्थन …
   </item><item quantity="other"> %d कुंजी का समर्थन …
   </item></plurals>
     <string name="keys_backup_info_title_version">वर्शन</string>
@@ -1765,7 +1767,7 @@
     <string name="sas_cancelled_by_me">सत्यापन रद्द कर दिया गया है। \n Reason: %s</string>
     <string name="sas_verification_request_notification_channel">इंटरएक्टिव सत्र सत्यापन</string>
     <string name="sas_incoming_request_notif_title">सत्यापन अनुरोध</string>
-    <string name="sas_incoming_request_notif_content"> %s आपके सत्र को सत्यापित करना चाहता है</string>
+    <string name="sas_incoming_request_notif_content">%s आपके सत्र को सत्यापित करना चाहता है</string>
     <!-- SAS Errors -->
     <string name="sas_error_m_user">उपयोगकर्ता ने सत्यापन रद्द कर दिया</string>
     <string name="sas_error_m_timeout">सत्यापन प्रक्रिया का समय समाप्त हो गया</string>
@@ -1787,7 +1789,7 @@
     <string name="global_retry">पुन: प्रयास करें</string>
     <string name="room_list_empty">"ऐप का उपयोग शुरू करने के लिए एक ग्रुप में शामिल हों।"</string>
     <string name="send_you_invite">"आपको एक आमंत्रण भेजा है"</string>
-    <string name="invited_by"> %s द्वारा आमंत्रित किया गया</string>
+    <string name="invited_by">%s द्वारा आमंत्रित किया गया</string>
     <string name="room_list_catchup_empty_title">तुम सब पकड़े गए हो!</string>
     <string name="room_list_catchup_empty_body">आपके पास अधिक अपठित संदेश नहीं हैं</string>
     <string name="room_list_catchup_welcome_title">सुस्वागतम्!</string>
@@ -1971,7 +1973,7 @@
   </item></plurals>
     <string name="three_users_read">%1$s,%2$s और%3$s पढ़ें</string>
     <string name="two_users_read">%1$s और%2$s पढ़ें</string>
-    <string name="one_user_read"> %s पढ़ें</string>
+    <string name="one_user_read">%s पढ़ें</string>
     <plurals name="fallback_users_read"><item quantity="one"> %d उपयोगकर्ता पढ़ें
   </item><item quantity="other"> %d उपयोगकर्ता पढ़ते हैं
   </item></plurals>
@@ -2049,9 +2051,9 @@
     <string name="login_server_other_title">अन्य</string>
     <string name="login_server_other_text">कस्टम और एडवांस सेटिंग्स</string>
     <string name="login_social_continue">या</string>
-    <string name="login_social_continue_with"> %s के साथ जारी रखें</string>
-    <string name="login_social_signup_with"> %s के साथ साइन अप करें</string>
-    <string name="login_social_signin_with"> %s के साथ साइन इन करें</string>
+    <string name="login_social_continue_with">%s के साथ जारी रखें</string>
+    <string name="login_social_signup_with">%s के साथ साइन अप करें</string>
+    <string name="login_social_signin_with">%s के साथ साइन इन करें</string>
     <string name="login_social_sso">केवल हस्ताक्षर के ऊपर</string>
     <string name="login_continue">जारी रखें</string>
     <!-- Replaced string is the homeserver url -->
@@ -2165,7 +2167,7 @@
     <string name="soft_logout_clear_data_dialog_e2e_warning_content">जब तक आप अपनी एन्क्रिप्शन कुंजी को पुनर्प्राप्त करने के लिए साइन इन नहीं करते हैं, तब तक आप सुरक्षित संदेशों तक पहुंच खो देंगे।</string>
     <string name="soft_logout_clear_data_dialog_submit">स्पष्ट डेटा</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_soft_logout_sso_not_same_user_error">वर्तमान सत्र उपयोगकर्ता%1$s के लिए है और आप उपयोगकर्ता %2$s के लिए प्रमाण-पत्र प्रदान करते हैं।यह $ {APP_NAME} द्वारा समर्थित नहीं है। \n  कृपया पहले स्पष्ट डेटा कृपया करें, फिर दूसरे खाते पर फिर से साइन इन करें।</string>
+    <string name="template_soft_logout_sso_not_same_user_error">वर्तमान सत्र उपयोगकर्ता%1$s के लिए है और आप उपयोगकर्ता %2$s के लिए प्रमाण-पत्र प्रदान करते हैं।यह ${app_name} द्वारा समर्थित नहीं है। \n  कृपया पहले स्पष्ट डेटा कृपया करें, फिर दूसरे खाते पर फिर से साइन इन करें।</string>
     <string name="permalink_malformed">आपका matrix.to लिंक विकृत था</string>
     <string name="bug_report_error_too_short">विवरण बहुत छोटा है</string>
     <string name="notification_initial_sync">प्रारंभिक सिंक …</string>
@@ -2183,7 +2185,7 @@
     <string name="autocomplete_limited_results">केवल पहले परिणाम दिखा रहा है, और अधिक अक्षर टाइप करें …</string>
     <string name="settings_developer_mode_fail_fast_title">असफल फास्ट</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_settings_developer_mode_fail_fast_summary">एक अप्रत्याशित त्रुटि होने पर $ {APP_NAME} अधिक बार क्रैश हो सकती है</string>
+    <string name="template_settings_developer_mode_fail_fast_summary">एक अप्रत्याशित त्रुटि होने पर ${app_name} अधिक बार क्रैश हो सकती है</string>
     <string name="command_description_shrug">एक सादे-पाठ संदेश के लिए ¯ \\ _ (ツ) _ / ¯ प्रस्तुत करता है</string>
     <string name="create_room_encryption_title">"एन्क्रिप्शन सक्षम करें"</string>
     <string name="create_room_encryption_description">"एक बार सक्षम होने के बाद, एन्क्रिप्शन अक्षम नहीं किया जा सकता है।"</string>
@@ -2216,9 +2218,9 @@
     <string name="sent_a_reaction">प्रतिक्रिया: %s</string>
     <string name="sent_verification_conclusion">सत्यापन निष्कर्ष</string>
     <string name="verification_request_waiting">प्रतीक्षा करना…</string>
-    <string name="verification_request_other_cancelled"> %s रद्द</string>
+    <string name="verification_request_other_cancelled">%s रद्द</string>
     <string name="verification_request_you_cancelled">आपने रद्द कर दिया</string>
-    <string name="verification_request_other_accepted"> %s स्वीकार किया</string>
+    <string name="verification_request_other_accepted">%s स्वीकार किया</string>
     <string name="verification_request_you_accepted">आप स्वीकार किए जाते हैं</string>
     <string name="verification_sent">सत्यापन भेजा गया</string>
     <string name="verification_request">सत्यापन अनुरोध</string>
@@ -2237,9 +2239,9 @@
     <string name="verify_by_emoji_title">इमोजी द्वारा सत्यापित करें</string>
     <string name="verify_by_emoji_description">यदि आप उपरोक्त कोड को स्कैन नहीं कर सकते हैं, तो इमोजी के एक छोटे, अद्वितीय चयन की तुलना करके सत्यापित करें।</string>
     <string name="a13n_qr_code_description">क्यूआर कोड छवि</string>
-    <string name="verification_verify_user"> %s सत्यापित करें</string>
+    <string name="verification_verify_user">%s सत्यापित करें</string>
     <string name="verification_verified_user">सत्यापित %s</string>
-    <string name="verification_request_waiting_for"> %s की प्रतीक्षा …</string>
+    <string name="verification_request_waiting_for">%s की प्रतीक्षा …</string>
     <string name="verification_request_alert_description">अतिरिक्त सुरक्षा के लिए, अपने दोनों उपकरणों पर एक बार कोड की जांच करके %s सत्यापित करें। \n  \n  अधिकतम सुरक्षा के लिए, इसे व्यक्तिगत रूप से करें।</string>
     <string name="room_profile_not_encrypted_subtitle">इस ग्रुप में संदेश अंत-से-अंत एन्क्रिप्टेड नहीं हैं।</string>
     <string name="direct_room_profile_not_encrypted_subtitle">यहां संदेश अंत-टू-एंड एन्क्रिप्टेड नहीं हैं।</string>
@@ -2267,15 +2269,15 @@
     <string name="room_member_power_level_admin_in">%1$s में व्यवस्थापक</string>
     <string name="room_member_power_level_moderator_in">%1$s में मॉडरेटर</string>
     <string name="room_member_power_level_default_in">%1$s में डिफ़ॉल्ट</string>
-    <string name="room_member_power_level_custom_in"> %2$s में कस्टम ( %1$d)</string>
+    <string name="room_member_power_level_custom_in">%2$s में कस्टम ( %1$d)</string>
     <string name="room_member_open_or_create_dm">प्रत्यक्ष संदेश</string>
     <string name="room_member_jump_to_read_receipt">रसीद पढ़ने के लिए कूदो</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_rendering_event_error_type_of_event_not_handled">$ {app_name} प्रकार की घटनाओं को \'%1$s \' संभाल नहीं करता है</string>
+    <string name="template_rendering_event_error_type_of_event_not_handled">${app_name} प्रकार की घटनाओं को \'%1$s \' संभाल नहीं करता है</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_rendering_event_error_type_of_message_not_handled">$ {app_name} टाइप \'%1$s \' के संदेश को संभाल नहीं करता है</string>
+    <string name="template_rendering_event_error_type_of_message_not_handled">${app_name} टाइप \'%1$s \' के संदेश को संभाल नहीं करता है</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_rendering_event_error_exception">$ {APP_NAME} आईडी \'%1$s \' के साथ घटना की सामग्री को प्रस्तुत करते समय एक समस्या का सामना करना पड़ा</string>
+    <string name="template_rendering_event_error_exception">${app_name} आईडी \'%1$s \' के साथ घटना की सामग्री को प्रस्तुत करते समय एक समस्या का सामना करना पड़ा</string>
     <string name="unignore">अनदेखा न करें</string>
     <string name="verify_cannot_cross_sign">यह सत्र इस सत्यापन को आपके अन्य सत्रों के साथ साझा करने में असमर्थ है। \n  क्या सत्यापन समुदायीय रूप से सहेजा जाएगा और ऐप के भविष्य के वर्शन में साझा किया जाएगा।</string>
     <string name="room_list_sharing_header_recent_rooms">हाल के ग्रुप</string>
@@ -2314,7 +2316,8 @@
     <string name="settings_server_upload_size_content">आपका होमसर्वर अनुलग्नक (फ़ाइलें, मीडिया इत्यादि) को %s के आकार के साथ स्वीकार करता है।</string>
     <string name="settings_server_upload_size_unknown">सीमा अज्ञात है।</string>
     <!-- Please use the same emoji in the translations -->
-    <string name="settings_server_room_versions">ग्रुप के वर्शन �</string>>
+    <string name="settings_server_room_versions">ग्रुप के वर्शन �</string>
+    &gt;
     <string name="settings_server_default_room_version">डिफ़ॉल्ट वर्शन</string>
     <string name="settings_server_room_version_stable">स्थिर</string>
     <string name="settings_server_room_version_unstable">अस्थिर</string>
@@ -2345,17 +2348,19 @@
     <string name="qr_code_scanned_by_other_notice">वहाँ लगभग!क्या %s एक ही ढाल दिखा रहा है?</string>
     <string name="qr_code_scanned_by_other_yes">हाँ</string>
     <string name="qr_code_scanned_by_other_no">नहीं</string>
-    <string name="no_connectivity_to_the_server_indicator"> नेटवर्क की समस्या है</string>
+    <string name="no_connectivity_to_the_server_indicator">नेटवर्क की समस्या है</string>
     <string name="no_connectivity_to_the_server_indicator_airplane">हवाई जहाज मोड चालू है</string>
     <string name="settings_dev_tools">देव उपकरण</string>
     <string name="settings_account_data">खाता आंकड़ा</string>
     <string name="delete_account_data_warning">सावधानी के साथ टाइप%1$s का खाता डेटा हटाएं? \n  \n use सावधानी के साथ, यह अप्रत्याशित व्यवहार हो सकता है।</string>
-    <plurals name="poll_info"><item quantity="zero"> %d वोट
-  </item><item quantity="other"> %d वोट
-  </item></plurals>
-    <plurals name="poll_info_final"><item quantity="zero"> %d वोट - अंतिम परिणाम
-  </item><item quantity="other"> %d वोट - अंतिम परिणाम
-  </item></plurals>
+    <plurals name="poll_info">
+        <item quantity="zero"> %d वोट</item>
+        <item quantity="other"> %d वोट</item>
+    </plurals>
+    <plurals name="poll_info_final">
+        <item quantity="zero"> %d वोट - अंतिम परिणाम</item>
+        <item quantity="other"> %d वोट - अंतिम परिणाम</item>
+    </plurals>
     <string name="poll_item_selected_aria">चयनित विकल्प</string>
     <string name="command_description_poll">एक साधारण मतदान करता है</string>
     <string name="verification_cannot_access_other_session">रिकवरी पासफ्रेज या कुंजी का उपयोग करें</string>
@@ -2382,7 +2387,7 @@
     <string name="event_redacted_by_admin_reason_with_reason">ग्रुप व्यवस्थापक द्वारा नियंत्रित घटना, कारण:%1$s</string>
     <string name="keys_backup_restore_success_title_already_up_to_date">चाबियाँ पहले से ही अद्यतित हैं!</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_login_default_session_public_name">$ {app_name} एंड्रॉइड</string>
+    <string name="template_login_default_session_public_name">${app_name} एंड्रॉइड</string>
     <string name="settings_key_requests">मुख्य अनुरोध</string>
     <string name="settings_export_trail">निर्यात लेखापरीक्षा</string>
     <string name="e2e_use_keybackup">अनलॉक एन्क्रिप्टेड संदेश इतिहास</string>
@@ -2405,7 +2410,7 @@
     <string name="set_recovery_passphrase">के रूप में सेट करें</string>
     <string name="generate_message_key">एक संदेश कुंजी उत्पन्न करें</string>
     <!--  %s will be replaced by recovery_passphrase -->
-    <string name="confirm_recovery_passphrase"> %s की पुष्टि करें</string>
+    <string name="confirm_recovery_passphrase">%s की पुष्टि करें</string>
     <!--  %s will be replaced by account_password -->
     <string name="enter_account_password">जारी रखने के लिए अपना %s दर्ज करें।</string>
     <!--  %s will be replaced by recovery_passphrase -->
@@ -2444,9 +2449,9 @@
     <string name="direct_room_encryption_enabled_tile_description">इस ग्रुप में संदेश अंत-से-अंत एन्क्रिप्टेड हैं।</string>
     <string name="encryption_not_enabled">एन्क्रिप्शन सक्षम नहीं है</string>
     <string name="encryption_unknown_algorithm_tile_description">इस ग्रुप द्वारा उपयोग की जाने वाली एन्क्रिप्शन समर्थित नहीं है</string>
-    <string name="room_created_summary_item"> %s ने ग्रुप को बनाया और सेट किया।</string>
+    <string name="room_created_summary_item">%s ने ग्रुप को बनाया और सेट किया।</string>
     <string name="room_created_summary_item_by_you">आपने ग्रुप को बनाया और सेट किया।</string>
-    <string name="direct_room_created_summary_item"> %s शामिल हो गया।</string>
+    <string name="direct_room_created_summary_item">%s शामिल हो गया।</string>
     <string name="direct_room_created_summary_item_by_you">आप शामिल हो गए।</string>
     <string name="this_is_the_beginning_of_room">यह %s की शुरुआत है।</string>
     <string name="this_is_the_beginning_of_room_no_name">यह इस बातचीत की शुरुआत है।</string>
@@ -2457,10 +2462,10 @@
     <string name="topic_prefix">"विषय: "</string>
     <string name="qr_code_scanned_self_verif_notice">वहाँ लगभग!क्या दूसरा डिवाइस एक ही ढाल दिखा रहा है?</string>
     <string name="qr_code_scanned_verif_waiting_notice">वहाँ लगभग!पुष्टि के लिए प्रतीक्षा कर रहा है…</string>
-    <string name="qr_code_scanned_verif_waiting"> %s की प्रतीक्षा …</string>
+    <string name="qr_code_scanned_verif_waiting">%s की प्रतीक्षा …</string>
     <string name="error_failed_to_import_keys">कुंजी आयात करने में विफल</string>
     <string name="settings_notification_configuration">सूचना विन्यास</string>
-    <string name="settings_messages_at_room"> संदेश @room</string>
+    <string name="settings_messages_at_room">संदेश @room</string>
     <string name="settings_messages_in_e2e_one_to_one">एक-से-एक चैट में एन्क्रिप्टेड संदेश</string>
     <string name="settings_messages_in_e2e_group_chat">ग्रुप चैट में एन्क्रिप्टेड संदेश</string>
     <string name="settings_when_rooms_are_upgraded">जब ग्रुप में अपग्रेड किया जाता है</string>
@@ -2478,7 +2483,7 @@
     <string name="use_file">फ़ाइल का उपयोग करें</string>
     <!--  %s will be replaced by recovery_passphrase -->
     <!--    <string name="upgrade_account_desc">Upgrade this session to allow it to verify other sessions, granting them access to encrypted messages and marking them as trusted for other users.</string>-->
-    <string name="enter_backup_passphrase"> %s दर्ज करें</string>
+    <string name="enter_backup_passphrase">%s दर्ज करें</string>
     <string name="backup_recovery_passphrase">रिकवरी पासफ्रेज</string>
     <string name="bootstrap_invalid_recovery_key">"यह एक वैध रिकवरी कुंजी नहीं है"</string>
     <string name="recovery_key_empty_error_message">कृपया एक रिकवरी कुंजी दर्ज करें</string>
@@ -2503,14 +2508,14 @@
     <string name="error_saving_media_file">मीडिया फ़ाइल को सहेज नहीं सका</string>
     <string name="change_password_summary">एक नया खाता पासवर्ड सेट करें …</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_use_other_session_content_description">एंड्रॉइड के लिए $ {APP_NAME} वेब, $ {APP_NAME} डेस्कटॉप, $ {APP_NAME} IOS, $ {APP_NAME}, या किसी अन्य क्रॉस-साइनिंग सक्षम सीड सेवर्स क्लाइंट पर नवीनतम $ {APP_NAME} वेब, $ {APP_NAME} का उपयोग करें</string>
+    <string name="template_use_other_session_content_description">एंड्रॉइड के लिए ${app_name} वेब, ${app_name} डेस्कटॉप, ${app_name} IOS, ${app_name}, या किसी अन्य क्रॉस-साइनिंग सक्षम सीड सेवर्स क्लाइंट पर नवीनतम ${app_name} वेब, ${app_name} का उपयोग करें</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_app_desktop_web">$ {APP_NAME} वेब \n  $ {APP_NAME} डेस्कटॉप</string>
+    <string name="template_app_desktop_web">${app_name} वेब \n  ${app_name} डेस्कटॉप</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_app_ios_android">$ {APP_NAME} IOS \n  $ {APP_NAME} Android</string>
+    <string name="template_app_ios_android">${app_name} IOS \n  ${app_name} Android</string>
     <string name="or_other_mx_capabale_client">या एक और क्रॉस-हस्ताक्षर सक्षम सीड सेवर्स क्लाइंट</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_use_latest_app">अपने अन्य उपकरणों पर नवीनतम $ {app_name} का उपयोग करें:</string>
+    <string name="template_use_latest_app">अपने अन्य उपकरणों पर नवीनतम ${app_name} का उपयोग करें:</string>
     <string name="command_description_discard_session">एक एन्क्रिप्टेड ग्रुप में मौजूदा आउटबाउंड ग्रुप सत्र को त्यागने के लिए मजबूर करता है</string>
     <string name="command_description_discard_session_not_handled">केवल एन्क्रिप्टेड ग्रुप में समर्थित</string>
     <!-- first will be replaced by recovery_passphrase, second will be replaced by recovery_key-->
@@ -2529,8 +2534,10 @@
   </item></plurals>
     <string name="command_confetti">दिए गए संदेश को कन्फेटी के साथ भेजता है</string>
     <string name="command_snow">बर्फबारी के साथ दिए गए संदेश को भेजता है</string>
-    <!-- Note to translators: please use the same emoji � in your translation -->>
-    <string name="default_message_emote_confetti">Confetti � भेजता है</string>>
+    <!-- Note to translators: please use the same emoji � in your translation -->
+    &gt;
+    <string name="default_message_emote_confetti">Confetti � भेजता है</string>
+    &gt;
     <!-- Note to translators: please use the same emoji ❄️ in your translation -->
     <string name="default_message_emote_snow">बर्फबारी भेजता है ❄️</string>
     <string name="unencrypted">अनएन्क्रिप्ट</string>
@@ -2558,9 +2565,10 @@
     <string name="invite_users_to_room_title">उपयोगकर्ताओं को आमंत्रित करें</string>
     <string name="invite_friends">मित्रों को आमंत्रित करें</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_invite_friends_text">अरे, मुझसे $ {APP_NAME}: %s पर बात करें</string>
+    <string name="template_invite_friends_text">अरे, मुझसे ${app_name}: %s पर बात करें</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_invite_friends_rich_title">�️ $ {APP_NAME} पर मुझसे जुड़ें</string>>
+    <string name="template_invite_friends_rich_title">�️ ${app_name} पर मुझसे जुड़ें</string>
+    &gt;
     <string name="invitation_sent_to_one_user">आमंत्रण%1$s पर भेजा गया</string>
     <string name="invitations_sent_to_two_users">आमंत्रण%1$s और %2$s पर भेजे गए</string>
     <string name="not_a_valid_qr_code">"यह एक वैध सीड सेवर्स क्यूआर कोड नहीं है"</string>
@@ -2575,15 +2583,15 @@
     <string name="choose_locale_current_locale_title">वर्तमान भाषा</string>
     <string name="choose_locale_other_locales_title">अन्य उपलब्ध भाषाओं</string>
     <string name="choose_locale_loading_locales">उपलब्ध भाषाओं को लोड कर रहा है …</string>
-    <string name="open_terms_of"> %s की खुली शर्तें</string>
+    <string name="open_terms_of">%s की खुली शर्तें</string>
     <string name="disconnect_identity_server_dialog_content">पहचान सर्वर %s से डिस्कनेक्ट?</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_identity_server_error_outdated_identity_server">यह पहचान सर्वर पुराना है।$ {APP_NAME} केवल API V2 का समर्थन करें।</string>
+    <string name="template_identity_server_error_outdated_identity_server">यह पहचान सर्वर पुराना है।${app_name} केवल API V2 का समर्थन करें।</string>
     <string name="identity_server_error_outdated_home_server">यह ऑपरेशन संभव नहीं है।होमसर्वर पुराना है।</string>
     <string name="identity_server_error_no_identity_server_configured">कृपया पहले एक पहचान सर्वर को सेट करें।</string>
     <string name="identity_server_error_terms_not_signed">कृपया पहले सेटिंग्स में पहचान सर्वर की शर्तों को स्वीकार करता है।</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_identity_server_error_bulk_sha256_not_supported">आपकी गोपनीयता के लिए, $ {APP_NAME} केवल HASHED उपयोगकर्ता ईमेल और फ़ोन नंबर भेजने का समर्थन करता है।</string>
+    <string name="template_identity_server_error_bulk_sha256_not_supported">आपकी गोपनीयता के लिए, ${app_name} केवल HASHED उपयोगकर्ता ईमेल और फ़ोन नंबर भेजने का समर्थन करता है।</string>
     <string name="identity_server_error_binding_error">एसोसिएशन असफल रहा है।</string>
     <string name="identity_server_error_no_current_binding_error">इस पहचानकर्ता के साथ कोई वर्तमान संबंध नहीं है।</string>
     <string name="identity_server_user_consent_not_provided">उपयोगकर्ता की सहमति प्रदान नहीं की गई है।</string>
@@ -2671,15 +2679,15 @@
     <string name="settings_security_pin_code_use_biometrics_title">बायोमेट्रिक्स सक्षम करें</string>
     <string name="settings_security_pin_code_use_biometrics_summary_on">फिंगरप्रिंट और चेहरे की पहचान जैसे डिवाइस विशिष्ट बायोमेट्रिक्स सक्षम करें।</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_settings_security_pin_code_use_biometrics_summary_off">पिन कोड $ {APP_NAME} को अनलॉक करने का एकमात्र तरीका है।</string>
+    <string name="template_settings_security_pin_code_use_biometrics_summary_off">पिन कोड ${app_name} को अनलॉक करने का एकमात्र तरीका है।</string>
     <string name="settings_security_pin_code_notifications_title">सूचनाओं में सामग्री दिखाएं</string>
     <string name="settings_security_pin_code_notifications_summary_on">ग्रुप के नाम और संदेश सामग्री जैसे विवरण दिखाएं।</string>
     <string name="settings_security_pin_code_notifications_summary_off">एक साधारण सूचना में केवल अपठित संदेशों की संख्या प्रदर्शित करें।</string>
     <string name="settings_security_pin_code_grace_period_title">2 मिनट के बाद पिन की आवश्यकता है</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_settings_security_pin_code_grace_period_summary_on">$ {APP_NAME} का उपयोग नहीं करने के 2 मिनट के बाद पिन कोड आवश्यक है।</string>
+    <string name="template_settings_security_pin_code_grace_period_summary_on">${app_name} का उपयोग नहीं करने के 2 मिनट के बाद पिन कोड आवश्यक है।</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_settings_security_pin_code_grace_period_summary_off">हर बार जब आप $ {APP_NAME} खोलते हैं तो पिन कोड आवश्यक है।</string>
+    <string name="template_settings_security_pin_code_grace_period_summary_off">हर बार जब आप ${app_name} खोलते हैं तो पिन कोड आवश्यक है।</string>
     <string name="settings_security_pin_code_change_pin_title">पिन बदलिए</string>
     <string name="settings_security_pin_code_change_pin_summary">अपना वर्तमान पिन बदलें</string>
     <string name="auth_pin_confirm_to_disable_title">पिन अक्षम करने के लिए पिन की पुष्टि करें</string>
@@ -2708,7 +2716,7 @@
     <string name="call_dial_pad_lookup_error">"फोन नंबर को देखने में त्रुटि हुई"</string>
     <string name="call_only_active">सक्रिय कॉल (%1$s)</string>
     <plurals name="call_only_paused"><item quantity="one"> रोका गया कॉल
-  </item><item quantity="other">  %1$d रोका गया कॉल
+  </item><item quantity="other"> %1$d रोका गया कॉल
   </item></plurals>
     <plurals name="call_one_active_and_other_paused"><item quantity="one"> 1 सक्रिय कॉल (%1$s) · 1 रोका गया कॉल
   </item><item quantity="other"> 1 सक्रिय कॉल (%1$s) ·%2$d रोका गया कॉल
@@ -2723,7 +2731,7 @@
     <string name="call_transfer_unknown_person">अज्ञात व्यक्ति</string>
     <string name="re_authentication_activity_title">पुन: प्रमाणीकरण की आवश्यकता है</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_re_authentication_default_confirm_text">$ {APP_NAME} आपको इस क्रिया को करने के लिए अपने क्रेडेंशियल्स दर्ज करने की आवश्यकता है।</string>
+    <string name="template_re_authentication_default_confirm_text">${app_name} आपको इस क्रिया को करने के लिए अपने क्रेडेंशियल्स दर्ज करने की आवश्यकता है।</string>
     <string name="authentication_error">प्रमाणित करने में विफल</string>
     <string name="a11y_screenshot">स्क्रीनशॉट</string>
     <string name="a11y_open_widget">खुला विजेट</string>
@@ -2800,7 +2808,7 @@
     <string name="create_spaces_details_public_header">इसे बाहर करने में मदद करने के लिए कुछ विवरण जोड़ें।आप इन्हें किसी भी बिंदु पर बदल सकते हैं।</string>
     <string name="create_spaces_details_private_header">लोगों को इसकी पहचान करने में मदद करने के लिए कुछ विवरण जोड़ें।आप इन्हें किसी भी बिंदु पर बदल सकते हैं।</string>
     <string name="create_space_error_empty_field_space_name">इसे जारी रखने के लिए एक नाम दें।</string>
-    <string name="create_spaces_room_public_header"> %s में कुछ चर्चाएं क्या हैं?</string>
+    <string name="create_spaces_room_public_header">%s में कुछ चर्चाएं क्या हैं?</string>
     <string name="create_spaces_room_public_header_desc">हम उनके लिए ग्रुप बनाएंगे।आप भी बाद में जोड़ सकते हैं।</string>
     <string name="create_spaces_room_private_header">आप किस चीज पर काम कर रहे हैं?</string>
     <string name="create_spaces_room_private_header_desc">आइए उनमें से प्रत्येक के लिए एक ग्रुप बनाएं।आप पहले से मौजूद लोगों सहित भी बाद में जोड़ सकते हैं।</string>
@@ -2810,12 +2818,12 @@
     <string name="create_space_topic_hint">विवरण</string>
     <string name="invite_people_to_your_space">लोगों को अपने समुदाय पर आमंत्रित करें</string>
     <string name="invite_people_menu">लोगों को आमंत्रित करो</string>
-    <string name="invite_to_space"> %s के लिए आमंत्रित करें</string>
+    <string name="invite_to_space">%s के लिए आमंत्रित करें</string>
     <string name="invite_people_to_your_space_desc">यह सिर्फ इस समय है। %s दूसरों के साथ भी बेहतर होगा।</string>
     <string name="invite_by_email">ईमेल द्वारा आमंत्रित करें</string>
     <string name="invite_by_mxid">उपयोगकर्ता नाम द्वारा आमंत्रित करें</string>
     <string name="invite_by_link">लिंक शेयर करें</string>
-    <string name="invite_to_space_with_name"> %s के लिए आमंत्रित करें</string>
+    <string name="invite_to_space_with_name">%s के लिए आमंत्रित करें</string>
     <string name="invite_to_space_with_name_desc">"वे %s का पता लगाने में सक्षम होंगे"</string>
     <string name="invite_just_to_this_room">बस इस ग्रुप के लिए</string>
     <string name="invite_just_to_this_room_desc">"वे %s का हिस्सा नहीं होंगे"</string>
@@ -2846,8 +2854,8 @@
     <string name="you_are_invited">आप आमंत्रित है</string>
     <string name="labs_use_restricted_join_rule">प्रायोगिक अंतरिक्ष - प्रतिबंधित ग्रुप।</string>
     <string name="labs_use_restricted_join_rule_desc">चेतावनी के लिए सर्वर समर्थन और प्रयोगात्मक कक्ष वर्शन की आवश्यकता होती है</string>
-    <string name="user_invites_you"> %s आपको आमंत्रित करता है</string>
-    <string name="looking_for_someone_not_in_space"> %s में नहीं की तलाश में?</string>
+    <string name="user_invites_you">%s आपको आमंत्रित करता है</string>
+    <string name="looking_for_someone_not_in_space">%s में नहीं की तलाश में?</string>
     <string name="space_settings_manage_rooms">ग्रुप प्रबंधित करें</string>
     <string name="make_this_space_public">इस समुदाय को सार्वजनिक करें</string>
     <string name="space_suggested">सुझाव दिया</string>
@@ -2873,28 +2881,53 @@
     <string name="upgrade_public_room_from_to">आप इस ग्रुप को %s से %s से अपग्रेड करेंगे।</string>
     <string name="upgrade_room_auto_invite">स्वचालित रूप से उपयोगकर्ताओं को आमंत्रित करें</string>
     <string name="upgrade_room_update_parent_space">अंतरिक्ष माता पिता को स्वचालित रूप से अपडेट करें</string>
-    <string name="upgrade_room_no_power_to_manage">आपको एक ग्रुप को अपग्रेड करने की अनुमति की आवश्यकता है</string>
-    <string name="room_using_unstable_room_version">यह ग्रुप वर्शन %s चला रहा है, जो इस होमसर्वर को अस्थिर के रूप में चिह्नित किया गया है।</string>
-    <string name="room_upgrade_to_recommended_version">अनुशंसित कक्ष वर्शन में अपग्रेड करें</string>
-    <string name="error_failed_to_join_room">क्षमा करें, शामिल होने की कोशिश करते समय एक त्रुटि हुई: %s</string>
-    <string name="a11y_start_voice_message">Start Voice Message</string>
-    <string name="voice_message_slide_to_cancel">Slide to cancel</string>
-    <string name="a11y_lock_voice_message">Voice Message Lock</string>
-    <string name="a11y_play_voice_message">Play Voice Message</string>
-    <string name="a11y_pause_voice_message">Pause Voice Message</string>
-    <string name="a11y_recording_voice_message">Recording voice message</string>
-    <string name="a11y_delete_recorded_voice_message">Delete recorded voice message</string>
-    <string name="voice_message_release_to_send_toast">Hold to record, release to send</string>
-    <string name="voice_message_n_seconds_warning_toast">%1$ds left</string>
-    <string name="voice_message_tap_to_stop_toast">Tap on your recording to stop or listen</string>
-    <string name="labs_use_voice_message">Enable voice message</string>
-    <string name="error_voice_message_unable_to_play">Cannot play this voice message</string>
-    <string name="error_voice_message_unable_to_record">Cannot record a voice message</string>
-    <string name="error_voice_message_cannot_reply_or_edit">Cannot reply or edit while voice message is active</string>
-    <string name="voice_message_reply_content">Voice Message (%1$s)</string>
-
-    <string name="upgrade_room_for_restricted">Anyone in %s will be able to find and join this room - no need to manually invite everyone. You’ll be able to change this in room settings anytime.</string>
-    <string name="upgrade_room_for_restricted_no_param">Anyone in a parent space will be able to find and join this room - no need to manually invite everyone. You’ll be able to change this in room settings anytime.</string>
-
-    <string name="upgrade_room_for_restricted_note">Please note upgrading will make a new version of the room. All current messages will stay in this archived room.</string>
+    <string name="upgrade_room_no_power_to_manage">आपको एक Grup को अपग्रेड करना की अनुपकारी की आवश्यकता है</string>
+    <string name="room_using_unstable_room_version">यह ग्राप वर्शन%s च्लावा है, जो इस होमसर्वर को ओथिर के रूप में चायनित किया है।</string>
+    <string name="room_upgrade_to_recommended_version">अनुशंसित काटने में अपग्रेड करें</string>
+    <string name="error_failed_to_join_room">क्षमा करें, शामिल होना की कोशीश करते समय एक तुति हुई:%s</string>
+    <string name="a11y_start_voice_message">आवाज संदेश शुरू करें</string>
+    <string name="voice_message_slide_to_cancel">रद्द करने के लिए स्लाइड</string>
+    <string name="a11y_lock_voice_message">आवाज संदेश लॉक</string>
+    <string name="a11y_play_voice_message">आवाज संदेश चलाएं</string>
+    <string name="a11y_pause_voice_message">वॉयस संदेश रोकें</string>
+    <string name="a11y_recording_voice_message">रिकॉर्डिंग वॉयस संदेश</string>
+    <string name="a11y_delete_recorded_voice_message">रिकॉर्ड किए गए वॉयस संदेश हटाएं</string>
+    <string name="voice_message_release_to_send_toast">रिकॉर्ड करने के लिए, भेजने के लिए रिलीज</string>
+    <string name="voice_message_n_seconds_warning_toast">%1$ds छोड़ दिया</string>
+    <string name="voice_message_tap_to_stop_toast">रोकने या सुनने के लिए अपनी रिकॉर्डिंग पर टैप करें</string>
+    <string name="labs_use_voice_message">आवाज संदेश सक्षम करें</string>
+    <string name="error_voice_message_unable_to_play">इस आवाज संदेश को नहीं चला सकते</string>
+    <string name="error_voice_message_unable_to_record">एक आवाज संदेश रिकॉर्ड नहीं कर सकता</string>
+    <string name="error_voice_message_cannot_reply_or_edit">वॉयस मैसेज सक्रिय होने के दौरान उत्तर या संपादित नहीं कर सकते</string>
+    <string name="voice_message_reply_content">आवाज संदेश (%1$s)</string>
+    <string name="upgrade_room_for_restricted">%s में कोई भी इस कमरे को खोजने और उससे जुड़ने में सक्षम होगा - सभी को मैन्युअल रूप से आमंत्रित करने की आवश्यकता नहीं है।आप इसे किसी भी समय कमरे की सेटिंग्स में बदलने में सक्षम होंगे।</string>
+    <string name="upgrade_room_for_restricted_no_param">माता-पिता की जगह में कोई भी इस कमरे को खोजने और उससे जुड़ने में सक्षम होगा - सभी को मैन्युअल रूप से आमंत्रित करने की आवश्यकता नहीं है।आप इसे किसी भी समय कमरे की सेटिंग्स में बदलने में सक्षम होंगे।</string>
+    <string name="upgrade_room_for_restricted_note">कृपया ध्यान दें कि उन्नयन कक्ष का एक नया संस्करण बना देगा।सभी मौजूदा संदेश इस संग्रहीत कमरे में रहेगा।</string>
+    <string name="denied_permission_voice_message">आवाज संदेश भेजने के लिए, कृपया माइक्रोफ़ोन अनुमति दें।</string>
+    <string name="settings_notification_default">चूक अधिसूचनाएं</string>
+    <string name="settings_notification_mentions_and_keywords">उल्लेख और कीवर्ड</string>
+    <string name="settings_notification_other">अन्य</string>
+    <string name="settings_notification_notify_me_for">मेरे लिए सूचित करें</string>
+    <string name="settings_messages_containing_display_name">मेरे प्रदर्शन नाम वाले संदेश</string>
+    <string name="settings_messages_containing_username">मेरे उपयोगकर्ता नाम वाले संदेश</string>
+    <string name="settings_messages_direct_messages">सीधे संदेश</string>
+    <string name="settings_encrypted_direct_messages">एन्क्रिप्टेड प्रत्यक्ष संदेश</string>
+    <string name="settings_group_messages">समूह संदेश</string>
+    <string name="settings_encrypted_group_messages">एन्क्रिप्टेड समूह संदेश</string>
+    <string name="settings_room_invitations">कक्ष निमंत्रण</string>
+    <string name="settings_messages_by_bot">बॉट द्वारा संदेश</string>
+    <string name="settings_room_upgrades">कक्ष उन्नयन</string>
+    <string name="room_settings_room_access_private_invite_only_title">निजी (केवल आमंत्रित करें)</string>
+    <string name="room_create_member_of_space_name_can_join">अंतरिक्ष%s के सदस्य पा सकते हैं, पूर्वावलोकन और शामिल हो सकते हैं।</string>
+    <string name="allow_space_member_to_find_and_access">अंतरिक्ष सदस्यों को खोजने और पहुंचने की अनुमति दें।</string>
+    <string name="spaces_which_can_access">रिक्त स्थान जो एक्सेस कर सकते हैं</string>
+    <string name="decide_which_spaces_can_access">तय करें कि कौन से रिक्त स्थान इस कमरे तक पहुंच सकते हैं।यदि किसी स्थान का चयन किया जाता है तो इसके सदस्य कमरे के नाम को खोजने और जुड़ने में सक्षम होंगे।</string>
+    <string name="select_spaces">रिक्त स्थान का चयन करें</string>
+    <string name="tap_to_edit_spaces">रिक्त स्थान संपादित करने के लिए टैप करें</string>
+    <string name="decide_who_can_find_and_join">तय करें कि इस कमरे में कौन पा सकता है और इसमें शामिल हो सकता है।</string>
+    <string name="space_you_know_that_contains_this_room">अंतरिक्ष आप जानते हैं कि इस कमरे में</string>
+    <string name="other_spaces_or_rooms_you_might_not_know">अन्य रिक्त स्थान या कमरे जिन्हें आप नहीं जानते हैं</string>
+    <string name="sent_a_voice_message">आवाज़</string>
+    <string name="upgrade_required">अपग्रेड आवश्यक</string>
+    <string name="allow_anyone_in_room_to_access">किसी को भी%s खोजने और पहुंचने की अनुमति दें।आप अन्य रिक्त स्थान भी चुन सकते हैं।</string>
 </resources>
