@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "912726360885",
-    "firebase_url": "https://vector-alpha.firebaseio.com",
-    "project_id": "vector-alpha",
-    "storage_bucket": "vector-alpha.appspot.com"
+    "project_number": "268816215370",
+    "firebase_url": "https://seed-savers-club-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "seed-savers-club",
+    "storage_bucket": "seed-savers-club.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:912726360885:android:4ef8f3a0021e774d",
+        "mobilesdk_app_id": "1:268816215370:android:95ccf0468453a1854aa5b3",
         "android_client_info": {
-          "package_name": "im.vector.app"
+          "package_name": "com.ssc.seedsavers"
         }
       },
       "oauth_client": [
         {
-          "client_id": "912726360885-e87n3jva9uoj4vbidvijq78ebg02asv2.apps.googleusercontent.com",
+          "client_id": "268816215370-5tlccu5beghnp9gmskkiimucigoefmjd.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAFZX8IhIfgzdOZvxDP_ISO5WYoU7jmQ5c"
+          "current_key": "AIzaSyAy40eUzKLm0bttgu3ChTY0AD0iC7reZ4A"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "912726360885-rsae0i66rgqt6ivnudu1pv4tksg9i8b2.apps.googleusercontent.com",
+              "client_id": "268816215370-5tlccu5beghnp9gmskkiimucigoefmjd.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
