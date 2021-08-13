@@ -46,7 +46,7 @@ class KeysBackupBanner @JvmOverloads constructor(
     init {
         setupView()
         DefaultSharedPreferences.getInstance(context).edit {
-            putBoolean(BANNER_SETUP_DO_NOT_SHOW_AGAIN, false)
+            putBoolean(BANNER_SETUP_DO_NOT_SHOW_AGAIN, true)
             putString(BANNER_RECOVER_DO_NOT_SHOW_FOR_VERSION, "")
         }
     }
@@ -138,16 +138,16 @@ class KeysBackupBanner @JvmOverloads constructor(
 
     private fun renderSetup(nbOfKeys: Int) {
         if (nbOfKeys == 0
-                || DefaultSharedPreferences.getInstance(context).getBoolean(BANNER_SETUP_DO_NOT_SHOW_AGAIN, false)) {
+                || DefaultSharedPreferences.getInstance(context).getBoolean(BANNER_SETUP_DO_NOT_SHOW_AGAIN, true)) {
             // Do not display the setup banner if there is no keys to backup, or if the user has already closed it
             isVisible = false
         } else {
-            isVisible = true
+            isVisible = false
 
             views.viewKeysBackupBannerText1.setText(R.string.secure_backup_banner_setup_line1)
-            views.viewKeysBackupBannerText2.isVisible = true
+            views.viewKeysBackupBannerText2.isVisible = false
             views.viewKeysBackupBannerText2.setText(R.string.secure_backup_banner_setup_line2)
-            views.viewKeysBackupBannerCloseGroup.isVisible = true
+            views.viewKeysBackupBannerCloseGroup.isVisible = false
         }
     }
 
