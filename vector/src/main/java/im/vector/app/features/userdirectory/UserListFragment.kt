@@ -199,7 +199,7 @@ class UserListFragment @Inject constructor(
     }
 
     override fun onContactBookClick() {
-        sharedActionViewModel.post(UserListSharedAction.OpenPhoneBook)
+        //sharedActionViewModel.post(UserListSharedAction.OpenPhoneBook)
     }
 
     override fun onItemClick(user: User) {
@@ -219,6 +219,6 @@ class UserListFragment @Inject constructor(
 
     override fun onUseQRCode() {
         view?.hideKeyboard()
-        sharedActionViewModel.post(UserListSharedAction.AddByQrCode)
+        //sharedActionViewModel.post(UserListSharedAction.AddByQrCode)
     }
 }

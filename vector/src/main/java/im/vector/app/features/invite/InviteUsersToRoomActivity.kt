@@ -86,7 +86,7 @@ class InviteUsersToRoomActivity : SimpleFragmentActivity(), UserListViewModel.Fa
                         UserListSharedAction.Close                 -> finish()
                         UserListSharedAction.GoBack                -> onBackPressed()
                         is UserListSharedAction.OnMenuItemSelected -> onMenuItemSelected(sharedAction)
-                        UserListSharedAction.OpenPhoneBook         -> openPhoneBook()
+                        //UserListSharedAction.OpenPhoneBook         -> openPhoneBook()
                         // not exhaustive because it's a sharedAction
                         else                                       -> {
                         }

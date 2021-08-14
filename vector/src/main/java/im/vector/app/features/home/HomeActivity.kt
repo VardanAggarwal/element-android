@@ -231,11 +231,11 @@ class HomeActivity :
 
         homeActivityViewModel.observeViewEvents {
             when (it) {
-                is HomeActivityViewEvents.AskPasswordToInitCrossSigning -> handleAskPasswordToInitCrossSigning(it)
-                is HomeActivityViewEvents.OnNewSession -> handleOnNewSession(it)
+                //is HomeActivityViewEvents.AskPasswordToInitCrossSigning -> handleAskPasswordToInitCrossSigning(it)
+                //is HomeActivityViewEvents.OnNewSession -> handleOnNewSession(it)
                 HomeActivityViewEvents.PromptToEnableSessionPush -> handlePromptToEnablePush()
-                is HomeActivityViewEvents.OnCrossSignedInvalidated -> handleCrossSigningInvalidated(it)
-            }.exhaustive
+                //is HomeActivityViewEvents.OnCrossSignedInvalidated -> handleCrossSigningInvalidated(it)
+            }//.exhaustive
         }
         homeActivityViewModel.subscribe(this) { renderState(it) }
 

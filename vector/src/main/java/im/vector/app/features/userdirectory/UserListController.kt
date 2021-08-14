@@ -74,7 +74,7 @@ class UserListController @Inject constructor(private val session: Session,
                     }
                 }
             }
-            if (currentState.showInviteActions()) {
+            /*if (currentState.showInviteActions()) {
                 actionItem {
                     id(R.drawable.ic_qr_code_add)
                     title(host.stringProvider.getString(R.string.qr_code))
@@ -83,7 +83,7 @@ class UserListController @Inject constructor(private val session: Session,
                         host.callback?.onUseQRCode()
                     }
                 }
-            }
+            }*/
         }
 
         when (currentState.knownUsers) {

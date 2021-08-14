@@ -37,9 +37,9 @@ object VectorLocale {
     private const val APPLICATION_LOCALE_LANGUAGE_KEY = "APPLICATION_LOCALE_LANGUAGE_KEY"
     private const val APPLICATION_LOCALE_SCRIPT_KEY = "APPLICATION_LOCALE_SCRIPT_KEY"
 
-    private val defaultLocale = Locale("en", "US")
+    private val defaultLocale = Locale("hi", "IN")
 
-    private const val ISO_15924_LATN = "Latn"
+    private const val ISO_15924_DEVA = "Deva"
 
     /**
      * The cache of supported application languages
@@ -197,7 +197,7 @@ object VectorLocale {
         return buildString {
             append(locale.getDisplayLanguage(locale))
 
-            if (locale.script != ISO_15924_LATN && locale.getDisplayScript(locale).isNotEmpty()) {
+            if (locale.script != ISO_15924_DEVA && locale.getDisplayScript(locale).isNotEmpty()) {
                 append(" - ")
                 append(locale.getDisplayScript(locale))
             }
@@ -220,7 +220,7 @@ object VectorLocale {
         return buildString {
             append("[")
             append(locale.displayLanguage)
-            if (locale.script != ISO_15924_LATN) {
+            if (locale.script != ISO_15924_DEVA) {
                 append(" - ")
                 append(locale.displayScript)
             }

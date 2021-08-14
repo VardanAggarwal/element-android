@@ -38,12 +38,12 @@ class SharedPreferencesUiStateRepository @Inject constructor(
 
     override fun getDisplayMode(): RoomListDisplayMode {
         return when (sharedPreferences.getInt(KEY_DISPLAY_MODE, VALUE_DISPLAY_MODE_CATCHUP)) {
-            VALUE_DISPLAY_MODE_PEOPLE -> RoomListDisplayMode.PEOPLE
             VALUE_DISPLAY_MODE_ROOMS  -> RoomListDisplayMode.ROOMS
+            VALUE_DISPLAY_MODE_PEOPLE -> RoomListDisplayMode.PEOPLE
             else                      -> if (vectorPreferences.labAddNotificationTab()) {
                 RoomListDisplayMode.NOTIFICATIONS
             } else {
-                RoomListDisplayMode.PEOPLE
+                RoomListDisplayMode.ROOMS
             }
         }
     }
@@ -52,8 +52,8 @@ class SharedPreferencesUiStateRepository @Inject constructor(
         sharedPreferences.edit {
             putInt(KEY_DISPLAY_MODE,
                     when (displayMode) {
-                        RoomListDisplayMode.PEOPLE -> VALUE_DISPLAY_MODE_PEOPLE
                         RoomListDisplayMode.ROOMS  -> VALUE_DISPLAY_MODE_ROOMS
+                        RoomListDisplayMode.PEOPLE -> VALUE_DISPLAY_MODE_PEOPLE
                         else                       -> VALUE_DISPLAY_MODE_CATCHUP
                     })
         }
@@ -104,8 +104,8 @@ class SharedPreferencesUiStateRepository @Inject constructor(
     companion object {
         private const val KEY_DISPLAY_MODE = "UI_STATE_DISPLAY_MODE"
         private const val VALUE_DISPLAY_MODE_CATCHUP = 0
-        private const val VALUE_DISPLAY_MODE_PEOPLE = 1
-        private const val VALUE_DISPLAY_MODE_ROOMS = 2
+        private const val VALUE_DISPLAY_MODE_PEOPLE = 2
+        private const val VALUE_DISPLAY_MODE_ROOMS = 1
 
         private const val KEY_SELECTED_SPACE = "UI_STATE_SELECTED_SPACE"
         private const val KEY_SELECTED_GROUP = "UI_STATE_SELECTED_GROUP"

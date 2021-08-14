@@ -329,8 +329,8 @@ class HomeDetailFragment @Inject constructor(
         views.bottomNavigationView.menu.findItem(R.id.bottom_action_notification).isVisible = vectorPreferences.labAddNotificationTab()
         views.bottomNavigationView.setOnItemSelectedListener {
             val tab = when (it.itemId) {
-                R.id.bottom_action_people       -> HomeTab.RoomList(RoomListDisplayMode.PEOPLE)
                 R.id.bottom_action_rooms        -> HomeTab.RoomList(RoomListDisplayMode.ROOMS)
+                R.id.bottom_action_people       -> HomeTab.RoomList(RoomListDisplayMode.PEOPLE)
                 R.id.bottom_action_notification -> HomeTab.RoomList(RoomListDisplayMode.NOTIFICATIONS)
                 else                            -> HomeTab.DialPad
             }
@@ -404,7 +404,7 @@ class HomeDetailFragment @Inject constructor(
             // As we hide it check if it's not the current item!
             withState(viewModel) {
                 if (it.currentTab.toMenuId() == tabId) {
-                    viewModel.handle(HomeDetailAction.SwitchTab(HomeTab.RoomList(RoomListDisplayMode.PEOPLE)))
+                    viewModel.handle(HomeDetailAction.SwitchTab(HomeTab.RoomList(RoomListDisplayMode.ROOMS)))
                 }
             }
         }
@@ -447,8 +447,8 @@ class HomeDetailFragment @Inject constructor(
     private fun HomeTab.toMenuId() = when (this) {
         is HomeTab.DialPad  -> R.id.bottom_action_dial_pad
         is HomeTab.RoomList -> when (displayMode) {
-            RoomListDisplayMode.PEOPLE -> R.id.bottom_action_people
             RoomListDisplayMode.ROOMS  -> R.id.bottom_action_rooms
+            RoomListDisplayMode.PEOPLE -> R.id.bottom_action_people
             else                       -> R.id.bottom_action_notification
         }
     }

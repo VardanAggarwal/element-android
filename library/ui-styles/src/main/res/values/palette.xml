@@ -12,7 +12,7 @@
     <color name="palette_polly">#E64F7A</color>
     <color name="palette_melon">#FF812D</color>
 
-    <color name="palette_element_green">#0DBD8B</color>
+    <color name="palette_element_green">#59C726</color>
     <color name="palette_white">#FFFFFF</color>
     <color name="palette_vermilion">#FF5B55</color>
     <color name="palette_ems">#7E69FF</color>
@@ -23,7 +23,7 @@
 
     <!-- For light themes -->
     <color name="palette_gray_25">#F4F6FA</color>
-    <color name="palette_gray_50">#E6E8F0</color>
+    <color name="palette_gray_50">#E3E8F0</color>
     <color name="palette_gray_100">#C1C6CD</color>
     <color name="palette_gray_150">#8D97A5</color>
     <color name="palette_gray_200">#737D8C</color>

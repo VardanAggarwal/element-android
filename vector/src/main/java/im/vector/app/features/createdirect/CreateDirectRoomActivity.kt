@@ -87,8 +87,8 @@ class CreateDirectRoomActivity : SimpleFragmentActivity(), UserListViewModel.Fac
                         UserListSharedAction.Close                 -> finish()
                         UserListSharedAction.GoBack                -> onBackPressed()
                         is UserListSharedAction.OnMenuItemSelected -> onMenuItemSelected(action)
-                        UserListSharedAction.OpenPhoneBook         -> openPhoneBook()
-                        UserListSharedAction.AddByQrCode           -> openAddByQrCode()
+                        //UserListSharedAction.OpenPhoneBook         -> openPhoneBook()
+                        //UserListSharedAction.AddByQrCode           -> openAddByQrCode()
                     }.exhaustive
                 }
                 .disposeOnDestroy()
