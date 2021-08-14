@@ -52,8 +52,8 @@ class LoginSignUpSignInSelectionFragment @Inject constructor() : AbstractSSOLogi
         when (state.serverType) {
             ServerType.MatrixOrg -> {
                 views.loginSignupSigninServerIcon.setImageResource(R.drawable.ic_logo_matrix_org)
-                views.loginSignupSigninServerIcon.isVisible = true
-                views.loginSignupSigninTitle.text = getString(R.string.login_connect_to, state.homeServerUrlFromUser.toReducedUrl())
+                views.loginSignupSigninServerIcon.isVisible = false
+                views.loginSignupSigninTitle.text = getString(R.string.app_name)
                 views.loginSignupSigninText.text = getString(R.string.login_server_matrix_org_text)
             }
             ServerType.EMS       -> {
@@ -102,7 +102,7 @@ class LoginSignUpSignInSelectionFragment @Inject constructor() : AbstractSSOLogi
             }
             else             -> {
                 views.loginSignupSigninSubmit.text = getString(R.string.login_signup)
-                views.loginSignupSigninSignIn.isVisible = true
+                views.loginSignupSigninSignIn.isVisible = false
             }
         }
     }

@@ -1236,7 +1236,7 @@
     <!-- room settings : alias -->
     <string name="room_settings_alias_title">ग्रुप पते</string>
     <string name="room_settings_alias_subtitle">इस ग्रुप के देखें और प्रबंधित पते और ग्रुप की निर्देशिका में इसकी दृश्यता।</string>
-    <string name="space_settings_alias_title">अंतरिक्ष पते</string>
+    <string name="space_settings_alias_title">समुदाय पते</string>
     <string name="space_settings_alias_subtitle">इस समुदाय के देखें और प्रबंधित पते।</string>
     <string name="room_alias_title">ग्रुप पते</string>
     <string name="room_alias_published_alias_title">प्रकाशित पते</string>
@@ -1794,7 +1794,7 @@
     <string name="room_list_catchup_empty_body">आपके पास अधिक अपठित संदेश नहीं हैं</string>
     <string name="room_list_catchup_welcome_title">सुस्वागतम्!</string>
     <string name="room_list_catchup_welcome_body">यहाँ अपठित संदेशों पर पकड़</string>
-    <string name="room_list_people_empty_title">बात चिट</string>
+    <string name="room_list_people_empty_title">बातचीत</string>
     <string name="room_list_people_empty_body">आपकी सीधी संदेश वार्तालाप यहां प्रदर्शित की जाएगी।कुछ शुरू करने के लिए + नीचे दाएं टैप करें।</string>
     <string name="room_list_rooms_empty_title">ग्रुप</string>
     <string name="room_list_rooms_empty_body">आपके ग्रुप यहां प्रदर्शित किए जाएंगे।मौजूदा लोगों को खोजने या अपने कुछ शुरू करने के लिए + नीचे दाएं टैप करें।</string>
@@ -1866,9 +1866,9 @@
     <string name="send_suggestion_report_placeholder">यहां अपने सुझाव का वर्णन करें</string>
     <string name="send_suggestion_sent">धन्यवाद, सुझाव सफलतापूर्वक भेजा गया है</string>
     <string name="send_suggestion_failed">सुझाव भेजे जाने में विफल ( %s)</string>
-    <string name="send_feedback_space_title">रिक्त समुदाय</string>
+    <string name="send_feedback_space_title">समुदाय</string>
     <string name="feedback">प्रतिपुष्टि</string>
-    <string name="send_feedback_space_info">आप रिक्त समुदाय के बीटा वर्शन का उपयोग कर रहे हैं।आपकी प्रतिक्रिया अगले वर्शनों को सूचित करने में मदद करेगी।आपका मंच और उपयोगकर्ता नाम हमें आपकी प्रतिक्रिया का उपयोग करने में मदद करने के लिए नोट किया जाएगा जितना हम कर सकते हैं।</string>
+    <string name="send_feedback_space_info">आप समुदाय के बीटा वर्शन का उपयोग कर रहे हैं।आपकी प्रतिक्रिया अगले वर्शनों को सूचित करने में मदद करेगी।आपका मंच और उपयोगकर्ता नाम हमें आपकी प्रतिक्रिया का उपयोग करने में मदद करने के लिए नोट किया जाएगा जितना हम कर सकते हैं।</string>
     <string name="you_may_contact_me">यदि आपके पास कोई फॉलो अप प्रश्न हैं तो आप मुझसे संपर्क कर सकते हैं</string>
     <string name="feedback_sent">धन्यवाद, आपकी प्रतिक्रिया को सफलतापूर्वक भेज दिया गया है</string>
     <string name="feedback_failed">प्रतिक्रिया भेजी जाने वाली विफल ( %s)</string>
@@ -2038,14 +2038,14 @@
     <string name="direct_room_join_rules_invite">%1$s ने केवल इस आमंत्रण को बनाया।</string>
     <string name="direct_room_join_rules_invite_by_you">आपने केवल इस आमंत्रण को बनाया है।</string>
     <string name="timeline_unread_messages">अपठित संदेश</string>
-    <string name="login_splash_title">कार्बनिक किसानों का एक समुदाय।</string>
-    <string name="login_splash_text1">कार्बनिक किसानों के 1000s से जुड़ें</string>
-    <string name="login_splash_text2">कार्बनिक खेती सर्वोत्तम प्रथाओं को जानें</string>
-    <string name="login_splash_text3">साप्ताहिक लाइव घटनाओं में नई चीजें सीखें</string>
+    <string name="login_splash_title">जैविक किसानों का समुदाय</string>
+    <string name="login_splash_text1">जैविक किसानों से करें सीधी बातचीत समुदाय में</string>
+    <string name="login_splash_text2">पाएं सभी समस्याओं का जैविक समाधान</string>
+    <string name="login_splash_text3">सीखें जैविक खेती की उन्नत तकनीक</string>
     <string name="login_splash_submit">समुदाय में शामिल हों</string>
     <string name="login_server_title">एक सर्वर का चयन करें</string>
     <string name="login_server_text">ईमेल की तरह, खातों में एक घर होता है, हालांकि आप किसी से बात कर सकते हैं</string>
-    <string name="login_server_matrix_org_text">सबसे बड़े सार्वजनिक सर्वर पर लाखों लोगों से जुड़ें</string>
+    <string name="login_server_matrix_org_text">भारत का पहला जैविक किसानों का अपना एप्प</string>
     <string name="login_server_modular_text">संगठनों के लिए प्रीमियम होस्टिंग</string>
     <string name="login_server_modular_learn_more">और अधिक जानें</string>
     <string name="login_server_other_title">अन्य</string>
@@ -2058,13 +2058,13 @@
     <string name="login_continue">जारी रखें</string>
     <!-- Replaced string is the homeserver url -->
     <string name="login_connect_to">%1$s से कनेक्ट करें</string>
-    <string name="login_connect_to_modular">तत्व सीड सेवर्स सेवाओं से कनेक्ट करें</string>
+    <string name="login_connect_to_modular">सीड सेवर्स सेवाओं से कनेक्ट करें</string>
     <string name="login_connect_to_a_custom_server">एक कस्टम सर्वर से कनेक्ट करें</string>
     <!-- Replaced string is the homeserver url -->
-    <string name="login_signin_to">साइन इन%1$s</string>
+    <string name="login_signin_to">साइन इन %1$s</string>
     <string name="login_signup">साइन अप करें</string>
     <string name="login_signin">दाखिल करना</string>
-    <string name="login_signin_sso">एसएसओ के साथ जारी रखें</string>
+    <string name="login_signin_sso">साइन इन करें</string>
     <string name="login_clear_homeserver_history">इतिहास मिटा दें</string>
     <string name="login_server_url_form_modular_hint">तत्व सीड सेवर्स सेवा का पता</string>
     <string name="login_server_url_form_other_hint">पता</string>
@@ -2194,7 +2194,7 @@
     <string name="create_room_disable_federation_title">किसी को भी इस ग्रुप में शामिल होने से %s का हिस्सा नहीं ब्लॉक करें</string>
     <string name="create_room_disable_federation_description">यदि ग्रुप केवल आपके होमसर्वर पर आंतरिक टीमों के साथ सहयोग करने के लिए उपयोग किया जा सकता है तो आप इसे सक्षम कर सकते हैं।यह बाद में बदला नहीं जा सकता।</string>
     <string name="create_room_alias_hint">कक्ष का पता</string>
-    <string name="create_space_alias_hint">अंतरिक्ष का पता</string>
+    <string name="create_space_alias_hint">समुदाय का पता</string>
     <string name="create_room_alias_already_in_use">यह पता पहले से ही उपयोग में है</string>
     <string name="create_room_alias_empty">कृपया एक ग्रुप का पता प्रदान करें</string>
     <string name="create_room_alias_invalid">कुछ पात्रों की अनुमति नहीं है</string>
@@ -2472,7 +2472,7 @@
     <string name="settings_troubleshoot_title">समस्याओं का निवारण</string>
     <string name="settings_notification_advanced_summary">घटना द्वारा सूचना महत्व निर्धारित करें</string>
     <string name="command_description_plain">मार्कडाउन के रूप में इसकी व्याख्या किए बिना, सादे पाठ के रूप में एक संदेश भेजता है</string>
-    <string name="auth_invalid_login_param_space_in_password">गलत उपयोगकर्ता नाम और / या पासवर्ड।दर्ज पासवर्ड रिक्त समुदाय के साथ शुरू होता है या समाप्त होता है, कृपया इसे जांचें।</string>
+    <string name="auth_invalid_login_param_space_in_password">गलत उपयोगकर्ता नाम और / या पासवर्ड।दर्ज पासवर्ड समुदाय के साथ शुरू होता है या समाप्त होता है, कृपया इसे जांचें।</string>
     <string name="auth_invalid_login_deactivated_account">इस खाते को निष्क्रिय कर दिया गया है।</string>
     <string name="room_message_placeholder">संदेश…</string>
     <string name="upgrade_security">एन्क्रिप्शन अपग्रेड उपलब्ध है</string>
@@ -2774,7 +2774,7 @@
     <string name="dev_tools_success_state_event">स्थिति कार्यक्रम भेजा!</string>
     <string name="dev_tools_event_content_hint">घटना सामग्री</string>
     <string name="command_description_create_space">एक समुदाय बनाएँ</string>
-    <string name="command_description_join_space">दी गई आईडी के साथ अंतरिक्ष में शामिल हों</string>
+    <string name="command_description_join_space">दी गई आईडी के साथ समुदाय में शामिल हों</string>
     <string name="command_description_leave_room">दी गई आईडी (या वर्तमान कक्ष अगर शून्य) के साथ छुट्टी</string>
     <string name="command_description_upgrade_room">एक नए वर्शन में एक ग्रुप को अपग्रेड करता है</string>
     <string name="event_status_a11y_sending">भेजना</string>
@@ -2790,7 +2790,7 @@
     <string name="add_space">समुदाय जोड़ें</string>
     <string name="your_public_space">आपका सार्वजनिक समुदाय</string>
     <string name="your_private_space">आपकी निजी समुदाय</string>
-    <string name="create_spaces_type_header">रिक्त समुदाय ग्रुप और लोगों को ग्रुपित करने का एक नया तरीका है</string>
+    <string name="create_spaces_type_header">समुदाय ग्रुप और लोगों को ग्रुपित करने का एक नया तरीका है</string>
     <string name="create_spaces_choose_type_label">आप किस प्रकार की समुदाय बनाना चाहते हैं?</string>
     <string name="create_spaces_you_can_change_later">आप इसे बाद में बदल सकते हैं</string>
     <string name="create_spaces_join_info_help">मौजूदा समुदाय में शामिल होने के लिए, आपको एक आमंत्रण की आवश्यकता है।</string>
@@ -2814,7 +2814,7 @@
     <string name="create_spaces_room_private_header_desc">आइए उनमें से प्रत्येक के लिए एक ग्रुप बनाएं।आप पहले से मौजूद लोगों सहित भी बाद में जोड़ सकते हैं।</string>
     <string name="create_spaces_default_public_room_name">आम</string>
     <string name="create_spaces_default_public_random_room_name">यादृच्छिक रूप से</string>
-    <string name="create_spaces_loading_message">अंतरिक्ष बनाना …</string>
+    <string name="create_spaces_loading_message">समुदाय बनाना …</string>
     <string name="create_space_topic_hint">विवरण</string>
     <string name="invite_people_to_your_space">लोगों को अपने समुदाय पर आमंत्रित करें</string>
     <string name="invite_people_menu">लोगों को आमंत्रित करो</string>
@@ -2828,10 +2828,10 @@
     <string name="invite_just_to_this_room">बस इस ग्रुप के लिए</string>
     <string name="invite_just_to_this_room_desc">"वे %s का हिस्सा नहीं होंगे"</string>
     <!-- First one is the space name, and the second one is the matrix.to link -->
-    <string name="share_space_link_message">मेरे अंतरिक्ष%1$s %2$s में शामिल हों</string>
+    <string name="share_space_link_message">मेरे समुदाय%1$s %2$s में शामिल हों</string>
     <string name="skip_for_now">अभी रहने दो</string>
     <string name="create_space">समुदाय बनाएँ</string>
-    <string name="join_space">अंतरिक्ष में शामिल हों</string>
+    <string name="join_space">समुदाय में शामिल हों</string>
     <string name="join_anyway">वैसे भी शामिल हों</string>
     <string name="room_alias_preview_not_found">इस उपनाम इस समय तक पहुंच योग्य नहीं है। \n Try बाद में फिर से, या एक ग्रुप में व्यवस्थापक से पूछें कि क्या आपके पास पहुंच है या नहीं।</string>
     <string name="suggested_rooms_pills_on_empty_text">आप अभी तक किसी भी ग्रुप में नहीं हैं।नीचे कुछ सुझाए गए ग्रुप हैं, लेकिन आप हरे रंग के बटन के नीचे के साथ और अधिक देख सकते हैं।</string>
@@ -2849,10 +2849,10 @@
     <string name="space_leave_prompt_msg_as_admin">आप इस समुदाय के व्यवस्थापक हैं, सुनिश्चित करें कि आपने छोड़ने से पहले किसी अन्य सदस्य को व्यवस्थापक को समुदायांतरित कर दिया है।</string>
     <string name="space_add_existing_rooms">मौजूदा ग्रुप और समुदाय जोड़ें</string>
     <string name="space_add_rooms">ग्रुप जोड़ें</string>
-    <string name="spaces_beta_welcome_to_spaces">रिक्त समुदाय पर आपका स्वागत है!</string>
-    <string name="spaces_beta_welcome_to_spaces_desc">रिक्त समुदाय ग्रुप और लोगों को ग्रुप के लिए एक नया तरीका है।</string>
+    <string name="spaces_beta_welcome_to_spaces">समुदाय पर आपका स्वागत है!</string>
+    <string name="spaces_beta_welcome_to_spaces_desc">समुदाय ग्रुप और लोगों को ग्रुप के लिए एक नया तरीका है।</string>
     <string name="you_are_invited">आप आमंत्रित है</string>
-    <string name="labs_use_restricted_join_rule">प्रायोगिक अंतरिक्ष - प्रतिबंधित ग्रुप।</string>
+    <string name="labs_use_restricted_join_rule">प्रायोगिक समुदाय - प्रतिबंधित ग्रुप।</string>
     <string name="labs_use_restricted_join_rule_desc">चेतावनी के लिए सर्वर समर्थन और प्रयोगात्मक कक्ष वर्शन की आवश्यकता होती है</string>
     <string name="user_invites_you">%s आपको आमंत्रित करता है</string>
     <string name="looking_for_someone_not_in_space">%s में नहीं की तलाश में?</string>
@@ -2861,16 +2861,16 @@
     <string name="space_suggested">सुझाव दिया</string>
     <string name="space_mark_as_suggested">सुझाव के अनुसार</string>
     <string name="space_mark_as_not_suggested">सुझाव के रूप में चिह्नित नहीं</string>
-    <string name="space_manage_rooms_and_spaces">ग्रुप और रिक्त समुदाय प्रबंधित करें</string>
+    <string name="space_manage_rooms_and_spaces">ग्रुप और समुदाय प्रबंधित करें</string>
     <string name="labs_space_show_orphan_in_home">प्रायोगिक समुदाय - केवल घर में अनाथ दिखाएं</string>
-    <string name="spaces_feeling_experimental_subspace">प्रयोगात्मक महसूस करना? \n You एक अंतरिक्ष में मौजूदा समुदाय जोड़ सकते हैं।</string>
-    <string name="spaces_no_server_support_title">ऐसा लगता है कि आपका होमसर्वर अभी तक रिक्त समुदाय का समर्थन नहीं करता है</string>
+    <string name="spaces_feeling_experimental_subspace">प्रयोगात्मक महसूस करना? \n You एक समुदाय में मौजूदा समुदाय जोड़ सकते हैं।</string>
+    <string name="spaces_no_server_support_title">ऐसा लगता है कि आपका होमसर्वर अभी तक समुदाय का समर्थन नहीं करता है</string>
     <string name="spaces_no_server_support_description">अधिक जानकारी के लिए कृपया अपने होमसर्वर एडमिन से संपर्क करें</string>
     <string name="this_space_has_no_rooms">इस समुदाय में कोई ग्रुप नहीं है</string>
     <string name="this_space_has_no_rooms_not_admin">कुछ ग्रुप छिपाए जा सकते हैं क्योंकि वे निजी हैं और आपको एक आमंत्रण की आवश्यकता है। \ आपके पास ग्रुप जोड़ने की अनुमति नहीं है।</string>
     <string name="this_space_has_no_rooms_admin">कुछ ग्रुप छुपाए जा सकते हैं क्योंकि वे निजी हैं और आपको एक आमंत्रण की आवश्यकता है।</string>
     <string name="unnamed_room">अज्ञात ग्रुप</string>
-    <string name="teammate_spaces_arent_quite_ready">"टीममेट रिक्त समुदाय काफी तैयार नहीं हैं लेकिन आप अभी भी उन्हें आज़मा सकते हैं"</string>
+    <string name="teammate_spaces_arent_quite_ready">"टीममेट समुदाय काफी तैयार नहीं हैं लेकिन आप अभी भी उन्हें आज़मा सकते हैं"</string>
     <string name="teammate_spaces_might_not_join">"फिलहाल लोग आपके द्वारा किए गए किसी भी निजी ग्रुप में शामिल होने में सक्षम नहीं हो सकते हैं। \n  \n We बीटा के हिस्से के रूप में इसे सुधार देगा, लेकिन बस आपको बताना चाहता था।"</string>
     <string name="joining_replacement_room">प्रतिस्थापन कक्ष में शामिल हों</string>
     <string name="it_may_take_some_time">कृपया धैर्य रखें, इसमें कुछ समय लग सकता है।</string>
@@ -2880,9 +2880,9 @@
     <string name="upgrade_room_warning">एक ग्रुप को अपग्रेड करना एक एडवांस कार्रवाई है और आमतौर पर की सिफारिश की जाती है जब बग, गुम सुविधाओं या सुरक्षा भेद्यता के कारण ग्रुप अस्थिर होता है। \n यह आमतौर पर केवल यह प्रभावित करता है कि सर्वर पर ग्रुप को कैसे संसाधित किया जाता है।</string>
     <string name="upgrade_public_room_from_to">आप इस ग्रुप को %s से %s से अपग्रेड करेंगे।</string>
     <string name="upgrade_room_auto_invite">स्वचालित रूप से उपयोगकर्ताओं को आमंत्रित करें</string>
-    <string name="upgrade_room_update_parent_space">अंतरिक्ष माता पिता को स्वचालित रूप से अपडेट करें</string>
-    <string name="upgrade_room_no_power_to_manage">आपको एक Grup को अपग्रेड करना की अनुपकारी की आवश्यकता है</string>
-    <string name="room_using_unstable_room_version">यह ग्राप वर्शन%s च्लावा है, जो इस होमसर्वर को ओथिर के रूप में चायनित किया है।</string>
+    <string name="upgrade_room_update_parent_space">समुदाय को स्वचालित रूप से अपडेट करें</string>
+    <string name="upgrade_room_no_power_to_manage">आपको एक ग्रुप को अपग्रेड करना की अनुपकारी की आवश्यकता है</string>
+    <string name="room_using_unstable_room_version">यह ग्रुप वर्शन %s है, जो इस होमसर्वर को ओथिर के रूप में चायनित किया है।</string>
     <string name="room_upgrade_to_recommended_version">अनुशंसित काटने में अपग्रेड करें</string>
     <string name="error_failed_to_join_room">क्षमा करें, शामिल होना की कोशीश करते समय एक तुति हुई:%s</string>
     <string name="a11y_start_voice_message">आवाज संदेश शुरू करें</string>
@@ -2918,16 +2918,16 @@
     <string name="settings_messages_by_bot">बॉट द्वारा संदेश</string>
     <string name="settings_room_upgrades">कक्ष उन्नयन</string>
     <string name="room_settings_room_access_private_invite_only_title">निजी (केवल आमंत्रित करें)</string>
-    <string name="room_create_member_of_space_name_can_join">अंतरिक्ष%s के सदस्य पा सकते हैं, पूर्वावलोकन और शामिल हो सकते हैं।</string>
-    <string name="allow_space_member_to_find_and_access">अंतरिक्ष सदस्यों को खोजने और पहुंचने की अनुमति दें।</string>
-    <string name="spaces_which_can_access">रिक्त स्थान जो एक्सेस कर सकते हैं</string>
-    <string name="decide_which_spaces_can_access">तय करें कि कौन से रिक्त स्थान इस कमरे तक पहुंच सकते हैं।यदि किसी स्थान का चयन किया जाता है तो इसके सदस्य कमरे के नाम को खोजने और जुड़ने में सक्षम होंगे।</string>
-    <string name="select_spaces">रिक्त स्थान का चयन करें</string>
-    <string name="tap_to_edit_spaces">रिक्त स्थान संपादित करने के लिए टैप करें</string>
+    <string name="room_create_member_of_space_name_can_join">समुदाय%s के सदस्य पा सकते हैं, पूर्वावलोकन और शामिल हो सकते हैं।</string>
+    <string name="allow_space_member_to_find_and_access">समुदाय सदस्यों को खोजने और पहुंचने की अनुमति दें।</string>
+    <string name="spaces_which_can_access">समुदाय जो एक्सेस कर सकते हैं</string>
+    <string name="decide_which_spaces_can_access">तय करें कि कौन से समुदाय इस कमरे तक पहुंच सकते हैं।यदि किसी स्थान का चयन किया जाता है तो इसके सदस्य कमरे के नाम को खोजने और जुड़ने में सक्षम होंगे।</string>
+    <string name="select_spaces">समुदाय का चयन करें</string>
+    <string name="tap_to_edit_spaces">समुदाय संपादित करने के लिए टैप करें</string>
     <string name="decide_who_can_find_and_join">तय करें कि इस कमरे में कौन पा सकता है और इसमें शामिल हो सकता है।</string>
-    <string name="space_you_know_that_contains_this_room">अंतरिक्ष आप जानते हैं कि इस कमरे में</string>
-    <string name="other_spaces_or_rooms_you_might_not_know">अन्य रिक्त स्थान या कमरे जिन्हें आप नहीं जानते हैं</string>
+    <string name="space_you_know_that_contains_this_room">समुदाय आप जानते हैं कि इस कमरे में</string>
+    <string name="other_spaces_or_rooms_you_might_not_know">अन्य समुदाय या कमरे जिन्हें आप नहीं जानते हैं</string>
     <string name="sent_a_voice_message">आवाज़</string>
     <string name="upgrade_required">अपग्रेड आवश्यक</string>
-    <string name="allow_anyone_in_room_to_access">किसी को भी%s खोजने और पहुंचने की अनुमति दें।आप अन्य रिक्त स्थान भी चुन सकते हैं।</string>
+    <string name="allow_anyone_in_room_to_access">किसी को भी %s खोजने और पहुंचने की अनुमति दें।आप अन्य समुदाय भी चुन सकते हैं।</string>
 </resources>

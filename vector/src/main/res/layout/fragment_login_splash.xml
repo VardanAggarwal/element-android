@@ -83,11 +83,11 @@
 
         <ImageView
             android:id="@+id/loginSplashPicto1"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_marginStart="2dp"
             android:importantForAccessibility="no"
-            android:src="@drawable/ic_community"
+            android:src="@drawable/ic_home_bottom_chat"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/loginSplashText1"
             app:tint="?vctr_content_secondary"
@@ -137,7 +137,7 @@
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:importantForAccessibility="no"
-            android:src="@drawable/ic_microphone"
+            android:src="@drawable/ic_farming"
             app:layout_constraintStart_toStartOf="@+id/loginSplashPicto1"
             app:layout_constraintTop_toTopOf="@+id/loginSplashText3"
             app:tint="?vctr_content_secondary"
