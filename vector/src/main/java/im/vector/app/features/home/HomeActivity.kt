@@ -444,7 +444,7 @@ class HomeActivity :
     override fun getMenuRes() = R.menu.home
 
     override fun onPrepareOptionsMenu(menu: Menu): Boolean {
-        menu.findItem(R.id.menu_home_init_sync_legacy)?.isVisible = vectorPreferences.developerMode()
+        //menu.findItem(R.id.menu_home_init_sync_legacy)?.isVisible = vectorPreferences.developerMode()
         menu.findItem(R.id.menu_home_init_sync_optimized)?.isVisible = vectorPreferences.developerMode()
         return super.onPrepareOptionsMenu(menu)
     }
@@ -459,13 +459,13 @@ class HomeActivity :
                 bugReporter.openBugReportScreen(this, ReportType.BUG_REPORT)
                 return true
             }
-            R.id.menu_home_init_sync_legacy -> {
+            /*R.id.menu_home_init_sync_legacy -> {
                 // Configure the SDK
                 initialSyncStrategy = InitialSyncStrategy.Legacy
                 // And clear cache
                 MainActivity.restartApp(this, MainActivityArgs(clearCache = true))
                 return true
-            }
+            }*/
             R.id.menu_home_init_sync_optimized -> {
                 // Configure the SDK
                 initialSyncStrategy = InitialSyncStrategy.Optimized()
