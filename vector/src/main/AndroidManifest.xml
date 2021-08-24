@@ -122,7 +122,7 @@
 
                 <data
                     android:host="connect"
-                    android:scheme="element" />
+                    android:scheme="seedsavers" />
             </intent-filter>
         </activity>
         <activity
@@ -139,7 +139,7 @@
 
                 <data
                     android:host="connect"
-                    android:scheme="element" />
+                    android:scheme="seedsavers" />
             </intent-filter>
         </activity>
 
@@ -194,6 +194,7 @@
 
                 <data android:scheme="https" />
                 <data android:host="riot.im" />
+                <data android:host="seedsaversclub.com"/>
                 <data android:host="app.element.io" />
                 <data android:host="mobile.element.io" />
                 <data android:host="develop.element.io" />
@@ -247,9 +248,16 @@
                 <data android:scheme="http" />
                 <data android:scheme="https" />
                 <data android:host="matrix.to" />
+                <data android:host="seedsaversclub.com" />
                 <data
                     android:host="user"
                     android:scheme="element" />
+                <data
+                    android:host="user"
+                    android:scheme="seedsavers" />
+                <data
+                    android:host="room"
+                    android:scheme="seedsavers" />
                 <data
                     android:host="room"
                     android:scheme="element" />

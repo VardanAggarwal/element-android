@@ -221,7 +221,7 @@ android {
     buildTypes {
         debug {
             applicationIdSuffix ".debug"
-            resValue "string", "app_name", "Seed Savers Club"
+            resValue "string", "app_name", "SSC debug"
 
             resValue "bool", "debug_mode", "true"
             buildConfigField "boolean", "LOW_PRIVACY_LOG_ENABLE", "false"

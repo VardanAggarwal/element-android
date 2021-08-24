@@ -182,12 +182,13 @@ class LinkHandlerActivity : VectorBaseActivity<ActivityProgressBinding>() {
                 "develop.element.io",
                 "staging.element.io",
                 // Previous Web instance, kept for compatibility reason
-                "riot.im"
+                "riot.im",
+                "seedsaversclub.com"
         )
         private val SUPPORTED_PATHS = listOf(
-                "/#/room/",
-                "/#/user/",
-                "/#/group/"
+                "/dl/#/room/",
+                "/dl/#/user/",
+                "/dl/#/group/"
         )
     }
 }
