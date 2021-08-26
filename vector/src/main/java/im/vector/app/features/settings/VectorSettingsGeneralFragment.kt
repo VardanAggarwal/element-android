@@ -165,10 +165,11 @@ class VectorSettingsGeneralFragment @Inject constructor(
         // Password
         // Hide the preference if password can not be updated
         if (session.getHomeServerCapabilities().canChangePassword) {
-            mPasswordPreference.onPreferenceClickListener = Preference.OnPreferenceClickListener {
+ /*           mPasswordPreference.onPreferenceClickListener = Preference.OnPreferenceClickListener {
                 onPasswordUpdateClick()
                 false
-            }
+            }*/
+            mPasswordPreference.isVisible = false
         } else {
             mPasswordPreference.isVisible = false
         }

@@ -24,7 +24,7 @@ import org.matrix.android.sdk.api.session.events.model.Event
 interface PermalinkService {
 
     companion object {
-        const val MATRIX_TO_URL_BASE = "https://matrix.to/#/"
+        const val MATRIX_TO_URL_BASE = "https://seedsaversclub.com/dl/#/"
     }
 
     /**
