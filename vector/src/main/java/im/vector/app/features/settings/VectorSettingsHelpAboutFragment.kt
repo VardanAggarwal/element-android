@@ -78,7 +78,7 @@ class VectorSettingsHelpAboutFragment @Inject constructor(
                 .summary = session.cryptoService().getCryptoVersion(requireContext(), false)
 
         // copyright
-        findPreference<VectorPreference>(VectorPreferences.SETTINGS_COPYRIGHT_PREFERENCE_KEY)!!
+/*        findPreference<VectorPreference>(VectorPreferences.SETTINGS_COPYRIGHT_PREFERENCE_KEY)!!
                 .onPreferenceClickListener = Preference.OnPreferenceClickListener {
             openUrlInChromeCustomTab(requireContext(), null, VectorSettingsUrls.COPYRIGHT)
             false
@@ -89,7 +89,7 @@ class VectorSettingsHelpAboutFragment @Inject constructor(
                 .onPreferenceClickListener = Preference.OnPreferenceClickListener {
             openUrlInChromeCustomTab(requireContext(), null, VectorSettingsUrls.TAC)
             false
-        }
+        }*/
 
         // privacy policy
         findPreference<VectorPreference>(VectorPreferences.SETTINGS_PRIVACY_POLICY_PREFERENCE_KEY)!!
@@ -99,7 +99,7 @@ class VectorSettingsHelpAboutFragment @Inject constructor(
         }
 
         // third party notice
-        findPreference<VectorPreference>(VectorPreferences.SETTINGS_THIRD_PARTY_NOTICES_PREFERENCE_KEY)!!
+/*        findPreference<VectorPreference>(VectorPreferences.SETTINGS_THIRD_PARTY_NOTICES_PREFERENCE_KEY)!!
                 .onPreferenceClickListener = Preference.OnPreferenceClickListener {
             if (firstThrottler.canHandle() is FirstThrottler.CanHandlerResult.Yes) {
                 activity?.displayInWebView(VectorSettingsUrls.THIRD_PARTY_LICENSES)
@@ -113,7 +113,7 @@ class VectorSettingsHelpAboutFragment @Inject constructor(
             // See https://developers.google.com/android/guides/opensource
             openOssLicensesMenuActivity(requireActivity())
             false
-        }
+        }*/
     }
 
     companion object {

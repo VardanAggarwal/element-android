@@ -273,7 +273,7 @@
     <string name="notification_sync_init">प्रारंभिक सेवा</string>
     <string name="notification_sync_in_progress">सिंक्रनाइज़िंग …</string>
     <string name="notification_listening_for_events">घटनाओं के लिए सुनना</string>
-    <string name="notification_noisy_notifications">शोर सूचनाएं</string>
+    <string name="notification_noisy_notifications">साधारण सूचनाएं</string>
     <string name="notification_silent_notifications">शांत सूचनाएं</string>
     <!-- titles -->
     <string name="title_activity_home">संदेश</string>
@@ -452,8 +452,8 @@
     <string name="send_bug_report_include_key_share_history">कुंजी शेयर अनुरोध इतिहास भेजें</string>
     <string name="send_bug_report_include_screenshot">स्क्रीनशॉट भेजें</string>
     <string name="send_bug_report">एप्प में समस्या बताएं</string>
-    <string name="send_bug_report_description">कृपया बग का वर्णन करें।क्या किया?आपको क्या होने की उम्मीद थी?वास्तव में क्या हुआ था?</string>
-    <string name="send_bug_report_description_in_english">यदि संभव हो, तो कृपया अंग्रेजी में विवरण लिखें।</string>
+    <string name="send_bug_report_description">कृपया बग का वर्णन करें।आपने क्या किया?आपको क्या होने की उम्मीद थी?वास्तव में क्या हुआ था?</string>
+    <string name="send_bug_report_description_in_english">यदि संभव हो, तो कृपया साधारण हिंदी या अंग्रेजी में विवरण लिखें।</string>
     <string name="send_bug_report_placeholder">यहां अपनी समस्या का वर्णन करें</string>
     <string name="send_bug_report_logs_description">समस्याओं का निदान करने के लिए, इस फोन से लॉग इस बग रिपोर्ट के साथ भेजे जाएंगे।लॉग और स्क्रीनशॉट समेत यह बग रिपोर्ट सार्वजनिक रूप से दिखाई नहीं देगी।यदि आप केवल ऊपर दिए गए पाठ को भेजना पसंद करेंगे, तो कृपया चुनाव हटाएं:</string>
     <string name="send_bug_report_alert_message">लगता है आप निराशा में फोन हिला रहे हैं।क्या आप बग रिपोर्ट स्क्रीन खोलना चाहेंगे?</string>
@@ -616,7 +616,7 @@
     <string name="room_info_room_topic">ग्रुप विषय</string>
     <!-- Call settings screen -->
     <string name="settings_call_category">कॉल</string>
-    <string name="settings_call_show_confirmation_dialog_title">आकस्मिक कॉल को रोकें</string>
+    <string name="settings_call_show_confirmation_dialog_title">गलती से कॉल लगने से बचें</string>
     <string name="settings_call_show_confirmation_dialog_summary">कॉल शुरू करने से पहले पुष्टि के लिए पूछें</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
     <string name="template_settings_call_ringtone_use_app_ringtone">इनकमिंग कॉल के लिए डिफ़ॉल्ट ${app_name} रिंगटोन का उपयोग करें</string>
@@ -918,16 +918,18 @@
     <string name="room_sliding_menu_copyright">कॉपीराइट</string>
     <string name="room_sliding_menu_privacy_policy">गोपनीयता नीति</string>
     <!-- Vector Settings -->
-    <string name="settings_profile_picture">प्रोफ़ाइल फोटो</string>
-    <string name="settings_display_name">प्रदर्शित होने वाला नाम</string>
-    <string name="settings_email_address">ईमेल</string>
-    <string name="settings_add_email_address">ईमेल लिंक जोड़ें</string>
-    <string name="settings_phone_number">फ़ोन</string>
-    <string name="settings_phone_number_empty">आपके खाते में कोई फ़ोन नंबर नहीं जोड़ा गया है</string>
-    <string name="settings_add_phone_number">फोन नंबर डालें</string>
-    <string name="settings_app_info_link_title">एप्प जानकारी</string>
-    <string name="settings_app_info_link_summary">सिस्टम सेटिंग्स में एप्लिकेशन जानकारी दिखाएं।</string>
-    <string name="settings_add_3pid_confirm_password_title">अपने पासवर्ड की पुष्टि करें</string>
+    <string name="settings_profile_picture">प्रोफ़ाइल फोटो</string> <string
+    name="settings_display_name">आपका नाम</string> <string
+    name="settings_email_address">ईमेल</string> <string
+    name="settings_add_email_address">ईमेल लिंक जोड़ें</string> <string
+    name="settings_phone_number">फ़ोन</string> <string
+    name="settings_phone_number_empty">आपके खाते में कोई फ़ोन नंबर नहीं जोड़ा
+    गया है</string> <string name="settings_add_phone_number">फोन नंबर
+    डालें</string> <string name="settings_app_info_link_title">एप्प
+    जानकारी</string> <string name="settings_app_info_link_summary">सिस्टम
+    सेटिंग्स में एप्लिकेशन जानकारी दिखाएं।</string> <string
+    name="settings_add_3pid_confirm_password_title">अपने पासवर्ड की पुष्टि
+    करें</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
     <string name="template_settings_add_3pid_flow_not_supported">आप ${app_name} मोबाइल से ऐसा नहीं कर सकते</string>
     <string name="settings_add_3pid_authentication_needed">प्रमाणीकरण की आवश्यकता है</string>
@@ -937,13 +939,13 @@
     <string name="settings_remove_three_pid_confirmation_content">%s निकालें?</string>
     <string name="error_threepid_auth_failed">सुनिश्चित करें कि आपने ईमेल में लिंक पर क्लिक किया है जिसे हमने आपके पास भेजा है।</string>
     <string name="settings_notification_advanced">एडवांस सूचना सेटिंग्स</string>
-    <string name="settings_notification_by_event">घटना द्वारा सूचना महत्व</string>
+    <string name="settings_notification_by_event">घटना के आधार पर सूचना महत्व निर्धारित करें</string>
     <string name="settings_notification_privacy">सूचना गोपनीयता</string>
-    <string name="settings_notification_troubleshoot">सूचनाओं का निवारण करें</string>
-    <string name="settings_troubleshoot_diagnostic">समस्या निवारण निदान</string>
-    <string name="settings_troubleshoot_diagnostic_run_button_title">रन टेस्ट</string>
-    <string name="settings_troubleshoot_diagnostic_running_status">चल रहा है … ( %2$d की %1$d)</string>
-    <string name="settings_troubleshoot_diagnostic_success_status">मूल नैदानिक ठीक है।यदि आपको अभी भी सूचनाएं नहीं मिलती हैं, तो कृपया जांच करने में हमारी सहायता के लिए एक बग रिपोर्ट जमा करें।</string>
+    <string name="settings_notification_troubleshoot">सूचनाएँ टेस्ट करें</string>
+    <string name="settings_troubleshoot_diagnostic">समस्या का पता लगाने के लिए टेस्ट</string>
+    <string name="settings_troubleshoot_diagnostic_run_button_title">टेस्ट करें</string>
+    <string name="settings_troubleshoot_diagnostic_running_status">चल रहा है … ( %2$d/%1$d)</string>
+    <string name="settings_troubleshoot_diagnostic_success_status">मूल सेटिंग्स ठीक है।यदि आपको अभी भी सूचनाएं नहीं मिलती हैं, तो कृपया जांच करने में हमारी सहायता के लिए एक बग रिपोर्ट जमा करें।</string>
     <string name="settings_troubleshoot_diagnostic_failure_status_with_quickfix">एक या अधिक परीक्षण विफल हो गए हैं, सुझाए गए फिक्स का प्रयास करें।</string>
     <string name="settings_troubleshoot_diagnostic_failure_status_no_quickfix">एक या अधिक परीक्षण विफल हो गए हैं, कृपया जांच करने में हमारी सहायता के लिए एक बग रिपोर्ट जमा करें।</string>
     <string name="settings_troubleshoot_test_system_settings_title">सिस्टम सेटिंग्स</string>
@@ -960,7 +962,7 @@
     <string name="template_settings_troubleshoot_test_device_settings_failed">इस सत्र के लिए सूचनाएं चालू नहीं हैं। \n कृपया ${app_name} सेटिंग्स की जांच करें।</string>
     <string name="settings_troubleshoot_test_device_settings_quickfix">चालू</string>
     <string name="settings_troubleshoot_test_bing_settings_title">कस्टम सेटिंग्स।</string>
-    <string name="settings_troubleshoot_test_bing_settings_success_with_warn">ध्यान दें कि कुछ संदेश प्रकार शांत होने के लिए तैयार हैं (बिना किसी ध्वनि के सूचना का उत्पादन)।</string>
+    <string name="settings_troubleshoot_test_bing_settings_success_with_warn">ध्यान दें कि कुछ संदेश शांत सेट किये हुए हैं।(बिना किसी ध्वनि के सूचना दिखेगी)।</string>
     <string name="settings_troubleshoot_test_bing_settings_failed">कुछ सूचनाएं आपकी कस्टम सेटिंग्स में बंद हैं।</string>
     <string name="settings_troubleshoot_test_bing_settings_failed_to_load_rules">कस्टम नियम लोड करने में विफल, कृपया पुनः प्रयास करें।</string>
     <string name="settings_troubleshoot_test_bing_settings_quickfix">सेटिंग्स की जाँच करें</string>
@@ -1030,12 +1032,12 @@
     <string name="settings_enable_all_notif">इस खाते के लिए सूचनाएं चालू करें</string>
     <string name="settings_enable_this_device">इस सत्र के लिए सूचनाएं चालू करें</string>
     <string name="settings_turn_screen_on">3 सेकंड के लिए स्क्रीन चालू करें</string>
-    <string name="settings_noisy_notifications_preferences">शोर सूचनाएं सेट करें</string>
-    <string name="settings_call_notifications_preferences">कॉल सूचनाओं को सेट करें</string>
+    <string name="settings_noisy_notifications_preferences">साधारण सूचनाएं सेट करें</string>
+    <string name="settings_call_notifications_preferences">कॉल की सूचनाएं सेट करें</string>
     <string name="settings_silent_notifications_preferences">शांत सूचनाएं सेट करें</string>
     <string name="settings_system_preferences_summary">एलईडी रंग, कंपन, ध्वनि चुनें …</string>
-    <string name="settings_containing_my_display_name">मेरा प्रदर्शन नाम वाले सन्देश</string>
-    <string name="settings_containing_my_user_name">मेरा उपयोगकर्ता नाम वाले सन्देश</string>
+    <string name="settings_containing_my_display_name">मेरे नाम वाले सन्देश</string>
+    <string name="settings_containing_my_user_name">मेरे ID वाले सन्देश</string>
     <string name="settings_messages_in_one_to_one">सीधी चैट में संदेश</string>
     <string name="settings_messages_in_group_chat">ग्रुप चैट में संदेश</string>
     <string name="settings_invited_to_room">जब मुझे एक ग्रुप में आमंत्रित किया जाता है</string>
@@ -1072,7 +1074,7 @@
     <string name="settings_clear_media_cache">मीडिया कैश को साफ़ करें</string>
     <string name="settings_user_settings">उपयोगकर्ता सेटिंग</string>
     <string name="settings_notifications">सूचनाएं</string>
-    <string name="settings_ignored_users">अनदेखा उपयोगकर्ता</string>
+    <string name="settings_ignored_users">नजरअंदाज किये उपयोगकर्ता</string>
     <string name="settings_other">अन्य</string>
     <string name="settings_advanced">एडवांस</string>
     <string name="settings_integrations">एकीकरण</string>
@@ -1087,19 +1089,19 @@
     <string name="settings_pin_missed_notifications">मिस्ड नोटिफिकेशन वाले पिन ग्रुप</string>
     <string name="settings_pin_unread_messages">अपठित संदेशों के साथ पिन ग्रुप</string>
     <string name="settings_devices_list">सत्र</string>
-    <string name="settings_inline_url_preview">इनलाइन यूआरएल प्रीव्यू</string>
-    <string name="settings_inline_url_preview_summary">चैट के भीतर लिंक का प्रीव्यू करें</string>
+    <string name="settings_inline_url_preview">लिंक प्रीव्यू</string>
+    <string name="settings_inline_url_preview_summary">चैट के भीतर लिंक का सार देखें</string>
     <string name="settings_send_typing_notifs">टाइपिंग सूचनाएं</string>
-    <string name="settings_send_typing_notifs_summary">अन्य उपयोगकर्ताओं को यह लिंक है कि आप टाइप कर रहे हैं।</string>
-    <string name="settings_send_markdown">मार्कडाउन प्रारूपण</string>
-    <string name="settings_send_markdown_summary">भेजे जाने से पहले मार्कडाउन सिंटैक्स का उपयोग करके संदेश प्रारूप।यह एडवांस स्वरूपण के लिए अनुमति देता है जैसे इटैलिक टेक्स्ट प्रदर्शित करने के लिए तारांकन का उपयोग करना।</string>
+    <string name="settings_send_typing_notifs_summary">अन्य उपयोगकर्ताओं को यह दिखेगा कि आप टाइप कर रहे हैं।</string>
+    <string name="settings_send_markdown">संदेश फॉर्मेट</string>
+    <string name="settings_send_markdown_summary">व्हाट्सप्प की तरह * के इस्तेमाल से संदेश को बोल्ड और इटैलिक करें।</string>
     <string name="settings_always_show_timestamps">सभी संदेशों के लिए टाइमस्टैम्प दिखाएं</string>
     <string name="settings_12_24_timestamps">12 घंटे के प्रारूप में टाइमस्टैम्प दिखाएं</string>
     <string name="settings_show_read_receipts">पढ़ने की सूचना</string>
-    <string name="settings_show_read_receipts_summary">विस्तृत सूची के लिए पढ़ने की सूचना पर क्लिक करें।</string>
+    <string name="settings_show_read_receipts_summary">किसने संदेश पढ़ लिया देखने के लिए पढ़ने की सूचना पर क्लिक करें।</string>
     <string name="settings_show_room_member_state_events">ग्रुप के सदस्य स्थिति की घटनाओं को दिखाएं</string>
     <string name="settings_chat_effects_title">चैट प्रभाव दिखाएं</string>
-    <string name="settings_chat_effects_description">उपयोग / confetti कमांड या ❄️ या � युक्त एक संदेश भेजें</string>
+    <string name="settings_chat_effects_description"> /confetti कमांड का उपयोग करें। अथवा ❄️ या � युक्त एक संदेश भेजें</string>
     &gt;
     <string name="settings_show_room_member_state_events_summary">आमंत्रित / शामिल / छोड़े / निकाले / प्रतिबंध घटनाओं और फोटो / प्रदर्शन नाम परिवर्तन शामिल हैं।</string>
     <string name="settings_show_join_leave_messages">जुड़ने और छोड़ने की घटनाएं</string>
@@ -1261,7 +1263,7 @@
     <string name="room_alias_action_publish">इस लिंक को प्रकाशित करें</string>
     <string name="room_alias_action_unpublish">इस लिंक को अप्रकाशित करें</string>
     <!-- Parameter will be the url of the homeserver, ex: matrix.org -->
-    <string name="room_alias_publish_to_directory">इस ग्रुप को %1$s के ग्रुप लिस्ट में सार्वजनिक के लिए प्रकाशित करें?</string>
+    <string name="room_alias_publish_to_directory">इस ग्रुप को %1$s की ग्रुप लिस्ट में सभी किसानों के लिए प्रकाशित करें?</string>
     <!-- Parameter will be a technical error message -->
     <string name="room_alias_publish_to_directory_error">वर्तमान ग्रुप लिस्ट दृश्यता ( %1$s) को पुनः प्राप्त करने में असमर्थ।</string>
     <!-- Room settings, access and visibility : WHO CAN READ HISTORY? (read rule) -->
@@ -1524,8 +1526,8 @@
     <string name="markdown_has_been_disabled">मार्कडाउन बंद कर दिया गया है।</string>
     <!-- notification statuses -->
     <string name="notification_off">बंद</string>
-    <string name="notification_silent">मूक</string>
-    <string name="notification_noisy">शोर</string>
+    <string name="notification_silent">शांत</string>
+    <string name="notification_noisy">ध्वनि</string>
     <string name="encrypted_message">एन्क्रिप्टेड संदेश</string>
     <!-- groups creation -->
     <string name="create">बनाएं</string>
@@ -1845,8 +1847,8 @@
     <string name="navigate_to_room_when_already_in_the_room">आप पहले से ही इस ग्रुप को देख रहे हैं!</string>
     <string name="quick_reactions">त्वरित प्रतिक्रियाएं</string>
     <!-- Settings -->
-    <string name="settings_general_title">आम</string>
-    <string name="settings_preferences">पसंद</string>
+    <string name="settings_general_title">साधारण</string>
+    <string name="settings_preferences">प्राथमिकताएं</string>
     <string name="settings_security_and_privacy">सुरक्षा और गोपनीयता</string>
     <string name="settings_expert">विशेषज्ञ</string>
     <string name="settings_push_rules">पुश नियम</string>
@@ -1859,7 +1861,7 @@
     <string name="push_gateway_item_url">URL:</string>
     <string name="push_gateway_item_format">प्रारूप:</string>
     <string name="preference_voice_and_video">ऑडियो और वीडियो</string>
-    <string name="preference_root_help_about">मदद करें</string>
+    <string name="preference_root_help_about">मदद और अन्य जानकारी</string>
     <string name="settings_troubleshoot_test_token_registration_quick_fix">रजिस्टर टोकन</string>
     <string name="send_suggestion">सुझाव दें</string>
     <string name="send_suggestion_content">कृपया नीचे अपना सुझाव लिखें।</string>
@@ -2285,7 +2287,7 @@
     <string name="command_description_rainbow">एक इंद्रधनुष के रूप में दिए गए संदेश को भेजता है</string>
     <string name="command_description_rainbow_emote">एक इंद्रधनुष के रूप में दिए गए इमोटे को भेजता है</string>
     <!-- Title for category in the settings which affect what is displayed in the timeline (ex: show read receipts, etc.) -->
-    <string name="settings_category_timeline">समय</string>
+    <string name="settings_category_timeline">चर्चा</string>
     <!-- Title for category in the settings which affect the behavior of the message editor (ex: enable Markdown, send typing notification, etc.) -->
     <string name="settings_category_composer">संदेश संपादक</string>
     <string name="room_settings_enable_encryption">अंत-से-अंत एन्क्रिप्शन चालू करें …</string>
@@ -2464,13 +2466,13 @@
     <string name="qr_code_scanned_verif_waiting_notice">वहाँ लगभग!पुष्टि के लिए प्रतीक्षा कर रहा है…</string>
     <string name="qr_code_scanned_verif_waiting">%s की प्रतीक्षा …</string>
     <string name="error_failed_to_import_keys">कुंजी आयात करने में विफल</string>
-    <string name="settings_notification_configuration">सूचना विन्यास</string>
-    <string name="settings_messages_at_room">संदेश @room</string>
-    <string name="settings_messages_in_e2e_one_to_one">एक-से-एक चैट में एन्क्रिप्टेड संदेश</string>
+    <string name="settings_notification_configuration">सूचना प्राथमिकताएं</string>
+    <string name="settings_messages_at_room">ग्रुप में सभी को संबोधित संदेश</string>
+    <string name="settings_messages_in_e2e_one_to_one">सीधी चैट में एन्क्रिप्टेड संदेश</string>
     <string name="settings_messages_in_e2e_group_chat">ग्रुप चैट में एन्क्रिप्टेड संदेश</string>
     <string name="settings_when_rooms_are_upgraded">जब ग्रुप में अपग्रेड किया जाता है</string>
     <string name="settings_troubleshoot_title">समस्याओं का निवारण</string>
-    <string name="settings_notification_advanced_summary">घटना द्वारा सूचना महत्व निर्धारित करें</string>
+    <string name="settings_notification_advanced_summary">घटना के आधार पर सूचना महत्व निर्धारित करें</string>
     <string name="command_description_plain">मार्कडाउन के रूप में इसकी व्याख्या किए बिना, सादे पाठ के रूप में एक संदेश भेजता है</string>
     <string name="auth_invalid_login_param_space_in_password">गलत उपयोगकर्ता नाम और / या पासवर्ड।दर्ज पासवर्ड समुदाय के साथ शुरू होता है या समाप्त होता है, कृपया इसे जांचें।</string>
     <string name="auth_invalid_login_deactivated_account">इस खाते को निष्क्रिय कर दिया गया है।</string>
