@@ -455,7 +455,7 @@ dependencies {
 
     // gplay flavor only
     gplayImplementation('com.google.firebase:firebase-messaging:22.0.0')
-
+    gplayImplementation('com.google.firebase:firebase-inappmessaging-display-ktx:20.0.0')
     // OSS License, gplay flavor only
     gplayImplementation 'com.google.android.gms:play-services-oss-licenses:17.0.0'
 
