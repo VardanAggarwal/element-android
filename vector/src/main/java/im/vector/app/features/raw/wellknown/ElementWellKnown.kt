@@ -45,7 +45,7 @@ data class E2EWellKnownConfig(
          * (as it was before) for various environments where this is desired.
          */
         @Json(name = "default")
-        val e2eDefault: Boolean? = null
+        val e2eDefault: Boolean? = false
 )
 
 @JsonClass(generateAdapter = true)
