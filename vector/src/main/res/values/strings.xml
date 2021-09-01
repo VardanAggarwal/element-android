@@ -589,7 +589,7 @@
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
     <string name="template_e2e_re_request_encryption_key_dialog_content">कृपया किसी अन्य डिवाइस पर ${app_name} लॉन्च करें जो संदेश को डिक्रिप्ट कर सकता है ताकि यह इस सत्र में कुंजी भेज सके।</string>
     <!-- read receipts list Screen -->
-    <string name="read_receipts_list">रसीद सूची पढ़ें</string>
+    <string name="read_receipts_list">पढ़ने वालों की सूची</string>
     <!-- flairs list Screen -->
     <string name="groups_list">ग्रुप सूची</string>
     <!-- Mels -->
@@ -795,7 +795,7 @@
     <string name="people_search_invite_by_id_dialog_hint">ईमेल या सीड सेवर्स आईडी</string>
     <!--  Chat -->
     <string name="room_menu_search">खोजें</string>
-    <string name="room_one_user_is_typing">%s टाइप कर रहा है …</string>
+    <string name="room_one_user_is_typing">%s टाइप कर रहे हैं …</string>
     <string name="room_two_users_are_typing">%1$s &amp; %2$s टाइप कर रहे हैं …</string>
     <string name="room_many_users_are_typing">%1$s &amp; %2$s &amp; अन्य टाइपिंग कर रहे हैं …</string>
     <string name="room_message_placeholder_encrypted">एक एन्क्रिप्टेड संदेश भेजें …</string>
@@ -1713,7 +1713,7 @@
     <string name="keys_backup_get_trust_error">बैकअप ( %s) के लिए ट्रस्ट जानकारी प्राप्त करने में विफल।</string>
     <!-- renamed key keys_backup_settings_verify_device_now -->
     <string name="keys_backup_settings_untrusted_backup">इस सत्र पर कुंजी बैकअप का उपयोग करने के लिए, अब अपने पासफ्रेज या पुनर्प्राप्ति कुंजी के साथ पुनर्स्थापित करें।</string>
-    <string name="keys_backup_settings_deleting_backup">बैकअप हटाना …</string>
+    <string name="keys_backup_settings_deleting_backup">बैकअप हटा रहे हैं…</string>
     <string name="keys_backup_settings_delete_backup_error">बैकअप को हटाने में विफल ( %s)</string>
     <string name="keys_backup_settings_checking_backup_state">बैकअप स्थिति की जाँच</string>
     <string name="keys_backup_settings_delete_confirm_title">बैकअप हटाएं</string>
@@ -1883,9 +1883,9 @@
     <string name="send_file_step_sending_thumbnail">थंबनेल भेजना ( %1$s / %2$s)</string>
     <string name="send_file_step_encrypting_file">फ़ाइल एन्क्रिप्टिंग …</string>
     <string name="send_file_step_sending_file">फ़ाइल भेजना ( %1$s / %2$s)</string>
-    <string name="send_file_step_compressing_image">फोटो संपीड़ित करना …</string>
+    <string name="send_file_step_compressing_image">फोटो संपीड़ित कर रहे हैं…</string>
     <string name="send_file_step_compressing_video">वीडियो %d % % संपीड़ित करना</string>
-    <string name="downloading_file">फ़ाइल %1$s डाउनलोड करना …</string>
+    <string name="downloading_file">फ़ाइल %1$s डाउनलोड कर रहे हैं…</string>
     <string name="downloaded_file">फ़ाइल %1$s डाउनलोड किया गया है!</string>
     <string name="edited_suffix">"(संपादित)"</string>
     <string name="message_edits">संदेश संपादन</string>
@@ -1905,7 +1905,7 @@
     <string name="add_by_matrix_id">सीड सेवर्स आईडी द्वारा जोड़ें</string>
     <string name="add_by_qr_code">QR कोड द्वारा जोड़ें</string>
     <string name="qr_code">क्यू आर संहिता</string>
-    <string name="creating_direct_room">"ग्रुप बनाना …"</string>
+    <string name="creating_direct_room">"ग्रुप बना रहे हैं…"</string>
     <string name="direct_room_no_known_users">"कोई परिणाम नहीं मिला, सर्वर पर खोजने के लिए सीड सेवर्स आईडी द्वारा जोड़ें का उपयोग करें।"</string>
     <string name="direct_room_start_search">"परिणाम प्राप्त करने के लिए टाइपिंग शुरू करें"</string>
     <string name="direct_room_filter_hint">"उपयोगकर्ता नाम या आईडी द्वारा फ़िल्टर करें …"</string>
@@ -1913,7 +1913,7 @@
     <string name="direct_room_user_list_known_title">ज्ञात उपयोगकर्ता</string>
     <string name="direct_room_user_list_contacts_title">संपर्क</string>
     <string name="direct_room_user_list_suggestions_title">सुझाव</string>
-    <string name="joining_room">"ग्रुप में शामिल होना …"</string>
+    <string name="joining_room">"ग्रुप में शामिल हो रहे हैं…"</string>
     <string name="message_view_edit_history">इतिहास संपादित करें देखें</string>
     <!-- Terms -->
     <string name="terms_of_service">सेवा की शर्तें</string>
@@ -1970,14 +1970,14 @@
     <string name="a11y_jump_to_bottom">नीचे तक कूदो</string>
     <string name="a11y_beta">यह फीचर बीटा में है</string>
     <!-- Read receipts list a11y -->
-    <plurals name="two_and_some_others_read"><item quantity="one">%1$s, %2$s और %3$d अन्य पढ़ें
-  </item><item quantity="other">%1$s, %2$s और %3$d अन्य पढ़ें
+    <plurals name="two_and_some_others_read"><item quantity="one">%1$s, %2$s और %3$d अन्य ने पढ़ा
+  </item><item quantity="other">%1$s, %2$s और %3$d अन्य ने पढ़ा
   </item></plurals>
-    <string name="three_users_read">%1$s, %2$s और %3$s पढ़ें</string>
-    <string name="two_users_read">%1$s और %2$s पढ़ें</string>
-    <string name="one_user_read">%s पढ़ें</string>
-    <plurals name="fallback_users_read"><item quantity="one">%d उपयोगकर्ता पढ़ें
-  </item><item quantity="other">%d उपयोगकर्ता पढ़ते हैं
+    <string name="three_users_read">%1$s, %2$s और %3$s ने पढ़ा</string>
+    <string name="two_users_read">%1$s और %2$s ने पढ़ा</string>
+    <string name="one_user_read">%s ने पढ़ा</string>
+    <plurals name="fallback_users_read"><item quantity="one">%d उपयोगकर्ता ने पढ़ा
+  </item><item quantity="other">%d उपयोगकर्ता ने पढ़ा
   </item></plurals>
     <string name="error_file_too_big_simple">"फ़ाइल अपलोड करने के लिए बहुत बड़ी है।"</string>
     <string name="error_file_too_big">"फ़ाइल ' %1$s' ( %2$s) अपलोड करने के लिए बहुत बड़ा है। सीमा %3$s है।"</string>
@@ -2170,7 +2170,7 @@
     <string name="soft_logout_clear_data_dialog_submit">स्पष्ट डेटा</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
     <string name="template_soft_logout_sso_not_same_user_error">वर्तमान सत्र उपयोगकर्ता %1$s के लिए है और आप उपयोगकर्ता %2$s के लिए प्रमाण-पत्र प्रदान करते हैं।यह ${app_name} द्वारा समर्थित नहीं है। \n  कृपया पहले स्पष्ट डेटा कृपया करें, फिर दूसरे खाते पर फिर से साइन इन करें।</string>
-    <string name="permalink_malformed">आपका matrix.to लिंक विकृत था</string>
+    <string name="permalink_malformed">आपका लिंक विकृत था</string>
     <string name="bug_report_error_too_short">विवरण बहुत छोटा है</string>
     <string name="notification_initial_sync">प्रारंभिक सिंक …</string>
     <string name="settings_show_devices_list">मेरे सारे सत्र देखें</string>
@@ -2200,7 +2200,7 @@
     <string name="create_room_alias_already_in_use">यह लिंक पहले से ही उपयोग में है</string>
     <string name="create_room_alias_empty">कृपया एक ग्रुप का लिंक प्रदान करें</string>
     <string name="create_room_alias_invalid">कुछ पात्रों की अनुमति नहीं है</string>
-    <string name="create_room_in_progress">ग्रुप बनाना …</string>
+    <string name="create_room_in_progress">ग्रुप बना रहे हैं…</string>
     <string name="login_error_threepid_denied">आपका ईमेल डोमेन इस सर्वर पर पंजीकरण करने के लिए अधिकृत नहीं है</string>
     <string name="verification_conclusion_warning">अविश्वसनीय साइन इन</string>
     <string name="verification_sas_match">उनका मिलान होता है</string>
@@ -2647,7 +2647,7 @@
     <string name="empty_phone_book">आपकी फोन बुक खाली है</string>
     <string name="phone_book_title">फोन बुक</string>
     <string name="search_in_my_contacts">मेरे संपर्कों में खोजें</string>
-    <string name="loading_contact_book">अपने संपर्कों को पुनः प्राप्त करना …</string>
+    <string name="loading_contact_book">संपर्कों को पुनः प्राप्त कर रहे हैं…</string>
     <string name="empty_contact_book">आपकी संपर्क पुस्तक खाली है</string>
     <string name="contacts_book_title">संपर्क पुस्तक</string>
     <string name="phone_book_perform_lookup">सीड सेवर्स पर संपर्कों की खोज करें</string>
@@ -2816,7 +2816,7 @@
     <string name="create_spaces_room_private_header_desc">आइए उनमें से प्रत्येक के लिए एक ग्रुप बनाएं।आप पहले से मौजूद लोगों सहित भी बाद में जोड़ सकते हैं।</string>
     <string name="create_spaces_default_public_room_name">सभी किसान</string>
     <string name="create_spaces_default_public_random_room_name">आपका ग्रुप नाम</string>
-    <string name="create_spaces_loading_message">समुदाय बनाना …</string>
+    <string name="create_spaces_loading_message">समुदाय बना रहे हैं…</string>
     <string name="create_space_topic_hint">विवरण</string>
     <string name="invite_people_to_your_space">लोगों को अपने समुदाय पर आमंत्रित करें</string>
     <string name="invite_people_menu">लोगों को आमंत्रित करो</string>
