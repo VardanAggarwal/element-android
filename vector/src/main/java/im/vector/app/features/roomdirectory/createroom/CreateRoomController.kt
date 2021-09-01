@@ -127,13 +127,13 @@ class CreateRoomController @Inject constructor(
             }
         }
 
-        settingsSectionTitleItem {
-            id("settingsSection")
-            titleResId(R.string.create_room_settings_section)
-        }
 
         if (viewState.roomJoinRules == RoomJoinRules.PUBLIC) {
             // Room alias for public room
+            settingsSectionTitleItem {
+                id("settingsSection")
+                titleResId(R.string.create_room_settings_section)
+            }
             formEditTextItem {
                 id("alias")
                 enabled(enableFormElement)
@@ -154,13 +154,13 @@ class CreateRoomController @Inject constructor(
                 id("divider0")
             }
             // Room encryption for private room
-            formSwitchItem {
+            /*formSwitchItem {
                 id("encryption")
                 enabled(enableFormElement)
                 title(host.stringProvider.getString(R.string.create_room_encryption_title))
                 summary(
                         if (viewState.hsAdminHasDisabledE2E) {
-                            host.stringProvider.getString(R.string.settings_hs_admin_e2e_disabled)
+                            host.stringProvider.getString(R.string.create_room_encryption_description)
                         } else {
                             host.stringProvider.getString(R.string.create_room_encryption_description)
                         }
@@ -170,7 +170,7 @@ class CreateRoomController @Inject constructor(
                 listener { value ->
                     host.listener?.setIsEncrypted(value)
                 }
-            }
+            }*/
         }
 
 //        dividerItem {
