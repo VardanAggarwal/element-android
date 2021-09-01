@@ -75,7 +75,7 @@ class CreateRoomViewModel @AssistedInject constructor(@Assisted private val init
         val defaultJoinRules = if (initialState.parentSpaceId != null && createRestricted) {
             RoomJoinRules.RESTRICTED
         } else {
-            RoomJoinRules.INVITE
+            RoomJoinRules.PUBLIC
         }
 
         setState {
@@ -95,15 +95,15 @@ class CreateRoomViewModel @AssistedInject constructor(@Assisted private val init
         }
     }
 
-    private var adminE2EByDefault = true
+    private var adminE2EByDefault = false
 
     private fun initAdminE2eByDefault() {
         viewModelScope.launch(Dispatchers.IO) {
             adminE2EByDefault = tryOrNull {
                 rawService.getElementWellknown(session.sessionParams)
                         ?.isE2EByDefault()
-                        ?: true
-            } ?: true
+                        ?: false
+            } ?: false
 
             setState {
                 copy(

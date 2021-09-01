@@ -14,7 +14,7 @@ kapt {
 // Note: 2 digits max for each value
 ext.versionMajor = 0
 ext.versionMinor = 2
-ext.versionPatch = 0
+ext.versionPatch = 3
 
 static def getGitTimestamp() {
     def cmd = 'git show -s --format=%ct'
@@ -455,7 +455,7 @@ dependencies {
 
     // gplay flavor only
     gplayImplementation('com.google.firebase:firebase-messaging:22.0.0')
-    gplayImplementation('com.google.firebase:firebase-inappmessaging-display-ktx:20.0.0')
+    gplayImplementation('com.google.firebase:firebase-inappmessaging-display-ktx:20.1.0')
     // OSS License, gplay flavor only
     gplayImplementation 'com.google.android.gms:play-services-oss-licenses:17.0.0'
 

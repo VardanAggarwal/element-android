@@ -27,7 +27,7 @@ data class CreateRoomViewState(
         val avatarUri: Uri? = null,
         val roomName: String = "",
         val roomTopic: String = "",
-        val roomJoinRules: RoomJoinRules = RoomJoinRules.INVITE,
+        val roomJoinRules: RoomJoinRules = RoomJoinRules.PUBLIC,
         val isEncrypted: Boolean = false,
         val showAdvanced: Boolean = false,
         val disableFederation: Boolean = true,

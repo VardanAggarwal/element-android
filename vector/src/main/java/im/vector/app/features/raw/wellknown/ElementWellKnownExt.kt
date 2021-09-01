@@ -28,4 +28,4 @@ suspend fun RawService.getElementWellknown(sessionParams: SessionParams): Elemen
             ?.let { ElementWellKnownMapper.from(it) }
 }
 
-fun ElementWellKnown.isE2EByDefault() = elementE2E?.e2eDefault ?: riotE2E?.e2eDefault ?: true
+fun ElementWellKnown.isE2EByDefault() = false
