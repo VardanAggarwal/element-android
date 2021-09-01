@@ -6,6 +6,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-parcelize'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'placeholder-resolver'
+apply plugin: 'com.google.firebase.crashlytics'
 
 kapt {
     correctErrorTypes = true
