@@ -200,7 +200,7 @@ class CreateRoomViewModel @AssistedInject constructor(@Assisted private val init
             else                     -> {
                 // default to invite
                 copy(
-                        roomJoinRules = RoomJoinRules.KNOCK,
+                        roomJoinRules = RoomJoinRules.INVITE,
                         isEncrypted = adminE2EByDefault
                 )
             }
