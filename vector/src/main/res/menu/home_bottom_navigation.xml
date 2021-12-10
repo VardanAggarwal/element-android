@@ -6,16 +6,15 @@
         android:icon="@drawable/ic_home_bottom_group"
         android:title="@string/bottom_action_rooms" />
     <item
-        android:id="@+id/bottom_action_lists"
-        android:enabled="true"
-        android:icon="@drawable/ic_home_bottom_list"
-        android:title="@string/bottom_action_lists" />
-    <item
         android:id="@+id/bottom_action_people"
         android:enabled="true"
         android:icon="@drawable/ic_home_bottom_chat"
         android:title="@string/bottom_action_people_x" />
-
+    <item
+        android:id="@+id/bottom_action_lists"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_bottom_list"
+        android:title="@string/bottom_action_lists" />
     <item
         android:id="@+id/bottom_action_notification"
         android:enabled="true"
