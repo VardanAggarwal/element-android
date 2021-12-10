@@ -19,7 +19,7 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
-
+-keepattributes Signature
 -keep class im.vector.app.features.** { *; }
 
 ## print all the rules in a file

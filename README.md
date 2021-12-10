@@ -5,7 +5,7 @@
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=im.vector.app.android&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=im.vector.app.android)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=im.vector.app.android&metric=bugs)](https://sonarcloud.io/dashboard?id=im.vector.app.android)
 
-# Element Android
+# Seed Savers Club
 
 Element Android is an Android Matrix Client provided by [Element](https://element.io/).
 
