@@ -167,17 +167,21 @@
     <string name="room_displayname_4_members">%1$s, %2$s, %3$s और %4$s</string>
     <!-- The 3 first parameters will be members' name -->
     <plurals name="room_displayname_four_and_more_members"><item quantity="one">%1$s, %2$s, %3$s और %4$d अन्य
-  </item><item quantity="other">%1$s, %2$s, %3$s और %4$d अन्य
-  </item></plurals>
+  </item>
+        <item quantity="other">%1$s, %2$s, %3$s और %4$d अन्य
+  </item>
+    </plurals>
     <plurals name="room_displayname_three_and_more_members"><item quantity="one">%1$s और 1 अन्य
-  </item><item quantity="other">%1$s और %2$d अन्य
-  </item></plurals>
+  </item>
+        <item quantity="other">%1$s और %2$d अन्य
+  </item>
+    </plurals>
     <string name="room_displayname_empty_room">खाली ग्रुप</string>
     <string name="room_displayname_empty_room_was">खाली ग्रुप ( %s था)</string>
     <string name="initial_sync_start_server_computing">सेटअप प्रक्रिया: \nसर्वर प्रतिक्रिया के लिए इंतजार …</string>
     <string name="initial_sync_start_downloading">सेटअप प्रक्रिया:  \nडेटा डाउनलोड…</string>
     <string name="initial_sync_start_importing_account">सेटअप प्रक्रिया: \nखाता जोड़ रहे हैं…</string>
-    <string ignore="TypographyEllipsis" name="initial_sync_start_importing_account_crypto">सेटअप प्रक्रिया: \nसुरक्षा जोड़ रहे हैं…</string>
+    <string name="initial_sync_start_importing_account_crypto" ignore="TypographyEllipsis">सेटअप प्रक्रिया: \nसुरक्षा जोड़ रहे हैं…</string>
     <string name="initial_sync_start_importing_account_rooms">सेटअप प्रक्रिया: \nग्रुप जोड़ रहे हैं…</string>
     <string name="initial_sync_start_importing_account_joined_rooms">सेटअप प्रक्रिया: \nग्रुप में शामिल हुए</string>
     <string name="initial_sync_start_importing_account_invited_rooms">सेटअप प्रक्रिया: \n आमंत्रित ग्रुप</string>
@@ -217,17 +221,25 @@
     <string name="notice_room_withdraw_with_reason">%1$s %2$s का निमंत्रण वापस ले लिया।कारण: %3$s</string>
     <string name="notice_room_withdraw_with_reason_by_you">आपने %1$s का निमंत्रण वापस ले लिया।कारण: %2$s</string>
     <plurals name="notice_room_aliases_added"><item quantity="one">%1$s इस ग्रुप के लिए एक लिंक के रूप में %2$s जोड़ा गया।
-  </item><item quantity="other">%1$s इस ग्रुप के लिए लिंक के रूप में %2$s जोड़ा गया।
-  </item></plurals>
+  </item>
+        <item quantity="other">%1$s इस ग्रुप के लिए लिंक के रूप में %2$s जोड़ा गया।
+  </item>
+    </plurals>
     <plurals name="notice_room_aliases_added_by_you"><item quantity="one"> आपने इस ग्रुप के लिए %1$s को एक लिंक के रूप में जोड़ा।
-  </item><item quantity="other"> आपने इस ग्रुप के लिए लिंक के रूप में %1$s जोड़ा।
-  </item></plurals>
+  </item>
+        <item quantity="other"> आपने इस ग्रुप के लिए लिंक के रूप में %1$s जोड़ा।
+  </item>
+    </plurals>
     <plurals name="notice_room_aliases_removed"><item quantity="one">%1$s इस ग्रुप के लिए एक लिंक के रूप में %2$s हटाया गया।
-  </item><item quantity="other">%1$s इस ग्रुप के लिए लिंक के रूप में %2$s हटाया गया।
-  </item></plurals>
+  </item>
+        <item quantity="other">%1$s इस ग्रुप के लिए लिंक के रूप में %2$s हटाया गया।
+  </item>
+    </plurals>
     <plurals name="notice_room_aliases_removed_by_you"><item quantity="one"> आपने इस ग्रुप के लिए एक लिंक के रूप में %1$s हटा दिया।
-  </item><item quantity="other"> आपने इस ग्रुप के लिए लिंक के रूप में %1$s हटा दिया।
-  </item></plurals>
+  </item>
+        <item quantity="other"> आपने इस ग्रुप के लिए लिंक के रूप में %1$s हटा दिया।
+  </item>
+    </plurals>
     <string name="notice_room_aliases_added_and_removed">%1$s जोड़ा गया %2$s और इस ग्रुप के लिए लिंक के रूप में %3$s हटा दिया गया।</string>
     <string name="notice_room_aliases_added_and_removed_by_you">आपने %1$s जोड़ा और इस ग्रुप के लिए लिंक के रूप में %2$s हटा दिया।</string>
     <string name="notice_room_canonical_alias_set">"%1$s ने इस ग्रुप के लिए मुख्य लिंक %2$s पर सेट किया "</string>
@@ -235,17 +247,25 @@
     <string name="notice_room_canonical_alias_unset">" %1$s ने इस ग्रुप के लिए मुख्य लिंक हटा दिया।"</string>
     <string name="notice_room_canonical_alias_unset_by_you">"आपने इस ग्रुप के लिए मुख्य लिंक हटा दिया।"</string>
     <plurals name="notice_room_canonical_alias_alternative_added"><item quantity="one">%1$s इस ग्रुप के लिए वैकल्पिक लिंक %2$s जोड़ा गया।
-  </item><item quantity="other">%1$s इस ग्रुप के लिए वैकल्पिक लिंक %2$s जोड़ा गया।
-  </item></plurals>
+  </item>
+        <item quantity="other">%1$s इस ग्रुप के लिए वैकल्पिक लिंक %2$s जोड़ा गया।
+  </item>
+    </plurals>
     <plurals name="notice_room_canonical_alias_alternative_added_by_you"><item quantity="one"> आपने इस ग्रुप के लिए वैकल्पिक लिंक %1$s जोड़ा है।
-  </item><item quantity="other"> आपने इस ग्रुप के लिए वैकल्पिक लिंक %1$s जोड़ा है।
-  </item></plurals>
+  </item>
+        <item quantity="other"> आपने इस ग्रुप के लिए वैकल्पिक लिंक %1$s जोड़ा है।
+  </item>
+    </plurals>
     <plurals name="notice_room_canonical_alias_alternative_removed"><item quantity="one">%1$s इस ग्रुप के लिए वैकल्पिक लिंक %2$s हटा दिया गया।
-  </item><item quantity="other">%1$s इस ग्रुप के लिए वैकल्पिक लिंक %2$s हटा दिया।
-  </item></plurals>
+  </item>
+        <item quantity="other">%1$s इस ग्रुप के लिए वैकल्पिक लिंक %2$s हटा दिया।
+  </item>
+    </plurals>
     <plurals name="notice_room_canonical_alias_alternative_removed_by_you"><item quantity="one"> आपने इस ग्रुप के लिए वैकल्पिक लिंक %1$s हटा दिया।
-  </item><item quantity="other"> आपने इस ग्रुप के लिए वैकल्पिक लिंक %1$s हटा दिया।
-  </item></plurals>
+  </item>
+        <item quantity="other"> आपने इस ग्रुप के लिए वैकल्पिक लिंक %1$s हटा दिया।
+  </item>
+    </plurals>
     <string name="notice_room_canonical_alias_alternative_changed">%1$s ने इस ग्रुप के लिए वैकल्पिक लिंक बदल दिए।</string>
     <string name="notice_room_canonical_alias_alternative_changed_by_you">आपने इस ग्रुप के लिए वैकल्पिक लिंक बदल दिए हैं।</string>
     <string name="notice_room_canonical_alias_main_and_alternative_changed">%1$s इस ग्रुप के लिए मुख्य और वैकल्पिक लिंक बदल गए।</string>
@@ -436,8 +456,10 @@
     <string name="no_room_placeholder">कोई ग्रुप नहीं</string>
     <string name="no_public_room_placeholder">कोई सार्वजनिक ग्रुप उपलब्ध नहीं है</string>
     <plurals name="public_room_nb_users"><item quantity="one">%d उपयोगकर्ता
-  </item><item quantity="other">%d उपयोगकर्ता
-  </item></plurals>
+  </item>
+        <item quantity="other">%d उपयोगकर्ता
+  </item>
+    </plurals>
     <string name="settings_category_room_directory">ग्रुप लिस्ट</string>
     <string name="settings_room_directory_show_all_rooms">सभी ग्रुप दिखाएं</string>
     <string name="settings_room_directory_show_all_rooms_summary">ग्रुप की लिस्ट में सभी ग्रुप दिखाएं।</string>
@@ -594,8 +616,10 @@
     <string name="groups_list">ग्रुप सूची</string>
     <!-- Mels -->
     <plurals name="membership_changes"><item quantity="one">%d सदस्यता परिवर्तन
-  </item><item quantity="other">%d सदस्यता परिवर्तन
-  </item></plurals>
+  </item>
+        <item quantity="other">%d सदस्यता परिवर्तन
+  </item>
+    </plurals>
     <!-- accounts list Screen -->
     <!-- image size selection -->
     <string name="compression_options">इस रूप में भेजें</string>
@@ -630,11 +654,15 @@
     <string name="call_connecting">कॉल कनेक्टिंग …</string>
     <string name="call_ended">कॉल समाप्त</string>
     <plurals name="missed_audio_call"><item quantity="one"> मिस्ड ऑडियो कॉल
-  </item><item quantity="other">%d मिस्ड ऑडियो कॉल
-  </item></plurals>
+  </item>
+        <item quantity="other">%d मिस्ड ऑडियो कॉल
+  </item>
+    </plurals>
     <plurals name="missed_video_call"><item quantity="one"> मिस्ड वीडियो कॉल
-  </item><item quantity="other">%d मिस्ड वीडियो कॉल
-  </item></plurals>
+  </item>
+        <item quantity="other">%d मिस्ड वीडियो कॉल
+  </item>
+    </plurals>
     <string name="call_ring">कॉलिंग …</string>
     <string name="incoming_call">एक फोन आ रहा है</string>
     <string name="incoming_video_call">आने वाली वीडियो कॉल</string>
@@ -701,25 +729,37 @@
     <string name="room_creation_title">नई चैट</string>
     <string name="room_creation_add_member">सदस्य जोड़ें</string>
     <plurals name="room_header_active_members_count"><item quantity="one">%d सक्रिय सदस्य
-  </item><item quantity="other">%d सक्रिय सदस्य
-  </item></plurals>
+  </item>
+        <item quantity="other">%d सक्रिय सदस्य
+  </item>
+    </plurals>
     <plurals name="room_title_members"><item quantity="one">%d सदस्य
-  </item><item quantity="other">%d सदस्य
-  </item></plurals>
+  </item>
+        <item quantity="other">%d सदस्य
+  </item>
+    </plurals>
     <string name="room_title_one_member">1 सदस्य</string>
     <!--  Time -->
     <plurals name="format_time_s"><item quantity="one">%ds
-  </item><item quantity="other">%ds
-  </item></plurals>
+  </item>
+        <item quantity="other">%ds
+  </item>
+    </plurals>
     <plurals name="format_time_m"><item quantity="one">%dm
-  </item><item quantity="other">%dm
-  </item></plurals>
+  </item>
+        <item quantity="other">%dm
+  </item>
+    </plurals>
     <plurals name="format_time_h"><item quantity="one">%dh
-  </item><item quantity="other">%dh
-  </item></plurals>
+  </item>
+        <item quantity="other">%dh
+  </item>
+    </plurals>
     <plurals name="format_time_d"><item quantity="one">%dd
-  </item><item quantity="other">%dd
-  </item></plurals>
+  </item>
+        <item quantity="other">%dd
+  </item>
+    </plurals>
     <!--  Chat participants -->
     <string name="room_participants_leave_prompt_title">ग्रुप छोड़ें</string>
     <string name="room_participants_leave_prompt_msg">क्या आप वाकई ग्रुप छोड़ना चाहते हैं?</string>
@@ -812,8 +852,10 @@
     <string name="room_message_file_not_found">फ़ाइल प्राप्त नहीं हुई</string>
     <string name="room_do_not_have_permission_to_post">आपको इस ग्रुप में पोस्ट करने की अनुमति नहीं है।</string>
     <plurals name="room_new_messages_notification"><item quantity="one">%d नया संदेश
-  </item><item quantity="other">%d नए संदेश
-  </item></plurals>
+  </item>
+        <item quantity="other">%d नए संदेश
+  </item>
+    </plurals>
     <!-- unrecognized SSL certificate -->
     <string name="ssl_trust">विश्वास करें</string>
     <string name="ssl_do_not_trust">भरोसा मत करो</string>
@@ -856,8 +898,10 @@
     <string name="room_details_files">फ़ाइलें</string>
     <string name="room_details_settings">सेटिंग</string>
     <plurals name="room_details_selected"><item quantity="one">%d चयनित
-  </item><item quantity="other">%d चयनित
-  </item></plurals>
+  </item>
+        <item quantity="other">%d चयनित
+  </item>
+    </plurals>
     <string name="malformed_id">विकृत आईडी।एक ईमेल लिंक या एक सीड सेवर्स आईडी होना चाहिए जैसे \'@id: seedsavers \'</string>
     <string name="room_details_people_invited_group_name">आमंत्रित</string>
     <string name="room_details_people_present_group_name">में शामिल हो गए</string>
@@ -891,11 +935,15 @@
     <!-- Directory -->
     <string name="directory_search_results_title">निर्देशिका देखें</string>
     <plurals name="directory_search_rooms"><item quantity="one">%d ग्रुप
-  </item><item quantity="other">%d ग्रुप
-  </item></plurals>
+  </item>
+        <item quantity="other">%d ग्रुप
+  </item>
+    </plurals>
     <plurals name="directory_search_rooms_for"><item quantity="one">%1$s ग्रुप %2$s के लिए मिला
-  </item><item quantity="other">%1$s ग्रुप %2$s के लिए मिले
-  </item></plurals>
+  </item>
+        <item quantity="other">%1$s ग्रुप %2$s के लिए मिले
+  </item>
+    </plurals>
     <string name="directory_searching_title">निर्देशिका में ढूंढ रहे हैं…</string>
     <!-- home room settings -->
     <string name="room_settings_all_messages_noisy">हर संदेश पर सूचना</string>
@@ -918,17 +966,20 @@
     <string name="room_sliding_menu_copyright">कॉपीराइट</string>
     <string name="room_sliding_menu_privacy_policy">गोपनीयता नीति</string>
     <!-- Vector Settings -->
-    <string name="settings_profile_picture">प्रोफ़ाइल फोटो</string> <string
-    name="settings_display_name">आपका नाम</string> <string
-    name="settings_email_address">ईमेल</string> <string
-    name="settings_add_email_address">ईमेल लिंक जोड़ें</string> <string
-    name="settings_phone_number">फ़ोन</string> <string
-    name="settings_phone_number_empty">आपके खाते में कोई फ़ोन नंबर नहीं जोड़ा
-    गया है</string> <string name="settings_add_phone_number">फोन नंबर
-    डालें</string> <string name="settings_app_info_link_title">एप्प
-    जानकारी</string> <string name="settings_app_info_link_summary">सिस्टम
-    सेटिंग्स में एप्लिकेशन जानकारी दिखाएं।</string> <string
-    name="settings_add_3pid_confirm_password_title">अपने पासवर्ड की पुष्टि
+    <string name="settings_profile_picture">प्रोफ़ाइल फोटो</string>
+    <string name="settings_display_name">आपका नाम</string>
+    <string name="settings_email_address">ईमेल</string>
+    <string name="settings_add_email_address">ईमेल लिंक जोड़ें</string>
+    <string name="settings_phone_number">फ़ोन</string>
+    <string name="settings_phone_number_empty">आपके खाते में कोई फ़ोन नंबर नहीं जोड़ा
+    गया है</string>
+    <string name="settings_add_phone_number">फोन नंबर
+    डालें</string>
+    <string name="settings_app_info_link_title">एप्प
+    जानकारी</string>
+    <string name="settings_app_info_link_summary">सिस्टम
+    सेटिंग्स में एप्लिकेशन जानकारी दिखाएं।</string>
+    <string name="settings_add_3pid_confirm_password_title">अपने पासवर्ड की पुष्टि
     करें</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
     <string name="template_settings_add_3pid_flow_not_supported">आप ${app_name} मोबाइल से ऐसा नहीं कर सकते</string>
@@ -1061,8 +1112,10 @@
     <string name="settings_set_workmanager_delay_summary">%s\n सिंक को संसाधनों (बैटरी) या डिवाइस की स्थिति (नींद) के आधार पर स्थगित किया जा सकता है।</string>
     <string name="settings_set_sync_delay">प्रत्येक सिंक के बीच देरी</string>
     <plurals name="seconds"><item quantity="one">%d दूसरा
-  </item><item quantity="other">%d सेकंड
-  </item></plurals>
+  </item>
+        <item quantity="other">%d सेकंड
+  </item>
+    </plurals>
     <string name="settings_version">वर्शन</string>
     <string name="settings_olm_version">ओएलएम वर्शन</string>
     <string name="settings_app_term_conditions">नियम एवं शर्तें</string>
@@ -1101,8 +1154,7 @@
     <string name="settings_show_read_receipts_summary">किसने संदेश पढ़ लिया देखने के लिए पढ़ने की सूचना पर क्लिक करें।</string>
     <string name="settings_show_room_member_state_events">ग्रुप के सदस्य स्थिति की घटनाओं को दिखाएं</string>
     <string name="settings_chat_effects_title">चैट प्रभाव दिखाएं</string>
-    <string name="settings_chat_effects_description"> /confetti कमांड का उपयोग करें। अथवा ❄️ या � युक्त एक संदेश भेजें</string>
-    &gt;
+    <string name="settings_chat_effects_description"> /confetti कमांड का उपयोग करें। अथवा ❄️ या � युक्त एक संदेश भेजें</string> &gt;
     <string name="settings_show_room_member_state_events_summary">आमंत्रित / शामिल / छोड़े / निकाले / प्रतिबंध घटनाओं और फोटो / प्रदर्शन नाम परिवर्तन शामिल हैं।</string>
     <string name="settings_show_join_leave_messages">जुड़ने और छोड़ने की घटनाएं</string>
     <string name="settings_show_join_leave_messages_summary">आमंत्रित, निकाले, और प्रतिबंध अप्रभावित हैं।</string>
@@ -1287,8 +1339,10 @@
     <!-- Room settings: banned users -->
     <string name="room_settings_banned_users_title">प्रतिबंधित उपयोगकर्ता</string>
     <plurals name="room_settings_banned_users_count"><item quantity="one">%d प्रतिबंधित उपयोगकर्ता
-  </item><item quantity="other">%d प्रतिबंधित उपयोगकर्ता
-  </item></plurals>
+  </item>
+        <item quantity="other">%d प्रतिबंधित उपयोगकर्ता
+  </item>
+    </plurals>
     <!-- advanced -->
     <string name="room_settings_category_advanced_title">एडवांस सेटिंग</string>
     <string name="room_settings_room_internal_id">इस ग्रुप की आंतरिक आईडी</string>
@@ -1358,8 +1412,10 @@
     <string name="encryption_never_send_to_unverified_devices_title">केवल सत्यापित सत्रों को एन्क्रिप्ट करें</string>
     <string name="encryption_never_send_to_unverified_devices_summary">इस सत्र से अनारक्षित सत्रों में कभी भी एन्क्रिप्टेड संदेश न भेजें।</string>
     <plurals name="encryption_import_room_keys_success"><item quantity="one"> सफलता के साथ आयातित %1$d / %2$d कुंजी।
-  </item><item quantity="other"> सफलता के साथ आयातित %1$d / %2$d कुंजी।
-  </item></plurals>
+  </item>
+        <item quantity="other"> सफलता के साथ आयातित %1$d / %2$d कुंजी।
+  </item>
+    </plurals>
     <string name="encryption_information_not_verified">प्रमाणित नहीं है</string>
     <string name="encryption_information_verified">सत्यापित</string>
     <string name="encryption_information_blocked">ब्लैक लिस्ट किया</string>
@@ -1393,23 +1449,35 @@
     <string name="lock_screen_hint">यहाँ टाइप करें…</string>
     <!-- Notifications -->
     <plurals name="notification_unread_notified_messages"><item quantity="one">%d अपठित संदेश
-  </item><item quantity="other">%d अपठित संदेश
-  </item></plurals>
+  </item>
+        <item quantity="other">%d अपठित संदेश
+  </item>
+    </plurals>
     <plurals name="notification_unread_notified_messages_in_room_msgs"><item quantity="one">%d अपठित संदेश
-  </item><item quantity="other">%d अपठित संदेश
-  </item></plurals>
+  </item>
+        <item quantity="other">%d अपठित संदेश
+  </item>
+    </plurals>
     <plurals name="notification_unread_notified_messages_in_room_rooms"><item quantity="one">%d ग्रुप
-  </item><item quantity="other">%d ग्रुप
-  </item></plurals>
+  </item>
+        <item quantity="other">%d ग्रुप
+  </item>
+    </plurals>
     <plurals name="notification_invitations"><item quantity="one">%d निमंत्रण
-  </item><item quantity="other">%d निमंत्रण
-  </item></plurals>
+  </item>
+        <item quantity="other">%d निमंत्रण
+  </item>
+    </plurals>
     <plurals name="notification_compat_summary_line_for_room"><item quantity="one">%1$s: %2$d संदेश
-  </item><item quantity="other">%1$s: %2$d संदेश
-  </item></plurals>
+  </item>
+        <item quantity="other">%1$s: %2$d संदेश
+  </item>
+    </plurals>
     <plurals name="notification_compat_summary_title"><item quantity="one">%d सूचना
-  </item><item quantity="other">%d सूचनाएं
-  </item></plurals>
+  </item>
+        <item quantity="other">%d सूचनाएं
+  </item>
+    </plurals>
     <string name="notification_unread_notified_messages_in_room">%1$s %2$s "</string>
     <string name="notification_unread_notified_messages_in_room_and_invitation">%1$s %2$s और %3$s "</string>
     <string name="notification_unread_notified_messages_and_invitation">%1$s और %2$s "</string>
@@ -1438,8 +1506,10 @@
     <string name="settings_labs_create_conference_with_jitsi">जेट्सी के साथ सम्मेलन कॉल करें</string>
     <string name="widget_delete_message_confirmation">क्या आप वाकई इस ग्रुप से विजेट को हटाना चाहते हैं?</string>
     <plurals name="active_widgets"><item quantity="one">%d सक्रिय विजेट
-  </item><item quantity="other">%d सक्रिय विजेट
-  </item></plurals>
+  </item>
+        <item quantity="other">%d सक्रिय विजेट
+  </item>
+    </plurals>
     <string name="active_widget_view_action">"देखें"</string>
     <string name="active_widgets_title">"सक्रिय विजेट"</string>
     <string name="room_widget_activity_title">विजेट</string>
@@ -1547,11 +1617,15 @@
     <string name="filter_group_members">ग्रुप के सदस्य खोजें</string>
     <string name="filter_group_rooms">समुदाय के ग्रुप खोजें</string>
     <plurals name="group_members"><item quantity="one">%d सदस्य
-  </item><item quantity="other">%d सदस्य
-  </item></plurals>
+  </item>
+        <item quantity="other">%d सदस्य
+  </item>
+    </plurals>
     <plurals name="group_rooms"><item quantity="one">%d ग्रुप
-  </item><item quantity="other">%d ग्रुप
-  </item></plurals>
+  </item>
+        <item quantity="other">%d ग्रुप
+  </item>
+    </plurals>
     <string name="group_no_long_description">समुदाय के एडमिन ने इस समुदाय के लिए एक लंबा विवरण प्रदान नहीं किया है।</string>
     <string name="has_been_kicked">आपको %1$s से %2$s द्वारा निकाला गया है</string>
     <string name="has_been_banned">आपको %1$s से %2$s द्वारा प्रतिबंधित कर दिया गया है</string>
@@ -1692,11 +1766,15 @@
     <!--  %s will be replaced by an emoji -->
     <string name="keys_backup_restore_success_title">बैकअप बहाल %s!</string>
     <plurals name="keys_backup_restore_success_description_part1"><item quantity="one">%d कुंजी के साथ बैकअप बहाल किया।
-  </item><item quantity="other">%d कुंजी के साथ एक बैकअप बहाल किया।
-  </item></plurals>
+  </item>
+        <item quantity="other">%d कुंजी के साथ एक बैकअप बहाल किया।
+  </item>
+    </plurals>
     <plurals name="keys_backup_restore_success_description_part2"><item quantity="one"> इस सत्र में %d नई कुंजी जोड़ा गया है।
-  </item><item quantity="other"> इस सत्र में %d नई कुंजी जोड़े गए हैं।
-  </item></plurals>
+  </item>
+        <item quantity="other"> इस सत्र में %d नई कुंजी जोड़े गए हैं।
+  </item>
+    </plurals>
     <string name="keys_backup_get_version_error">नवीनतम पुनर्स्थापना कुंजी वर्शन ( %s) प्राप्त करने में विफल।</string>
     <string name="keys_backup_no_keysbackup_sdk_error">सत्र क्रिप्टो सक्रिय नहीं है</string>
     <string name="keys_backup_settings_restore_backup_button">बैकअप से बहाल करना</string>
@@ -1735,8 +1813,10 @@
     <!-- Keys backup info -->
     <string name="keys_backup_info_keys_all_backup_up">सभी कुंजी का समर्थन किया</string>
     <plurals name="keys_backup_info_keys_backing_up"><item ignore="TypographyEllipsis" quantity="one">%d कुंजी का समर्थन …
-  </item><item quantity="other">%d कुंजी का समर्थन …
-  </item></plurals>
+  </item>
+        <item quantity="other">%d कुंजी का समर्थन …
+  </item>
+    </plurals>
     <string name="keys_backup_info_title_version">वर्शन</string>
     <string name="keys_backup_info_title_algorithm">कलन विधि</string>
     <string name="keys_backup_info_title_signature">हस्ताक्षर</string>
@@ -1971,14 +2051,18 @@
     <string name="a11y_beta">यह फीचर बीटा में है</string>
     <!-- Read receipts list a11y -->
     <plurals name="two_and_some_others_read"><item quantity="one">%1$s, %2$s और %3$d अन्य ने पढ़ा
-  </item><item quantity="other">%1$s, %2$s और %3$d अन्य ने पढ़ा
-  </item></plurals>
+  </item>
+        <item quantity="other">%1$s, %2$s और %3$d अन्य ने पढ़ा
+  </item>
+    </plurals>
     <string name="three_users_read">%1$s, %2$s और %3$s ने पढ़ा</string>
     <string name="two_users_read">%1$s और %2$s ने पढ़ा</string>
     <string name="one_user_read">%s ने पढ़ा</string>
     <plurals name="fallback_users_read"><item quantity="one">%d उपयोगकर्ता ने पढ़ा
-  </item><item quantity="other">%d उपयोगकर्ता ने पढ़ा
-  </item></plurals>
+  </item>
+        <item quantity="other">%d उपयोगकर्ता ने पढ़ा
+  </item>
+    </plurals>
     <string name="error_file_too_big_simple">"फ़ाइल अपलोड करने के लिए बहुत बड़ी है।"</string>
     <string name="error_file_too_big">"फ़ाइल ' %1$s' ( %2$s) अपलोड करने के लिए बहुत बड़ा है। सीमा %3$s है।"</string>
     <string name="error_attachment">"अनुलग्नक को पुनः प्राप्त करते समय एक त्रुटि हुई।"</string>
@@ -2140,8 +2224,10 @@
     <string name="login_error_outdated_homeserver_content">यह होमसर्वर कनेक्ट करने के लिए बहुत पुराना वर्शन चला रहा है।अपग्रेड करने के लिए अपने होमसर्वर एडम से पूछें।</string>
     <string name="login_error_outdated_homeserver_warning_content">यह होमसर्वर एक पुराना वर्शन चला रहा है।अपग्रेड करने के लिए अपने होमसर्वर एडम से पूछें।आप जारी रख सकते हैं, लेकिन कुछ विशेषताएं सही तरीके से काम नहीं कर सकती हैं।</string>
     <plurals name="login_error_limit_exceeded_retry_after"><item quantity="one"> बहुत सारे अनुरोध भेजे गए हैं।आप %1$d सेकंड में पुनः प्रयास कर सकते हैं …
-  </item><item quantity="other"> बहुत सारे अनुरोध भेजे गए हैं।आप %1$d सेकंड में पुनः प्रयास कर सकते हैं …
-  </item></plurals>
+  </item>
+        <item quantity="other"> बहुत सारे अनुरोध भेजे गए हैं।आप %1$d सेकंड में पुनः प्रयास कर सकते हैं …
+  </item>
+    </plurals>
     <string name="login_connect_using_matrix_id_notice">वैकल्पिक रूप से, यदि आपके पास पहले से कोई खाता है और आप अपने सीड सेवर्स पहचानकर्ता और आपका पासवर्ड जानते हैं, तो आप इस विधि का उपयोग कर सकते हैं:</string>
     <string name="login_connect_using_matrix_id_submit">सीड सेवर्स आईडी के साथ साइन इन करें</string>
     <string name="login_signin_matrix_id_title">सीड सेवर्स आईडी के साथ साइन इन करें</string>
@@ -2257,8 +2343,10 @@
     <string name="direct_room_profile_section_more_settings">सेटिंग</string>
     <string name="room_profile_section_more_notifications">सूचनाएं</string>
     <plurals name="room_profile_section_more_member_list"><item quantity="one"> "एक व्यक्ति"
-  </item><item quantity="other"> " %1$d लोग"
-  </item></plurals>
+  </item>
+        <item quantity="other"> " %1$d लोग"
+  </item>
+    </plurals>
     <string name="room_profile_section_more_uploads">मीडिया एवं फाइलें</string>
     <string name="room_profile_section_more_leave">ग्रुप छोड़ दें</string>
     <string name="direct_room_profile_section_more_leave">छोड़</string>
@@ -2318,8 +2406,7 @@
     <string name="settings_server_upload_size_content">आपका होमसर्वर अनुलग्नक (फ़ाइलें, मीडिया इत्यादि) को %s के आकार के साथ स्वीकार करता है।</string>
     <string name="settings_server_upload_size_unknown">सीमा अज्ञात है।</string>
     <!-- Please use the same emoji in the translations -->
-    <string name="settings_server_room_versions">ग्रुप के वर्शन �</string>
-    &gt;
+    <string name="settings_server_room_versions">ग्रुप के वर्शन �</string> &gt;
     <string name="settings_server_default_room_version">डिफ़ॉल्ट वर्शन</string>
     <string name="settings_server_room_version_stable">स्थिर</string>
     <string name="settings_server_room_version_unstable">अस्थिर</string>
@@ -2327,8 +2414,10 @@
     <string name="settings_active_sessions_verified_device_desc">यह सत्र सुरक्षित संदेश के लिए विश्वसनीय है क्योंकि आपने इसे सत्यापित किया है:</string>
     <string name="settings_active_sessions_unverified_device_desc">इस सत्र को विश्वसनीय के रूप में चिह्नित करने के लिए सत्यापित करें और इसे एन्क्रिप्टेड संदेशों तक पहुंच प्रदान करें।यदि आपने इस सत्र में साइन इन नहीं किया है तो आपके खाते से समझौता किया जा सकता है:</string>
     <plurals name="settings_active_sessions_count"><item quantity="one">%d सक्रिय सत्र
-  </item><item quantity="other">%d सक्रिय सत्र
-  </item></plurals>
+  </item>
+        <item quantity="other">%d सक्रिय सत्र
+  </item>
+    </plurals>
     <string name="crosssigning_verify_this_session">इस लॉगिन को सत्यापित करें</string>
     <string name="crosssigning_other_user_not_trust">अन्य उपयोगकर्ता इसे भरोसा नहीं कर सकते</string>
     <!-- WARNING: 'Complete' is a verb here, the title means: "let's complete the security of your account", and should not be understood as "full security" -->
@@ -2375,11 +2464,15 @@
     <string name="message_action_item_redact">हटाएँ…</string>
     <string name="share_confirm_room">क्या आप इस अनुलग्नक को %1$s पर भेजना चाहते हैं?</string>
     <plurals name="send_images_with_original_size"><item quantity="one"> मूल आकार के साथ छवि भेजें
-  </item><item quantity="other"> मूल आकार के साथ चित्र भेजें
-  </item></plurals>
+  </item>
+        <item quantity="other"> मूल आकार के साथ चित्र भेजें
+  </item>
+    </plurals>
     <plurals name="send_videos_with_original_size"><item quantity="one"> मूल आकार के साथ वीडियो भेजें
-  </item><item quantity="other"> मूल आकार के साथ वीडियो भेजें
-  </item></plurals>
+  </item>
+        <item quantity="other"> मूल आकार के साथ वीडियो भेजें
+  </item>
+    </plurals>
     <string name="send_images_and_video_with_original_size">मूल आकार के साथ मीडिया भेजें</string>
     <string name="delete_event_dialog_title">हटाएँ</string>
     <string name="delete_event_dialog_content">क्या आप वाकई इस संदेश/गतिविधि को हटाना चाहते हैं? ध्यान दें कि यदि आप एक ग्रुप का नाम या विषय परिवर्तन हटाते हैं, तो यह परिवर्तन को बदल कर सकता है।</string>
@@ -2532,14 +2625,14 @@
     <string name="secure_backup_reset_if_you_reset_all">यदि आप सब कुछ रीसेट करते हैं</string>
     <string name="secure_backup_reset_no_history">आप कोई इतिहास, कोई संदेश, विश्वसनीय डिवाइस या विश्वसनीय उपयोगकर्ताओं के साथ पुनरारंभ करेंगे</string>
     <plurals name="secure_backup_reset_devices_you_can_verify"><item quantity="one"> डिवाइस को दिखाएं जिसे आप अभी सत्यापित कर सकते हैं
-  </item><item quantity="other">%d डिवाइस दिखाएं जो आप अभी सत्यापित कर सकते हैं
-  </item></plurals>
+  </item>
+        <item quantity="other">%d डिवाइस दिखाएं जो आप अभी सत्यापित कर सकते हैं
+  </item>
+    </plurals>
     <string name="command_confetti">दिए गए संदेश को कन्फेटी के साथ भेजता है</string>
     <string name="command_snow">बर्फबारी के साथ दिए गए संदेश को भेजता है</string>
-    <!-- Note to translators: please use the same emoji � in your translation -->
-    &gt;
-    <string name="default_message_emote_confetti">Confetti � भेजता है</string>
-    &gt;
+    <!-- Note to translators: please use the same emoji � in your translation --> &gt;
+    <string name="default_message_emote_confetti">Confetti � भेजता है</string> &gt;
     <!-- Note to translators: please use the same emoji ❄️ in your translation -->
     <string name="default_message_emote_snow">बर्फबारी भेजता है ❄️</string>
     <string name="unencrypted">अनएन्क्रिप्ट</string>
@@ -2569,14 +2662,15 @@
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
     <string name="template_invite_friends_text">नमस्कार, ${app_name} पर मुझसे जैविक खेती से जुडी चर्चा करें।: %s</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_invite_friends_rich_title">�️ ${app_name} पर मुझसे जुड़ें</string>
-    &gt;
+    <string name="template_invite_friends_rich_title">�️ ${app_name} पर मुझसे जुड़ें</string> &gt;
     <string name="invitation_sent_to_one_user">आमंत्रण %1$s पर भेजा गया</string>
     <string name="invitations_sent_to_two_users">आमंत्रण %1$s और %2$s पर भेजे गए</string>
     <string name="not_a_valid_qr_code">"यह एक वैध सीड सेवर्स QR कोड नहीं है"</string>
     <plurals name="invitations_sent_to_one_and_more_users"><item quantity="one"> आमंत्रण %1$s और एक और भेजा
-  </item><item quantity="other"> आमंत्रण %1$s और %2$d को भेजे गए
-  </item></plurals>
+  </item>
+        <item quantity="other"> आमंत्रण %1$s और %2$d को भेजे गए
+  </item>
+    </plurals>
     <string name="invite_users_to_room_failure">हम उपयोगकर्ताओं को आमंत्रित नहीं कर सके।कृपया उन उपयोगकर्ताओं की जांच करें जिन्हें आप आमंत्रित करना चाहते हैं और फिर से प्रयास करें।</string>
     <string name="user_code_scan">एक QR कोड स्कैन करें</string>
     <string name="user_code_share">मेरा कोड साझा करें</string>
@@ -2658,11 +2752,15 @@
     <string name="alert_push_are_disabled_title">पुश नोटिफिकेशन बंद हैं</string>
     <string name="alert_push_are_disabled_description">पुश सूचनाओं को चालू करने के लिए अपनी सेटिंग्स की समीक्षा करें</string>
     <plurals name="wrong_pin_message_remaining_attempts"><item quantity="one"> गलत कोड, %d शेष प्रयास
-  </item><item quantity="other"> गलत कोड, %d शेष प्रयास
-  </item></plurals>
+  </item>
+        <item quantity="other"> गलत कोड, %d शेष प्रयास
+  </item>
+    </plurals>
     <plurals name="entries"><item quantity="one">%d प्रविष्टि "
-  </item><item quantity="other">%d प्रविष्टियाँ "
-  </item></plurals>
+  </item>
+        <item quantity="other">%d प्रविष्टियाँ "
+  </item>
+    </plurals>
     <string name="wrong_pin_message_last_remaining_attempt">चेतावनी!लॉगआउट से पहले अंतिम शेष प्रयास!</string>
     <string name="too_many_pin_failures">बहुत सारी त्रुटियां, आप लॉग आउट कर चुके हैं</string>
     <string name="create_pin_title">सुरक्षा के लिए एक पिन चुनें</string>
@@ -2718,11 +2816,15 @@
     <string name="call_dial_pad_lookup_error">"फोन नंबर को देखने में त्रुटि हुई"</string>
     <string name="call_only_active">सक्रिय कॉल ( %1$s)</string>
     <plurals name="call_only_paused"><item quantity="one"> रोका गया कॉल
-  </item><item quantity="other">%1$d रोका गया कॉल
-  </item></plurals>
+  </item>
+        <item quantity="other">%1$d रोका गया कॉल
+  </item>
+    </plurals>
     <plurals name="call_one_active_and_other_paused"><item quantity="one"> 1 सक्रिय कॉल ( %1$s) · 1 रोका गया कॉल
-  </item><item quantity="other"> 1 सक्रिय कॉल ( %1$s) · %2$d रोका गया कॉल
-  </item></plurals>
+  </item>
+        <item quantity="other"> 1 सक्रिय कॉल ( %1$s) · %2$d रोका गया कॉल
+  </item>
+    </plurals>
     <string name="call_transfer_consult_first">पहले परामर्श करें</string>
     <string name="call_transfer_connect_action">जुडिये</string>
     <string name="call_transfer_title">समुदायांतरण</string>
@@ -2840,8 +2942,10 @@
     <!-- First one is the space name, and the second one is user name -->
     <string name="suggested_rooms_pills_on_empty_header">%1$s, %2$s में आपका स्वागत है।</string>
     <plurals name="space_people_you_know"><item quantity="one">%d व्यक्ति जिसे आप जानते हैं वह पहले ही शामिल हो चुका है
-  </item><item quantity="other">%d लोग जिन्हें आप जानते हैं वे पहले ही शामिल हो चुके हैं
-  </item></plurals>
+  </item>
+        <item quantity="other">%d लोग जिन्हें आप जानते हैं वे पहले ही शामिल हो चुके हैं
+  </item>
+    </plurals>
     <string name="space_explore_activity_title">ग्रुप का अन्वेषण करें</string>
     <string name="space_add_child_title">ग्रुप जोड़ें</string>
     <string name="leave_space">अवकाश समुदाय</string>

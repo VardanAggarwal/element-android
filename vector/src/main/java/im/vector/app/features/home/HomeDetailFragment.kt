@@ -16,6 +16,7 @@
 
 package im.vector.app.features.home
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.Menu
@@ -30,6 +31,7 @@ import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.badge.BadgeDrawable
+import im.ssc.ListingActivity
 import im.vector.app.R
 import im.vector.app.RoomGroupingMethod
 import im.vector.app.core.extensions.commitTransaction
@@ -328,13 +330,19 @@ class HomeDetailFragment @Inject constructor(
     private fun setupBottomNavigationView() {
         views.bottomNavigationView.menu.findItem(R.id.bottom_action_notification).isVisible = vectorPreferences.labAddNotificationTab()
         views.bottomNavigationView.setOnItemSelectedListener {
-            val tab = when (it.itemId) {
-                R.id.bottom_action_rooms        -> HomeTab.RoomList(RoomListDisplayMode.ROOMS)
-                R.id.bottom_action_people       -> HomeTab.RoomList(RoomListDisplayMode.PEOPLE)
-                R.id.bottom_action_notification -> HomeTab.RoomList(RoomListDisplayMode.NOTIFICATIONS)
-                else                            -> HomeTab.DialPad
-            }
+            if (it.itemId != R.id.bottom_action_lists) {
+                val tab = when (it.itemId) {
+                    R.id.bottom_action_rooms        -> HomeTab.RoomList(RoomListDisplayMode.ROOMS)
+                    R.id.bottom_action_people       -> HomeTab.RoomList(RoomListDisplayMode.PEOPLE)
+                    R.id.bottom_action_notification -> HomeTab.RoomList(RoomListDisplayMode.NOTIFICATIONS)
+                    else                            -> HomeTab.DialPad
+                }
             viewModel.handle(HomeDetailAction.SwitchTab(tab))
+            }
+            else{
+                val intent = Intent(this@HomeDetailFragment.context, ListingActivity::class.java)
+                startActivity(intent)
+            }
             true
         }
 
@@ -372,7 +380,7 @@ class HomeDetailFragment @Inject constructor(
                         val params = RoomListParams(tab.displayMode)
                         add(R.id.roomListContainer, RoomListFragment::class.java, params.toMvRxBundle(), fragmentTag)
                     }
-                    is HomeTab.DialPad  -> {
+                    else  -> {
                         add(R.id.roomListContainer, createDialPadFragment())
                     }
                 }
@@ -384,7 +392,10 @@ class HomeDetailFragment @Inject constructor(
             }
         }
     }
-
+    private fun redirectListActivity(){
+        val intent = Intent(this@HomeDetailFragment.context, ListingActivity::class.java)
+        startActivity(intent)
+    }
     private fun createDialPadFragment(): Fragment {
         val fragment = childFragmentManager.fragmentFactory.instantiate(vectorBaseActivity.classLoader, DialPadFragment::class.java.name)
         return (fragment as DialPadFragment).apply {
@@ -446,6 +457,7 @@ class HomeDetailFragment @Inject constructor(
 
     private fun HomeTab.toMenuId() = when (this) {
         is HomeTab.DialPad  -> R.id.bottom_action_dial_pad
+        is HomeTab.Lists    -> R.id.bottom_action_lists
         is HomeTab.RoomList -> when (displayMode) {
             RoomListDisplayMode.ROOMS  -> R.id.bottom_action_rooms
             RoomListDisplayMode.PEOPLE -> R.id.bottom_action_people
