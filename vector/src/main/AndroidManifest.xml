@@ -72,7 +72,17 @@
         <activity
             android:name="im.ssc.ListingActivity"
             android:parentActivityName=".features.home.HomeActivity"
-            android:exported="true" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="https"/>
+                <data android:scheme="http"/>
+                <data android:host="app.seedsaversclub.com"/>
+            </intent-filter>
+        </activity>
         <!-- No limit for screen ratio: avoid black strips -->
         <meta-data
             android:name="android.max_aspect"

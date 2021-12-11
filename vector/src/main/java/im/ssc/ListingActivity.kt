@@ -16,6 +16,7 @@
 
 package im.ssc
 
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -56,6 +57,12 @@ class ListingActivity : AppCompatActivity() {
                 progressBar.visibility = View.GONE
             }
         }
-        webView.loadUrl("https://app.seedsaversclub.com/")
+        val uri: Uri? = intent.data
+        if(uri!=null){
+            val path = uri.toString()
+            webView.loadUrl(path)
+        }else{
+            webView.loadUrl("https://app.seedsaversclub.com/")
+        }
     }
 }
