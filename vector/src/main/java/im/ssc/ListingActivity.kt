@@ -18,19 +18,24 @@ package im.ssc
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.webkit.CookieManager
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import android.widget.ProgressBar
 import im.vector.app.R
 import com.google.firebase.analytics.FirebaseAnalytics
 class ListingActivity : AppCompatActivity() {
     private lateinit var webView: WebView
     private lateinit var analytics: FirebaseAnalytics
+    lateinit var progressBar: ProgressBar
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         analytics = FirebaseAnalytics.getInstance(this)
         setContentView(R.layout.activity_listing)
         webView = findViewById(R.id.webview)
+        progressBar = findViewById(R.id.progressBar)
+        progressBar.visibility = View.VISIBLE
         webView.settings.setJavaScriptEnabled(true)
         CookieManager.getInstance().setAcceptCookie(true)
         CookieManager.getInstance().setAcceptThirdPartyCookies(webView, true)
@@ -39,6 +44,16 @@ class ListingActivity : AppCompatActivity() {
             override fun shouldOverrideUrlLoading(view: WebView?, url: String?): Boolean {
                 view?.loadUrl(url.toString())
                 return true
+            }
+            override fun onPageFinished(view: WebView?, url: String?) {
+                super.onPageFinished(view, url)
+                CookieManager.getInstance().acceptCookie()
+                CookieManager.getInstance().flush()
+            }
+
+            override fun onPageCommitVisible(view: WebView?, url: String?) {
+                super.onPageCommitVisible(view, url)
+                progressBar.visibility = View.GONE
             }
         }
         webView.loadUrl("https://app.seedsaversclub.com/")
