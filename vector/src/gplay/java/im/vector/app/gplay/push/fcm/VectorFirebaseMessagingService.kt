@@ -19,14 +19,20 @@
 
 package im.vector.app.gplay.push.fcm
 
-import android.content.Intent
+import android.app.PendingIntent
+import android.app.TaskStackBuilder
+import android.net.Uri
 import android.os.Handler
 import android.os.Looper
+import androidx.core.app.NotificationCompat
+import androidx.core.app.NotificationManagerCompat
+import androidx.core.content.ContextCompat
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.ProcessLifecycleOwner
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
+import im.ssc.ListingActivity
 import im.vector.app.BuildConfig
 import im.vector.app.R
 import im.vector.app.core.di.ActiveSessionHolder
@@ -49,6 +55,7 @@ import org.matrix.android.sdk.api.pushrules.Action
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.events.model.Event
 import timber.log.Timber
+import android.content.Intent as Intent
 
 /**
  * Class extending FirebaseMessagingService.
@@ -87,29 +94,34 @@ class VectorFirebaseMessagingService : FirebaseMessagingService() {
      * @param message the message
      */
     override fun onMessageReceived(message: RemoteMessage) {
-        if (BuildConfig.LOW_PRIVACY_LOG_ENABLE) {
-            Timber.d("## onMessageReceived() %s", message.data.toString())
+        if (message.data.containsKey("Activity")||message.data.containsKey("activity")){
+            listingMessageHandler(message)
         }
-        Timber.d("## onMessageReceived() from FCM with priority %s", message.priority)
+        else {
+            if (BuildConfig.LOW_PRIVACY_LOG_ENABLE) {
+                Timber.d("## onMessageReceived() %s", message.data.toString())
+            }
+            Timber.d("## onMessageReceived() from FCM with priority %s", message.priority)
 
-        // Diagnostic Push
-        if (message.data["event_id"] == PushersManager.TEST_EVENT_ID) {
-            val intent = Intent(NotificationUtils.PUSH_ACTION)
-            LocalBroadcastManager.getInstance(this).sendBroadcast(intent)
-            return
-        }
+            // Diagnostic Push
+            if (message.data["event_id"] == PushersManager.TEST_EVENT_ID) {
+                val intent = Intent(NotificationUtils.PUSH_ACTION)
+                LocalBroadcastManager.getInstance(this).sendBroadcast(intent)
+                return
+            }
 
-        if (!vectorPreferences.areNotificationEnabledForDevice()) {
-            Timber.i("Notification are disabled for this device")
-            return
-        }
+            if (!vectorPreferences.areNotificationEnabledForDevice()) {
+                Timber.i("Notification are disabled for this device")
+                return
+            }
 
-        mUIHandler.post {
-            if (ProcessLifecycleOwner.get().lifecycle.currentState.isAtLeast(Lifecycle.State.STARTED)) {
-                // we are in foreground, let the sync do the things?
-                Timber.d("PUSH received in a foreground state, ignore")
-            } else {
-                onMessageReceivedInternal(message.data)
+            mUIHandler.post {
+                if (ProcessLifecycleOwner.get().lifecycle.currentState.isAtLeast(Lifecycle.State.STARTED)) {
+                    // we are in foreground, let the sync do the things?
+                    Timber.d("PUSH received in a foreground state, ignore")
+                } else {
+                    onMessageReceivedInternal(message.data)
+                }
             }
         }
     }
@@ -147,6 +159,31 @@ class VectorFirebaseMessagingService : FirebaseMessagingService() {
      * @param data Data map containing message data as key/value pairs.
      * For Set of keys use data.keySet().
      */
+    private fun listingMessageHandler(message: RemoteMessage) {
+        if(message.data["Activity"]=="ListingActivity"||message.data["activity"]=="ListingActivity") {
+            val intent = Intent(this, ListingActivity::class.java)
+            intent.setData(Uri.parse(message.data["url"]))
+            val pendingIntent: PendingIntent? = TaskStackBuilder.create(this).run {
+                // Add the intent, which inflates the back stack
+                addNextIntentWithParentStack(intent)
+                // Get the PendingIntent containing the entire back stack
+                getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT)
+            }
+            val builder = NotificationCompat.Builder(this, "LISTING_NOTIFICATION_CHANNEL_ID")
+                    .setSmallIcon(R.drawable.ic_ssc_notification)
+                    .setColor(ContextCompat.getColor(this, R.color.notification_accent_color))
+                    .setContentTitle(message.notification?.title)
+                    .setContentText(message.notification?.body)
+                    .setPriority(NotificationCompat.PRIORITY_HIGH)
+                    // Set the intent that will fire when the user taps the notification
+                    .setContentIntent(pendingIntent)
+                    .setAutoCancel(true)
+            with(NotificationManagerCompat.from(this)) {
+                // notificationId is a unique int for each notification that you must define
+                notify(0, builder.build())
+            }
+        }
+    }
     private fun onMessageReceivedInternal(data: Map<String, String>) {
         try {
             if (BuildConfig.LOW_PRIVACY_LOG_ENABLE) {

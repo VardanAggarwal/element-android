@@ -3038,4 +3038,5 @@
     <string name="allow_anyone_in_room_to_access">किसी को भी %s खोजने और पहुंचने की अनुमति दें।आप अन्य समुदाय भी चुन सकते हैं।</string>
     <string name="optimised_init_sync">एप्प रिफ्रेश करें</string>
     <string name="bottom_action_lists">लिस्ट</string>
+    <string name="notification_listing_notifications">किसान नेटवर्क सूचनाएँ</string>
 </resources>

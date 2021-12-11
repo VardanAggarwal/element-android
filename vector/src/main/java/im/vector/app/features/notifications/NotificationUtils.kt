@@ -112,6 +112,7 @@ class NotificationUtils @Inject constructor(private val context: Context,
 
         private const val SILENT_NOTIFICATION_CHANNEL_ID = "DEFAULT_SILENT_NOTIFICATION_CHANNEL_ID_V2"
         private const val CALL_NOTIFICATION_CHANNEL_ID = "CALL_NOTIFICATION_CHANNEL_ID_V2"
+        private const val LISTING_NOTIFICATION_CHANNEL_ID ="LISTING_NOTIFICATION_CHANNEL_ID"
 
         fun supportNotificationChannels() = (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
 
@@ -167,6 +168,15 @@ class NotificationUtils @Inject constructor(private val context: Context,
          * Default notification importance: shows everywhere, makes noise, but does not visually
          * intrude.
          */
+        notificationManager.createNotificationChannel(NotificationChannel(LISTING_NOTIFICATION_CHANNEL_ID,
+                stringProvider.getString(R.string.notification_listing_notifications),
+                NotificationManager.IMPORTANCE_HIGH)
+                .apply {
+                    description = stringProvider.getString(R.string.notification_listing_notifications)
+                    enableVibration(true)
+                    enableLights(true)
+                    lightColor = accentColor
+                })
         notificationManager.createNotificationChannel(NotificationChannel(NOISY_NOTIFICATION_CHANNEL_ID,
                 stringProvider.getString(R.string.notification_noisy_notifications),
                 NotificationManager.IMPORTANCE_DEFAULT)
