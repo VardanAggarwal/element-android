@@ -21,6 +21,7 @@ package im.vector.app.gplay.push.fcm
 
 import android.app.PendingIntent
 import android.app.TaskStackBuilder
+import android.graphics.Bitmap
 import android.net.Uri
 import android.os.Handler
 import android.os.Looper
@@ -170,7 +171,13 @@ class VectorFirebaseMessagingService : FirebaseMessagingService() {
                 // Get the PendingIntent containing the entire back stack
                 getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT)
             }
-            val bitmap= Glide.with(this).asBitmap().load( message.notification?.imageUrl).submit().get()
+            val bitmap: Bitmap?
+            if(message.notification?.getImageUrl()!=null){
+                bitmap= Glide.with(this).asBitmap().load( message.notification?.imageUrl).submit().get()
+            }else{
+                bitmap=null
+            }
+
             val builder = NotificationCompat.Builder(this, "LISTING_NOTIFICATION_CHANNEL_ID")
                     .setSmallIcon(R.drawable.ic_ssc_notification)
                     .setLargeIcon(bitmap)
