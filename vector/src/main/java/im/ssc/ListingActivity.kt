@@ -26,10 +26,14 @@ import android.webkit.WebViewClient
 import android.widget.ProgressBar
 import im.vector.app.R
 import com.google.firebase.analytics.FirebaseAnalytics
+import timber.log.Timber
+import java.net.URLEncoder
+
 class ListingActivity : AppCompatActivity() {
     private lateinit var webView: WebView
     private lateinit var analytics: FirebaseAnalytics
     lateinit var progressBar: ProgressBar
+    lateinit var url:String
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         analytics = FirebaseAnalytics.getInstance(this)
@@ -46,6 +50,7 @@ class ListingActivity : AppCompatActivity() {
                 view?.loadUrl(url.toString())
                 return true
             }
+
             override fun onPageFinished(view: WebView?, url: String?) {
                 super.onPageFinished(view, url)
                 CookieManager.getInstance().acceptCookie()
@@ -59,10 +64,43 @@ class ListingActivity : AppCompatActivity() {
         }
         val uri: Uri? = intent.data
         if(uri!=null){
-            val path = uri.toString()
-            webView.loadUrl(path)
+            url = uri.toString()
         }else{
-            webView.loadUrl("https://app.seedsaversclub.com/")
+            url = "https://app.seedsaversclub.com"
+        }
+        val extras = intent.extras
+        fun login(extras: Bundle){
+            Timber.d("session email %s", extras.get("email"))
+            Timber.d("session username %s", extras.get("username"))
+            Timber.d("session avatarurl %s", extras.getString("avatarurl")?.replace("mxc://", "https://matrix.seedsaversclub.com/_matrix/media/r0/download/"))
+            Timber.d("session userid %s", extras.get("userid"))
+            /*val postData = "email=${URLEncoder.encode("vardan@seedsaversclub.com", "UTF-8")}" +
+                    "&password=${URLEncoder.encode("Vardan93", "UTF-8")}"
+            webView.postUrl("https://app.seedsaversclub.com/login", postData.toByteArray())*/
+            webView.loadUrl(url)
+        }
+        if (CookieManager.getInstance().hasCookies()){
+            val cookies=CookieManager.getInstance().getCookie("https://app.seedsaversclub.com/")
+            Timber.d("cookies saved %s",cookies)
+           if("remember_web" in cookies){
+               Timber.d("logged in")
+               webView.loadUrl(url)
+           }else{
+               Timber.d("not logged in")
+               if (extras!!.containsKey("email")) {
+                   login(extras)
+               }else{
+                   webView.loadUrl(url)
+               }
+           }
+        }
+        else{
+            Timber.d("no cookies")
+            if (extras!!.containsKey("email")) {
+                login(extras)
+            }else{
+                webView.loadUrl(url)
+            }
         }
     }
 }

@@ -23,7 +23,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.view.get
+import androidx.core.os.bundleOf
 import androidx.core.view.isVisible
 import androidx.core.view.iterator
 import androidx.fragment.app.Fragment
@@ -60,9 +60,14 @@ import im.vector.app.features.themes.ThemeUtils
 import im.vector.app.features.workers.signout.BannerState
 import im.vector.app.features.workers.signout.ServerBackupStatusViewModel
 import im.vector.app.features.workers.signout.ServerBackupStatusViewState
+import io.reactivex.schedulers.Schedulers
+import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.group.model.GroupSummary
+import org.matrix.android.sdk.api.session.identity.ThreePid
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import org.matrix.android.sdk.internal.crypto.model.rest.DeviceInfo
+import org.matrix.android.sdk.rx.rx
+import timber.log.Timber
 import javax.inject.Inject
 
 class HomeDetailFragment @Inject constructor(
@@ -72,7 +77,8 @@ class HomeDetailFragment @Inject constructor(
         private val colorProvider: ColorProvider,
         private val alertManager: PopupAlertManager,
         private val callManager: WebRtcCallManager,
-        private val vectorPreferences: VectorPreferences
+        private val vectorPreferences: VectorPreferences,
+        private val session: Session,
 ) : VectorBaseFragment<FragmentHomeDetailBinding>(),
         KeysBackupBanner.Delegate,
         CurrentCallsView.Callback,
@@ -85,7 +91,7 @@ class HomeDetailFragment @Inject constructor(
 
     private lateinit var sharedActionViewModel: HomeSharedActionViewModel
     private lateinit var sharedCallActionViewModel: SharedKnownCallsViewModel
-
+    private lateinit var userEmail:String
     private var hasUnreadRooms = false
         set(value) {
             if (value != field) {
@@ -326,7 +332,12 @@ class HomeDetailFragment @Inject constructor(
             }
         }
     }
-
+    private fun launchListingActivity(){
+        var user=session.getUser(session.myUserId)
+        val intent = Intent(this@HomeDetailFragment.context, ListingActivity::class.java)
+        intent.putExtras(bundleOf("username" to user?.displayName,"avatarurl" to user?.avatarUrl,"email" to userEmail,"userid" to user?.userId))
+        startActivity(intent)
+    }
     private fun setupBottomNavigationView() {
         views.bottomNavigationView.menu.findItem(R.id.bottom_action_notification).isVisible = vectorPreferences.labAddNotificationTab()
         views.bottomNavigationView.setOnItemSelectedListener {
@@ -340,8 +351,18 @@ class HomeDetailFragment @Inject constructor(
             viewModel.handle(HomeDetailAction.SwitchTab(tab))
             }
             else{
-                val intent = Intent(this@HomeDetailFragment.context, ListingActivity::class.java)
-                startActivity(intent)
+                Timber.d("Session user %s",session.getUser(session.myUserId).toString())
+                val threePidsObservable=session.rx()
+                        .liveThreePIds(false).take(1)
+                threePidsObservable.subscribe({
+                    Timber.d("Session threepids %s",it.toString())
+                    val list=it
+                    val splited = list.groupBy { it is ThreePid.Email }
+                    val emails = splited[true].orEmpty()
+                    userEmail = emails.first().value
+                    launchListingActivity()
+                })
+
             }
             true
         }
