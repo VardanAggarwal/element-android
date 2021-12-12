@@ -354,14 +354,14 @@ class HomeDetailFragment @Inject constructor(
                 Timber.d("Session user %s",session.getUser(session.myUserId).toString())
                 val threePidsObservable=session.rx()
                         .liveThreePIds(false).take(1)
-                threePidsObservable.subscribe({
+                threePidsObservable.subscribe{
                     Timber.d("Session threepids %s",it.toString())
                     val list=it
                     val splited = list.groupBy { it is ThreePid.Email }
                     val emails = splited[true].orEmpty()
                     userEmail = emails.first().value
                     launchListingActivity()
-                })
+                }
 
             }
             true

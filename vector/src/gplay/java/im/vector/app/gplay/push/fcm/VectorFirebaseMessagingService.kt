@@ -30,6 +30,7 @@ import androidx.core.content.ContextCompat
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.ProcessLifecycleOwner
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
+import com.bumptech.glide.Glide
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 import im.ssc.ListingActivity
@@ -169,8 +170,10 @@ class VectorFirebaseMessagingService : FirebaseMessagingService() {
                 // Get the PendingIntent containing the entire back stack
                 getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT)
             }
+            val bitmap= Glide.with(this).asBitmap().load( message.notification?.imageUrl).submit().get()
             val builder = NotificationCompat.Builder(this, "LISTING_NOTIFICATION_CHANNEL_ID")
                     .setSmallIcon(R.drawable.ic_ssc_notification)
+                    .setLargeIcon(bitmap)
                     .setColor(ContextCompat.getColor(this, R.color.notification_accent_color))
                     .setContentTitle(message.notification?.title)
                     .setContentText(message.notification?.body)

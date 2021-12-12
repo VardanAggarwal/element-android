@@ -79,28 +79,28 @@ class ListingActivity : AppCompatActivity() {
             webView.postUrl("https://app.seedsaversclub.com/login", postData.toByteArray())*/
             webView.loadUrl(url)
         }
-        if (CookieManager.getInstance().hasCookies()){
-            val cookies=CookieManager.getInstance().getCookie("https://app.seedsaversclub.com/")
-            Timber.d("cookies saved %s",cookies)
-           if("remember_web" in cookies){
-               Timber.d("logged in")
-               webView.loadUrl(url)
-           }else{
-               Timber.d("not logged in")
-               if (extras!!.containsKey("email")) {
-                   login(extras)
-               }else{
-                   webView.loadUrl(url)
-               }
-           }
-        }
-        else{
-            Timber.d("no cookies")
-            if (extras!!.containsKey("email")) {
-                login(extras)
+        if(extras!=null){
+            if(extras.containsKey("email")){
+                if (CookieManager.getInstance().hasCookies()){
+                    val cookies=CookieManager.getInstance().getCookie("https://app.seedsaversclub.com/")
+                    Timber.d("cookies saved %s",cookies)
+                    if("remember_web" in cookies){
+                        Timber.d("logged in")
+                        webView.loadUrl(url)
+                    }else{
+                        Timber.d("not logged in")
+                        login(extras)
+                    }
+                }
+                else{
+                    Timber.d("no cookies")
+                    login(extras)
+                }
             }else{
                 webView.loadUrl(url)
             }
+        }else{
+            webView.loadUrl(url)
         }
     }
 }
