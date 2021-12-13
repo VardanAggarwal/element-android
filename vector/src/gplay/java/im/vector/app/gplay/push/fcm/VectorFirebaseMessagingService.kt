@@ -164,7 +164,9 @@ class VectorFirebaseMessagingService : FirebaseMessagingService() {
     private fun listingMessageHandler(message: RemoteMessage) {
         if(message.data["Activity"]=="ListingActivity"||message.data["activity"]=="ListingActivity") {
             val intent = Intent(this, ListingActivity::class.java)
-            intent.setData(Uri.parse(message.data["url"]))
+            if(message.data.containsKey("url")) {
+                intent.setData(Uri.parse(message.data["url"]))
+            }
             val pendingIntent: PendingIntent? = TaskStackBuilder.create(this).run {
                 // Add the intent, which inflates the back stack
                 addNextIntentWithParentStack(intent)

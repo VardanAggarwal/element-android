@@ -27,7 +27,6 @@ import android.widget.ProgressBar
 import im.vector.app.R
 import com.google.firebase.analytics.FirebaseAnalytics
 import timber.log.Timber
-import java.net.URLEncoder
 
 class ListingActivity : AppCompatActivity() {
     private lateinit var webView: WebView
@@ -63,25 +62,21 @@ class ListingActivity : AppCompatActivity() {
             }
         }
         val uri: Uri? = intent.data
-        if(uri!=null){
-            url = uri.toString()
-        }else{
-            url = "https://app.seedsaversclub.com"
-        }
+        url = uri?.toString() ?: "https://app.seedsaversclub.com"
         val extras = intent.extras
         fun needLogin():Boolean{
-            if (CookieManager.getInstance().hasCookies()){
+            return if (CookieManager.getInstance().hasCookies()){
                 val cookies=CookieManager.getInstance().getCookie("https://app.seedsaversclub.com/")
-                Timber.d("cookies saved %s",cookies)
+                Timber.d("cookies saved")
                 if("remember_web" in cookies){
                     Timber.d("logged in")
-                    return false
+                    false
                 }else{
                     Timber.d("not logged in")
-                    return true
+                    true
                 }
             }else{
-                return true
+                true
             }
         }
         fun canLogin(extras: Bundle?):Boolean{
@@ -93,14 +88,14 @@ class ListingActivity : AppCompatActivity() {
             return false
         }
         fun login(extras: Bundle?){
-            Timber.d("session email %s", extras?.get("email"))
-            Timber.d("session username %s", extras?.get("username"))
-            Timber.d("session avatarurl %s", extras?.getString("avatarurl")?.replace("mxc://", "https://matrix.seedsaversclub.com/_matrix/media/r0/download/"))
-            Timber.d("session userid %s", extras?.get("userid"))
-            /*val postData = "email=${URLEncoder.encode("vardan@seedsaversclub.com", "UTF-8")}" +
-                    "&password=${URLEncoder.encode("Vardan93", "UTF-8")}"
-            webView.postUrl("https://app.seedsaversclub.com/login", postData.toByteArray())*/
-            webView.loadUrl("https://app.seedsaversclub.com/login")
+            val loginUri = Uri.parse ("https://app.seedsaversclub.com/auth/matrix/login").buildUpon()
+                    .appendQueryParameter("name",extras?.getString("username"))
+                    .appendQueryParameter("email",extras?.getString("email"))
+                    .appendQueryParameter("avatarurl",extras?.getString("avatarurl"))
+                    .appendQueryParameter("id",extras?.getString("userid"))
+                    .appendQueryParameter("redirecturl",url)
+                    .build()
+            webView.loadUrl(loginUri.toString())
         }
         if (needLogin() && canLogin(extras)){
             login(extras)
